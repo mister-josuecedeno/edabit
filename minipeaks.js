@@ -1,5 +1,20 @@
+// Write a function that returns all the elements in an array that are strictly greater than their adjacent left and right neighbors.
+
 const miniPeaks = (arr) => {
-  return arr;
+  let prev, current, next;
+  let result = [];
+
+  for (let i = 1; i < arr.length - 1; i++) {
+    prev = arr[i - 1];
+    current = arr[i];
+    next = arr[i + 1];
+
+    if (current > prev && current > next) {
+      result.push(current);
+    }
+  }
+
+  return result;
 };
 
 console.log(miniPeaks([4, 5, 2, 1, 4, 9, 7, 2]), [5, 9]);
