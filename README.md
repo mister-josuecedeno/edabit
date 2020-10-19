@@ -10,6 +10,7 @@ All completed in Edabit (all new challenges will be completed here)
 
 2020-10-17 - minipeaks.js
 2020-10-18 - milliondollarfence.js
+2020-10-19 - snailgoesupthestairs.js
 
 ## Hard
 
