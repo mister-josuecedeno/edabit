@@ -7,6 +7,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 Note: All completed in Edabit (all new challenges will be completed here)
 
 2020-10-19 - snailgoesupthestairs.js
+2020-10-21 - lengthofalinesegment.js
 
 ## Medium Level
 
