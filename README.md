@@ -8,6 +8,7 @@ Note: All completed in Edabit (all new challenges will be completed here)
 
 2020-10-19 - snailgoesupthestairs.js
 2020-10-21 - lengthofalinesegment.js
+2020-10-22 - spinaroundtouchtheground.js
 
 ## Medium Level
 
