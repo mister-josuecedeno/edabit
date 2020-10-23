@@ -5,6 +5,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 ## Very Easy
 
 2020-10-23 - wordcharword.js
+2020-10-23 - nothingisnothing.js
 
 ## Easy
 
