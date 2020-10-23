@@ -19,6 +19,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-10-18 - milliondollarfence.js
 2020-10-19 - unmututatinganarray.js
 2020-10-20 - validhexcode.js
+2020-10-23 - leftshiftbypowersof2.js
 
 ## Hard
 
