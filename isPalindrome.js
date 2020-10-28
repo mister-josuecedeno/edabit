@@ -12,12 +12,40 @@ const isPalindrome = (str) => {
   return match === [...match].reverse().join('');
 };
 
+const isPalindrome2 = (str) => {
+  str = str.toLowerCase();
+  let left = 0;
+  let right = str.length - 1;
+  const regex = /[^a-z0-9]/;
+
+  while (left < right) {
+    if (regex.test(str[left])) {
+      left++;
+      continue;
+    }
+
+    if (regex.test(str[right])) {
+      right--;
+      continue;
+    }
+
+    if (str[left] !== str[right]) {
+      return false;
+    }
+
+    left++;
+    right--;
+  }
+
+  return true;
+};
+
 // Tests
 console.log(
-  isPalindrome(
+  isPalindrome2(
     'A man, a plan, a cat, a ham, a yak, a yam, a hat, a canal-Panama!'
   ),
   true
 );
-console.log(isPalindrome('Neuquen'), true);
-console.log(isPalindrome('Not a palindrome'), false);
+console.log(isPalindrome2('Neuquen'), true);
+console.log(isPalindrome2('Not a palindrome'), false);

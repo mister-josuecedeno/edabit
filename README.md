@@ -23,6 +23,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-10-24 - indexfiltering.js\
 2020-10-25 - alternating2and8.js\
 2020-10-27 - isPalindrome.js\
+2020-10-28 - anAbsolute.js\
 
 ## Hard
 
