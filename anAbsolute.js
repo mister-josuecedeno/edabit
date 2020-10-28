@@ -7,7 +7,6 @@ const absolute = (str) => {
   const regex = /[Aa] /;
   let searchText, left, right;
 
-  // searching for 'A ' or 'a ' to replace with [insert]
   for (let i = 0; i < str.length; i++) {
     searchText = `${str[i]}${str[i + 1]}`;
     left = str.substring(0, i + 1);
