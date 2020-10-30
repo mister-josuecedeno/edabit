@@ -25,6 +25,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-10-27 - isPalindrome.js\
 2020-10-28 - anAbsolute.js\
 2020-10-29 - puzzlePieces.js\
+2020-10-30 - deconstructingObjects.js\
 
 ## Hard
 
