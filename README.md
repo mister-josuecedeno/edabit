@@ -7,6 +7,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-10-23 - wordcharword.js\
 2020-10-23 - nothingisnothing.js\
 2020-11-02 - isBoiling.js\
+2020-11-03 - emphasise.js\
 
 ## Easy
 
