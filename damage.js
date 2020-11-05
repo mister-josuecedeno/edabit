@@ -3,6 +3,7 @@
 // Return "invalid" if damage or speed is negative.
 
 // solution
+// conditionals, objects, tests, refactoring, other solutions
 const damage = (damage, speed, time) => {
   if (damage < 0 || speed < 0) {
     return 'invalid';

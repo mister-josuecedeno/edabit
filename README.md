@@ -15,6 +15,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-10-19 - snailgoesupthestairs.js\
 2020-10-21 - lengthofalinesegment.js\
 2020-10-22 - spinaroundtouchtheground.js\
+2020-10-05 - error.js\
 
 ## Medium Level
 
