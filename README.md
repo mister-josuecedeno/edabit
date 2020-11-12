@@ -33,6 +33,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-10-29 - puzzlePieces.js\
 2020-10-30 - deconstructingObjects.js\
 2020-11-06 - checkSum.js\
+2020-11-12 -
 
 ## Hard
 
