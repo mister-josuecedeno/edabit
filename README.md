@@ -9,6 +9,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-11-02 - isBoiling.js\
 2020-11-03 - emphasise.js\
 2020-11-04 - damage.js\
+2020-11-14 - jayAndBob.js\
 
 ## Easy
 

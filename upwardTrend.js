@@ -6,7 +6,7 @@ const upwardTrend = (arr) => {
   if (!arr.every((el) => typeof el === 'number')) {
     return 'Strings not permitted!';
   }
-  //const sorted = arr.sort((a, b) => a - b).toString();
+
   const sorted = [...arr].sort((a, b) => a - b).toString();
 
   return arr.toString() === sorted;
