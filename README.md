@@ -11,6 +11,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-11-04 - damage.js\
 2020-11-14 - jayAndBob.js\
 2020-11-15 - drop.js\
+2020-11-17 - findHighest.js\
 
 ## Easy
 
