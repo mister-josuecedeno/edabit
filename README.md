@@ -13,6 +13,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-11-15 - drop.js\
 2020-11-17 - findHighest.js\
 2020-11-20 - divisibleByB.js\
+2020-11-21 - product.js\
 
 ## Easy
 
