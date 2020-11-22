@@ -14,6 +14,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-11-17 - findHighest.js\
 2020-11-20 - divisibleByB.js\
 2020-11-21 - product.js\
+2020-11-22 - parseArray.js\
 
 ## Easy
 
