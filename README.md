@@ -16,6 +16,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-11-21 - product.js\
 2020-11-22 - parseArray.js\
 2020-11-24 - amazingEdabit.js\
+2020-11-27 - parseArrayToString.js\
 
 ## Easy
 
@@ -44,6 +45,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-11-16 - possible_bonus.js\
 2020-11-17 - extendVowels.js\
 2020-11-23 - perimeter.js\
+2020-11-24 - calculateArrowHead.js\
 
 ## Hard
 
