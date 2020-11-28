@@ -17,6 +17,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-11-22 - parseArray.js\
 2020-11-24 - amazingEdabit.js\
 2020-11-27 - parseArrayToString.js\
+2020-11-28 - findFactors.js\
 
 ## Easy
 
