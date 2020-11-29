@@ -18,6 +18,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-11-24 - amazingEdabit.js\
 2020-11-27 - parseArrayToString.js\
 2020-11-28 - findFactors.js\
+2020-11-29 - makeRug.js\
 
 ## Easy
 
@@ -29,7 +30,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-11-10 - operation.js\
 2020-11-18 - fixImport.js\
 
-## Medium Level
+## Medium
 
 2020-10-17 - minipeaks.js\
 2020-10-18 - milliondollarfence.js\
