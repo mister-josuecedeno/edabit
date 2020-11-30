@@ -44,6 +44,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-10-29 - puzzlePieces.js\
 2020-10-30 - deconstructingObjects.js\
 2020-11-06 - checkSum.js\
+2020-11-12 - upwardTrend.js\
 2020-11-16 - possible_bonus.js\
 2020-11-17 - extendVowels.js\
 2020-11-23 - perimeter.js\
