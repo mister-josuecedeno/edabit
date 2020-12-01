@@ -1,6 +1,6 @@
 # Edabit Coding Challenges
 
-All previous code examples can be found under my profile in Edabit. This migration os code starts at Day 100+.
+All previous code examples can be found under my profile in Edabit. This migration of code starts at Day 100+.
 
 ## Very Easy
 
@@ -19,6 +19,8 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-11-27 - parseArrayToString.js\
 2020-11-28 - findFactors.js\
 2020-11-29 - makeRug.js\
+2020-11-30 - diceScore.js\
+2020-12-01 - firstOne.js\
 
 ## Easy
 
