@@ -21,6 +21,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-11-29 - makeRug.js\
 2020-11-30 - diceScore.js\
 2020-12-01 - firstOne.js\
+2020-12-02 - singleOccurrence.js\
 
 ## Easy
 
