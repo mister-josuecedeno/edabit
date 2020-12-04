@@ -53,6 +53,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-11-17 - extendVowels.js\
 2020-11-23 - perimeter.js\
 2020-11-24 - calculateArrowHead.js\
+2020-12-04 - joinDigits.js\
 
 ## Hard
 
