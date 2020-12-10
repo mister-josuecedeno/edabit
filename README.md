@@ -25,6 +25,8 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-12-03 - firstPlace.js\
 2020-12-05 - getTrace.js\
 2020-12-08 - keyboardMistakes.js\
+2020-12-09 - randomInt.js\
+2020-12-10 - lonelyInteger.js\
 
 ## Easy
 
