@@ -27,6 +27,11 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-12-08 - keyboardMistakes.js\
 2020-12-09 - randomInt.js\
 2020-12-10 - lonelyInteger.js\
+2020-12-11 - area.js\
+2020-12-11 - valueAt.js\
+2020-12-11 - sortWord.js\
+2020-12-11 - elementSet.js\
+2020-12-11 - ageDifference.js\
 
 ## Easy
 
