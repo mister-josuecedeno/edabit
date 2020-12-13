@@ -33,6 +33,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-12-11 - elementSet.js\
 2020-12-11 - ageDifference.js\
 2020-12-12 - countUppercase.js\
+2020-12-13 - futurePeople.js\
 
 ## Easy
 
