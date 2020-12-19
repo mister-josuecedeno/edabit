@@ -37,6 +37,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-12-14 - makesTen.js\
 2020-12-15 - points.js\
 2020-12-17 - uploadCount.js\
+2020-12-18 - operate.js\
 
 ## Easy
 
