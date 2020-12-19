@@ -38,6 +38,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-12-15 - points.js\
 2020-12-17 - uploadCount.js\
 2020-12-18 - operate.js\
+2020-12-19 - determineLever.js\
 
 ## Easy
 
@@ -49,6 +50,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-11-10 - operation.js\
 2020-11-18 - fixImport.js\
 2020-12-17 - checkTitle.js\
+2020-12-18 - assignPersonToJob.js\
 
 ## Medium
 
@@ -73,6 +75,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-12-06 - getNumberOfApples.js\
 2020-12-16 - isScalable.js\
 2020-12-17 - xor.js\
+2020-12-18 - howManyTimes.js\
 
 ## Hard
 
