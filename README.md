@@ -76,6 +76,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-12-16 - isScalable.js\
 2020-12-17 - xor.js\
 2020-12-18 - howManyTimes.js\
+2020-12-20 - isRepeated.js\
 
 ## Hard
 
