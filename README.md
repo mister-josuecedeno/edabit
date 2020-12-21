@@ -77,6 +77,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-12-17 - xor.js\
 2020-12-18 - howManyTimes.js\
 2020-12-20 - isRepeated.js\
+2020-12-21 - digitalCipher.js\
 
 ## Hard
 
