@@ -79,7 +79,8 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-12-20 - isRepeated.js\
 2020-12-21 - digitalCipher.js\
 2020-12-22 - derivative.js\
-2020-12-23 - areaOfCountry\
+2020-12-23 - areaOfCountry.js\
+2020-12-24 - lowerTriang.js\
 
 ## Hard
 
