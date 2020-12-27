@@ -87,5 +87,6 @@ All previous code examples can be found under my profile in Edabit. This migrati
 ## Hard
 
 2020-12-08 - countBoomerangs.js\
+2020-12-27 - chosenWine.js\
 
 ## Expert
