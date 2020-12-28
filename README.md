@@ -91,6 +91,6 @@ All previous code examples can be found under my profile in Edabit. This migrati
 
 ## Very Hard
 
-2020-12-27 - parkingExit.js\
+2020-12-28 - parkingExit.js\
 
 ## Expert
