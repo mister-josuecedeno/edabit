@@ -95,3 +95,5 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-12-28 - parkingExit.js\
 
 ## Expert
+
+2020-12-29 - distanceToNearestVowel.js\
