@@ -51,6 +51,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-11-18 - fixImport.js\
 2020-12-17 - checkTitle.js\
 2020-12-18 - assignPersonToJob.js\
+2020-12-29 - stringCycling.js\
 
 ## Medium
 
