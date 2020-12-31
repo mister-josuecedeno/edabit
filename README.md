@@ -39,6 +39,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-12-17 - uploadCount.js\
 2020-12-18 - operate.js\
 2020-12-19 - determineLever.js\
+2020-12-31 - returnNegative.js\
 
 ## Easy
 
