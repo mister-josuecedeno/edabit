@@ -13,7 +13,7 @@ const months = {
   12: 'T',
 };
 
-const nameCode = (name) => {
+const surnameCode = (name) => {
   let vowels = name.match(/[aeiou]/gi);
   let consonants = name.match(/[^aeiou]/gi);
   let result;
@@ -33,9 +33,31 @@ const nameCode = (name) => {
   return result.slice(0, 3).join('').toUpperCase();
 };
 
+const nameCode = (name) => {
+  let vowels = name.match(/[aeiou]/gi);
+  let consonants = name.match(/[^aeiou]/gi);
+  let result = [];
+
+  if (consonants.length === 3) {
+    result = consonants;
+  } else if (consonants.length > 3) {
+    result = [consonants[0], consonants[2], consonants[3]];
+  } else if ([...consonants, ...vowels].length < 3) {
+    result = [
+      ...consonants,
+      ...vowels,
+      'X'.repeat(3 - [...consonants, ...vowels].length),
+    ];
+  } else if (consonants.length < 3) {
+    result = [...consonants, ...vowels];
+  }
+
+  return result.slice(0, 3).join('').toUpperCase();
+};
+
 const fiscalCode = (person) => {
   const { name, surname, gender, dob } = person;
-  return nameCode(surname);
+  return surnameCode(surname) + nameCode(name);
 };
 
 // Tests
