@@ -13,6 +13,24 @@ const months = {
   12: 'T',
 };
 
+const genderCode = (gender, dob) => {
+  const [day, month, year] = dob.split('/');
+  if (gender === 'M') {
+    return +day < 10 ? '0' + day : day;
+  } else {
+    return +day + 40;
+  }
+};
+
+const monthCode = (dob) => {
+  const [day, month, year] = dob.split('/');
+  return months[month];
+};
+
+const yearCode = (dob) => {
+  return dob.slice(-2);
+};
+
 const surnameCode = (name) => {
   let vowels = name.match(/[aeiou]/gi);
   let consonants = name.match(/[^aeiou]/gi);
@@ -57,7 +75,13 @@ const nameCode = (name) => {
 
 const fiscalCode = (person) => {
   const { name, surname, gender, dob } = person;
-  return surnameCode(surname) + nameCode(name);
+  return (
+    surnameCode(surname) +
+    nameCode(name) +
+    yearCode(dob) +
+    monthCode(dob) +
+    genderCode(gender, dob)
+  );
 };
 
 // Tests
