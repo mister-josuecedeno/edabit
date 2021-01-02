@@ -40,6 +40,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-12-18 - operate.js\
 2020-12-19 - determineLever.js\
 2020-12-31 - returnNegative.js\
+2021-01-02 - backToHome.js\
 
 ## Easy
 
@@ -98,4 +99,4 @@ All previous code examples can be found under my profile in Edabit. This migrati
 ## Expert
 
 2020-12-29 - distanceToNearestVowel.js\
-2020-12-31 - fiscalCode.js **In Progress**\
+2020-12-31 - fiscalCode.js\
