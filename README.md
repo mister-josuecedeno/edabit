@@ -41,6 +41,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-12-19 - determineLever.js\
 2020-12-31 - returnNegative.js\
 2021-01-02 - backToHome.js\
+2021-01-03 - nthEven.js\
 
 ## Easy
 
@@ -91,6 +92,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 
 2020-12-08 - countBoomerangs.js\
 2020-12-27 - chosenWine.js\
+2021-01-03 - converter.js\
 
 ## Very Hard
 
