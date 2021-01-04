@@ -87,6 +87,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-12-24 - lowerTriang.js\
 2020-12-25 - uniqueInOrder.js\
 2020-12-26 - splitCode.js\
+2021-01-04 - findSingleNumber.js\
 
 ## Hard
 
