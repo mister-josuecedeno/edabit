@@ -42,6 +42,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-12-31 - returnNegative.js\
 2021-01-02 - backToHome.js\
 2021-01-03 - nthEven.js\
+2021-01-05 - rotateMaxNumber.js\
 
 ## Easy
 
