@@ -57,6 +57,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-12-18 - assignPersonToJob.js\
 2020-12-29 - stringCycling.js\
 2021-01-08 - strMatchBy2char.js\
+2021-01-09 - validateBinary.js\
 
 ## Medium
 
