@@ -61,6 +61,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2021-01-10 - divisibleByLeft.js\
 2021-01-11 - challenge.js\
 2021-01-12 - likeOrDislike.js\
+2021-01-14 - guessSequence.js\
 
 ## Medium
 
