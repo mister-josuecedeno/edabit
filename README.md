@@ -63,6 +63,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2021-01-12 - likeOrDislike.js\
 2021-01-14 - guessSequence.js\
 2021-01-16 - nameScore.js\
+2021-01-18 - mumbling.js\
 
 ## Medium
 
