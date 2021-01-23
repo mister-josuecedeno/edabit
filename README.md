@@ -65,6 +65,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2021-01-16 - nameScore.js\
 2021-01-18 - mumbling.js\
 2021-01-20 - oppositeHouse.js\
+2021-01-22 - happyBirthday.js\
 
 ## Medium
 
@@ -98,6 +99,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-12-25 - uniqueInOrder.js\
 2020-12-26 - splitCode.js\
 2021-01-04 - findSingleNumber.js\
+2021-01-23 - elasticize.js\
 
 ## Hard
 
