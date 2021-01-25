@@ -1,7 +1,8 @@
 const simplePair = (arr, n) => {
-  let right = 1;
+  let right = 1; // for the remaining numbers
 
   for (let el of arr) {
+    // if the remaining numbers include the needed result
     if (arr.slice(right).includes(n / el)) {
       return [el, parseInt(n / el)];
     }
