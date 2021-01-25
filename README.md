@@ -100,6 +100,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-12-26 - splitCode.js\
 2021-01-04 - findSingleNumber.js\
 2021-01-23 - elasticize.js\
+2021-01-25 - simplePair.js\
 
 ## Hard
 
