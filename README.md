@@ -44,6 +44,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2021-01-03 - nthEven.js\
 2021-01-05 - rotateMaxNumber.js\
 2021-01-28 - nTablesPlusOne.js\
+2021-01-31 - birthdayCakeCandles.js\
 
 ## Easy
 
