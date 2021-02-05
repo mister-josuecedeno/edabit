@@ -45,6 +45,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2021-01-05 - rotateMaxNumber.js\
 2021-01-28 - nTablesPlusOne.js\
 2021-01-31 - birthdayCakeCandles.js\
+2021-02-04 - repeatString.js\
 
 ## Easy
 
@@ -68,6 +69,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2021-01-18 - mumbling.js\
 2021-01-20 - oppositeHouse.js\
 2021-01-22 - happyBirthday.js\
+2021-02-02 - littleBig.js\
 
 ## Medium
 
