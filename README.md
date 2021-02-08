@@ -107,6 +107,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2021-01-23 - elasticize.js\
 2021-01-25 - simplePair.js\
 2021-01-30 - simpleEquation.js\
+2021-02-07 - bestFriend.js\
 
 ## Hard
 
