@@ -120,6 +120,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2021-01-06 - sumMissingNumbers.js\
 2021-01-07 - convert.js\
 2021-01-15 - longest7SegmentWord.js\
+2021-02-10 - direction.js\
 
 ## Very Hard
 

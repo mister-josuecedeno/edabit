@@ -1,3 +1,5 @@
+// objects, for...of loop, flat, or ||
+
 const letterCounter = (arr, a) => {
   const charMap = {};
 
