@@ -47,6 +47,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2021-01-31 - birthdayCakeCandles.js\
 2021-02-04 - repeatString.js\
 2021-02-05 - calculateFuel.js\
+2021-02-13 - reversePsychology.js\
 
 ## Easy
 
