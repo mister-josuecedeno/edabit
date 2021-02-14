@@ -48,6 +48,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2021-02-04 - repeatString.js\
 2021-02-05 - calculateFuel.js\
 2021-02-13 - reversePsychology.js\
+2021-02-14 - arrayValuesTypes.js\
 
 ## Easy
 
