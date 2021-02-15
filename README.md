@@ -125,6 +125,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2021-02-10 - direction.js\
 2021-02-11 - powerMorphic.js\
 2021-02-12 - apocalyptic.js\
+2021-02-15 - vowelLinks.js\
 
 ## Very Hard
 
