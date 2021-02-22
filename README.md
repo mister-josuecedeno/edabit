@@ -139,6 +139,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-12-29 - distanceToNearestVowel.js\
 2020-12-31 - fiscalCode.js\
 2021-02-20 - sum.js\
+2021-02-22 - isConsecutive.js\
 
 ## HackerRanK
 
