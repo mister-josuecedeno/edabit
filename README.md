@@ -132,6 +132,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2021-02-26 - dance.js\
 2021-02-27 - padMatrix.js\
 2021-02-28 - weekAfter.js\
+2021-03-01 - holeySort.js\
 
 ## Very Hard
 
