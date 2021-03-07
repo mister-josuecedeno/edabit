@@ -50,6 +50,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2021-02-13 - reversePsychology.js\
 2021-02-14 - arrayValuesTypes.js\
 2021-02-16 - yearsInOneHouse.js\
+2021-03-07 - multiSum.js\
 
 ## Easy
 
