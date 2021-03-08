@@ -115,6 +115,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2021-02-08 - carTimer.js\
 2021-02-09 - letterCounter.js\
 2021-02-24 - findASeat.js\
+2021-03-08 - countVowels.js\
 
 ## Hard
 
