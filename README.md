@@ -85,7 +85,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-10-23 - leftshiftbypowersof2.js\
 2020-10-24 - indexfiltering.js\
 2020-10-25 - alternating2and8.js\
-2020-10-27 - isPalindrome.js\
+2020-10-27 - isPalindrome.js (no recursion)\
 2020-10-28 - anAbsolute.js\
 2020-10-29 - puzzlePieces.js\
 2020-10-30 - deconstructingObjects.js\
@@ -116,6 +116,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2021-02-09 - letterCounter.js\
 2021-02-24 - findASeat.js\
 2021-03-08 - countVowels.js\
+2021-03-09 - isPalindrome.js (with recursion)\
 
 ## Hard
 
