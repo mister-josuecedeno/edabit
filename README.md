@@ -119,6 +119,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2021-03-09 - isPalindrome.js (with recursion)\
 2021-03-10 - sumDigit.js\
 2021-03-11 - fib.js\
+2021-03-12 - largestEven.js\
 
 ## Hard
 
