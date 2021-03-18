@@ -125,6 +125,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2021-03-13 - noYelling.js\
 2021-03-16 - rectangle.js\
 2021-03-17 - onesThreesNines.js\
+2021-03-18 - sweetestIcecream.js\
 
 ## Hard
 
