@@ -153,6 +153,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2021-03-20 - rotations.js\
 2021-03-22 - findGlasses.js\
 2021-03-23 - isPalindrome.js\
+2021-03-24 - calculateScore.js\
 
 ## Very Hard
 
