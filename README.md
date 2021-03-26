@@ -162,6 +162,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-12-28 - parkingExit.js\
 2021-02-18 - takeDownAverage.js\
 2021-02-21 - espVerb.js\
+2021-03-26 - happy.js\
 
 ## Expert
 
