@@ -172,6 +172,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2020-12-31 - fiscalCode.js\
 2021-02-20 - sum.js\
 2021-02-22 - isConsecutive.js\
+2021-03-29 - countRepetitions.js\
 
 ## HackerRanK
 
