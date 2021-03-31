@@ -156,6 +156,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2021-03-24 - calculateScore.js\
 2021-03-25 - leader.js\
 2021-03-25 - leader2.js (refactored leader.js)\
+2021-03-31 - treePhotography.js\
 
 ## Very Hard
 
