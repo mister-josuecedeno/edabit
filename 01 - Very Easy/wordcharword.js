@@ -3,9 +3,7 @@
 
 // Solution
 
-const add = (chr, txt) => {
-  return txt.split(' ').join(chr);
-};
+const add = (chr, txt) => txt.split(' ').join(chr);
 
 // Tests
 
