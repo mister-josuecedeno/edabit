@@ -1,6 +1,4 @@
-const arrayValuesTypes = (arr) => {
-  return arr.map((el) => typeof el);
-};
+const arrayValuesTypes = (arr) => arr.map((el) => typeof el);
 
 // Tests
 console.log(arrayValuesTypes([1, 10]), ['number', 'number']);
