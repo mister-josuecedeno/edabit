@@ -1,0 +1,1 @@
+const arrowFunc = (arg) => arg;
