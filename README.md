@@ -171,6 +171,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2021-04-01 - spoonerise.js\
 2021-04-02 - mode.js\
 2021-04-07 - isSet.js\
+2021-04-08 - getHashTags.js\
 
 ## Expert
 
