@@ -78,6 +78,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2021-01-20 - oppositeHouse.js\
 2021-01-22 - happyBirthday.js\
 2021-02-02 - littleBig.js\
+2021-04-10 - fruitSalad.js\
 
 ## Medium
 
