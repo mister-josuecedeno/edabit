@@ -80,6 +80,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2021-02-02 - littleBig.js\
 2021-04-10 - fruitSalad.js\
 2021-04-11 - evenOrOdd.js\
+2021-04-12 - seriesResistance.js\
 
 ## Medium
 
