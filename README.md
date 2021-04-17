@@ -54,6 +54,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2021-03-14 - sumMinimums.js\
 2021-03-15 - point.js\
 2021-04-05 - arrowFunc.js
+2021-04-16 - howManyWalls.js\
 
 ## Easy
 
@@ -131,6 +132,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2021-03-17 - onesThreesNines.js\
 2021-03-18 - sweetestIcecream.js\
 2021-03-19 - evenLast.js\
+2021-04-15 - simpleTimer.js\
 
 ## Hard
 
