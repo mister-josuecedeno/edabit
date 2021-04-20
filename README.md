@@ -165,6 +165,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2021-03-31 - treePhotography.js\
 2021-04-06 - spaceApart.js\
 2021-04-17 - lostDog.js\
+2021-04-19 - energyBill.js\
 
 ## Very Hard
 
