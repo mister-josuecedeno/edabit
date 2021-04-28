@@ -135,6 +135,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2021-03-19 - evenLast.js\
 2021-04-15 - simpleTimer.js\
 2021-04-24 - reverseWords.js\
+2021-04-28 - findLetters.js\
 
 ## Hard
 
