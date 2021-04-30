@@ -56,6 +56,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2021-04-05 - arrowFunc.js
 2021-04-16 - howManyWalls.js\
 2021-04-25 - invertArray.js\
+2021-04-29 - doubleton.js\
 
 ## Easy
 
