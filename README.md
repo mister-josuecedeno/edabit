@@ -86,6 +86,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2021-04-11 - evenOrOdd.js\
 2021-04-12 - seriesResistance.js\
 2021-05-04 - duplicateCount.js\
+2021-05-05 - firstNonRepeatedCharacter.js\
 
 ## Medium
 
