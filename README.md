@@ -146,6 +146,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2021-04-28 - findLetters.js\
 2021-05-01 - simpleComp.js\
 2021-05-03 - sub.js\
+2021-05-11 - stringExpansion.js\
 
 ## Hard
 
