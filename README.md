@@ -181,6 +181,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2021-04-17 - lostDog.js\
 2021-04-19 - energyBill.js\
 2021-04-22 - showTheLove.js\
+2021-05-12 - interview.js\
 
 ## Very Hard
 
