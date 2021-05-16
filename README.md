@@ -60,6 +60,7 @@ All previous code examples can be found under my profile in Edabit. This migrati
 2021-05-02 - moveZeros.js\
 2021-05-09 - calculateYears.j\
 2021-05-10 - runningAthlete.js\
+2021-05-16 - filterString.js\
 
 ## Easy
 
