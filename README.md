@@ -62,6 +62,7 @@ Code examples can be found under my profile in Edabit. This migration of code st
 2021-05-10 - runningAthlete.js\
 2021-05-16 - filterString.js\
 2021-05-19 - evenOddString.js\
+2021-05-20 - nextSquare.js\
 
 ## Easy
 
