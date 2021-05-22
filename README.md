@@ -64,6 +64,7 @@ Code examples can be found under my profile in Edabit. This migration of code st
 2021-05-19 - evenOddString.js\
 2021-05-20 - nextSquare.js\
 2021-05-21 - swap.js\
+2021-05-22 - mubashirFunction.js\
 
 ## Easy
 
