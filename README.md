@@ -193,6 +193,7 @@ Code examples can be found under my profile in Edabit. This migration of code st
 2021-05-25 - posNegSort.js\
 2021-05-28 - possiblePath.js\
 2021-05-29 - maximumSeating.js\
+2021-05-30 - simpleCheck.js\
 
 ## Very Hard
 
