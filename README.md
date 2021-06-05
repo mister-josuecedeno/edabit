@@ -197,6 +197,7 @@ Code examples can be found under my profile in Edabit. This migration of code st
 2021-05-30 - simpleCheck.js\
 2021-05-31 - vendingMachine.js\
 2021-06-01 - lessEqual.js\
+2021-06-04 - pluralize.js\
 
 ## Very Hard
 
