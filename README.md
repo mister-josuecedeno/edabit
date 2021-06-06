@@ -213,6 +213,7 @@ Code examples can be found under my profile in Edabit. This migration of code st
 2021-04-07 - isSet.js\
 2021-04-08 - getHashTags.js\
 2021-04-14 - lemonade.js\
+2021-06-06 - advancedSort.js\
 
 ## Expert
 
