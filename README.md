@@ -201,6 +201,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-06-05 - getVodkaBottle.js\
 2021-06-14 - check.js\
 2021-06-21 - countSameEnds.js\
+2021-06-23 - expandedForm.js\
 
 ## Very Hard
 
