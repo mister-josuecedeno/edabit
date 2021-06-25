@@ -155,6 +155,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-05-01 - simpleComp.js\
 2021-05-03 - sub.js\
 2021-05-11 - stringExpansion.js\
+2021-06-25 - rotatedWords.js\
 
 ## Hard
 
