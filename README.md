@@ -1,6 +1,6 @@
-# Coding Challenges
+# Edabit Coding Challenges
 
-Code examples can be found under my profile in Edabit. This migration of code starts at Day 100+. Adding hankerrank, codewars, etc. in Feb 2021.
+Additional code examples can be found under my profile in Edabit. This migration of code starts at Day 100+. Adding hankerrank, codewars, etc. in Feb 2021.
 
 ## Very Easy
 
@@ -155,6 +155,7 @@ Code examples can be found under my profile in Edabit. This migration of code st
 2021-05-01 - simpleComp.js\
 2021-05-03 - sub.js\
 2021-05-11 - stringExpansion.js\
+2021-06-25 - rotatedWords.js\
 
 ## Hard
 
@@ -200,6 +201,9 @@ Code examples can be found under my profile in Edabit. This migration of code st
 2021-06-04 - pluralize.js\
 2021-06-05 - getVodkaBottle.js\
 2021-06-14 - check.js\
+2021-06-21 - countSameEnds.js\
+2021-06-23 - expandedForm.js\
+2021-06-24 - firstTuesdayOfTheMonth.js\
 
 ## Very Hard
 
