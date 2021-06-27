@@ -1,4 +1,4 @@
-# Edabit Coding Challenges
+# Javascript Coding Challenges
 
 Additional code examples can be found under my profile in Edabit. This migration of code starts at Day 100+. Adding hankerrank, codewars, etc. in Feb 2021.
 
