@@ -69,6 +69,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-05-24 - multiply.js\
 2021-06-03 - evenOrOdd.js\
 2021-06-26 - rotateByOne.js\
+2021-06-29 - leapYear.js\
 
 ## Easy
 
