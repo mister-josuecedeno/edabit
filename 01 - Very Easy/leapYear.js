@@ -1,11 +1,6 @@
 const leapYear = (year) => {
-  return year % 4 === 0 || year % 400 === 0;
+  return (year % 100 != 0 && year % 4 == 0) || year % 400 === 0;
 };
-
-// Other answer that is more correct :)
-function leapYear(year) {
-  return year % 400 == 0 || (year % 100 != 0 && year % 4 == 0);
-}
 
 // Tests
 console.log(leapYear(1850), false);
