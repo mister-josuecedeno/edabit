@@ -69,12 +69,10 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-05-24 - multiply.js\
 2021-06-03 - evenOrOdd.js\
 2021-06-26 - rotateByOne.js\
-<<<<<<< HEAD
 2021-07-06 - sumFive.js\
-=======
 2021-06-29 - leapYear.js\
 2021-07-01 - fiftyThirtyTwenty.js\
->>>>>>> 973addf5154c8cf3c0118dfa72cebe1c4f3d7ea8
+2021-07-07 - toNumberArray.js\
 
 ## Easy
 
