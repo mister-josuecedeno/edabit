@@ -74,6 +74,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-07-01 - fiftyThirtyTwenty.js\
 2021-07-07 - toNumberArray.js\
 2021-07-10 - fifth.js\
+2021-07-11 - whoWinsTonight.js\
 
 ## Easy
 
