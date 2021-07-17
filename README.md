@@ -78,6 +78,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-07-12 - findDifference.js\
 2021-07-13 - addBinary.js\
 2021-07-16 - journeyDistance.js\
+2021-07-17 - weightAllowed.js\
 
 ## Easy
 
