@@ -115,6 +115,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-05-05 - firstNonRepeatedCharacter.js\
 2021-05-06 - monkeyTalk.js\
 2021-05-08 - numObj.js\
+2021-07-24 - recordTemps.js\
 
 ## Medium
 
