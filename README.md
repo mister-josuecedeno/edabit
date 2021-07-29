@@ -177,6 +177,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-06-25 - rotatedWords.js\
 2021-07-25 - findIt.js\
 2021-07-28 - indexOfCaps.js\
+2021-07-29 - capSpace.js\
 
 ## Hard
 
