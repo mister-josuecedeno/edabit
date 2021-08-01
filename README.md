@@ -86,6 +86,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-07-22 - battingAvg.js\
 2021-07-26 - outlierNumber.js\
 2021-07-27 - sumCubes.js\
+2021-08-01 - mod.js\
 
 ## Easy
 
