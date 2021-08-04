@@ -88,6 +88,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-07-27 - sumCubes.js\
 2021-08-01 - mod.js\
 2021-08-02 - binaryToDecimal.js\
+2021-08-04 - longestString.js\
 
 ## Easy
 
@@ -183,6 +184,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-07-29 - capSpace.js\
 2021-07-30 - rotateArray.js\
 2021-08-03 - simpleNumbers.js\
+2021-08-04 - plantTrees.js\
 
 ## Hard
 
