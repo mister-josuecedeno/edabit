@@ -233,6 +233,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-06-21 - countSameEnds.js\
 2021-06-23 - expandedForm.js\
 2021-06-24 - firstTuesdayOfTheMonth.js\
+2021-08-05 - binary.js\
 
 ## Very Hard
 
