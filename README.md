@@ -89,6 +89,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-08-01 - mod.js\
 2021-08-02 - binaryToDecimal.js\
 2021-08-04 - longestString.js\
+2021-08-07 - basicCalculator.js\
 
 ## Easy
 
