@@ -187,6 +187,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-08-03 - simpleNumbers.js\
 2021-08-04 - plantTrees.js\
 2021-08-06 - addParityBit.js\
+2021-08-08 - hasFriday13.js
 
 ## Hard
 
