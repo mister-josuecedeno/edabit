@@ -90,6 +90,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-08-02 - binaryToDecimal.js\
 2021-08-04 - longestString.js\
 2021-08-07 - basicCalculator.js\
+2021-08-09 - height.js\
 
 ## Easy
 
@@ -188,6 +189,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-08-04 - plantTrees.js\
 2021-08-06 - addParityBit.js\
 2021-08-08 - hasFriday13.js
+2021-08-09 - ohmsLaw.js\
 
 ## Hard
 
