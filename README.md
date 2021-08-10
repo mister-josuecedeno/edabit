@@ -91,6 +91,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-08-04 - longestString.js\
 2021-08-07 - basicCalculator.js\
 2021-08-09 - height.js\
+2021-08-10 - perfectRoots.js\
 
 ## Easy
 
