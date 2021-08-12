@@ -128,7 +128,6 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-07-24 - recordTemps.js\
 2021-07-31 - forbiddenLetter.js\
 2021-08-10 - crazyfunction.js\
-2021-08-12 - shiftToRight.js\
 
 ## Medium
 
@@ -195,6 +194,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-08-06 - addParityBit.js\
 2021-08-08 - hasFriday13.js
 2021-08-09 - ohmsLaw.js\
+2021-08-12 - shiftToRight.js\
 
 ## Hard
 
