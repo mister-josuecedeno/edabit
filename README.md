@@ -93,6 +93,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-08-09 - height.js\
 2021-08-10 - perfectRoots.js\
 2021-08-11 - otherSides.js\
+2021-08-12 - areaOfHexagon.js\
 
 ## Easy
 
