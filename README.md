@@ -96,6 +96,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-08-12 - areaOfHexagon.js\
 2021-08-13 - isNarcissistic.js\
 2021-08-14 - automorphic.js\
+2021-08-15 - arithmeticProgression.js\
 
 ## Easy
 
