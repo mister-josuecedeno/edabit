@@ -98,6 +98,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-08-14 - automorphic.js\
 2021-08-15 - arithmeticProgression.js\
 2021-08-16 - arrIndex.js\
+2021-08-17 - arraySum.js\
 
 ## Easy
 
@@ -201,6 +202,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-08-12 - shiftToRight.js\
 2021-08-13 - numLayers.js\
 2021-08-16 - parallelResistance.js\
+2021-08-17 - cubeDiagonal.js\
 
 ## Hard
 
@@ -252,6 +254,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-08-05 - binary.js\
 2021-08-12 - checkScore.js\
 2021-08-13 - danceConvert.js\
+2021-08-17 - howMuchMega.js\
 
 ## Very Hard
 
