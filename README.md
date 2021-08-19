@@ -256,6 +256,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-08-12 - checkScore.js\
 2021-08-13 - danceConvert.js\
 2021-08-17 - howMuchMega.js\
+2021-08-19 - doesBrickFit.js\
 
 ## Very Hard
 
