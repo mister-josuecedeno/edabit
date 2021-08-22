@@ -101,6 +101,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-08-17 - arraySum.js\
 2021-08-18 - justAnotherSumProblem.js\
 2021-08-21 - trimmedAverages.js\
+2021-08-22 - largestNumbers.js\
 
 ## Easy
 
