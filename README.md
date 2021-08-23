@@ -102,6 +102,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-08-18 - justAnotherSumProblem.js\
 2021-08-21 - trimmedAverages.js\
 2021-08-22 - largestNumbers.js\
+2021-08-23 - ageDifference2.js\
 
 ## Easy
 
@@ -206,6 +207,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-08-13 - numLayers.js\
 2021-08-16 - parallelResistance.js\
 2021-08-17 - cubeDiagonal.js\
+2021-08-23 - halflifeCalculator.js\
 
 ## Hard
 
@@ -259,6 +261,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-08-13 - danceConvert.js\
 2021-08-17 - howMuchMega.js\
 2021-08-19 - doesBrickFit.js\
+2021-08-23 - countNumberOfOccurrences.js\
 
 ## Very Hard
 
