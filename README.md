@@ -106,6 +106,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-08-24 - stringPairs.js\
 2021-08-25 - chineseZodiac.js\
 2021-08-26 - dartsScoring.js\
+2021-08-27 - millionsRounding.js\
 
 ## Easy
 
