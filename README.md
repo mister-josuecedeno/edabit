@@ -109,6 +109,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-08-27 - millionsRounding.js\
 2021-08-28 - sumDigits.js\
 2021-08-29 - averageIndex.js\
+2021-08-30 - evenLast.js\
 
 ## Easy
 
