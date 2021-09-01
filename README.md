@@ -111,6 +111,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-08-29 - averageIndex.js\
 2021-08-30 - evenLast.js\
 2021-08-31 - chessBoard.js\
+2021-09-01 - oddSum.js\
 
 ## Easy
 
