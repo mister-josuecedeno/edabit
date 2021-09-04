@@ -114,7 +114,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-09-01 - oddSum.js\
 2021-09-02 - simpleEncoder\
 2021-09-03 - happy50.js\
-
+2021-09-04 - 5fish.js\
 ## Easy
 
 2020-10-19 - snailgoesupthestairs.js\
