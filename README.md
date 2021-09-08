@@ -223,6 +223,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-08-23 - halflifeCalculator.js\
 2021-08-24 - formatBigInt.js\
 2021-09-05 - flickSwitch.js\
+2021-09-07 - rectangleInCircle.js\
 
 ## Hard
 
