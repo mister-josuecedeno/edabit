@@ -226,6 +226,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-09-07 - rectangleInCircle.js\
 2021-09-08 - factory.js\
 2021-09-09 - solutions.js\
+2021-09-10 - compoundInterest.js\
 
 ## Hard
 
