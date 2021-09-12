@@ -228,6 +228,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-09-09 - solutions.js\
 2021-09-10 - compoundInterest.js\
 2021-09-11 - removeSmallest.js\
+2021-09-12 - count.js\
 
 ## Hard
 
