@@ -230,6 +230,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-09-11 - removeSmallest.js\
 2021-09-12 - count.js\
 2021-09-13 - moveToEnd.js\
+2021-09-14 - mapping.js\
 
 ## Hard
 
