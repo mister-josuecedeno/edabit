@@ -233,6 +233,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-09-14 - mapping.js\
 2021-09-15 - gcd.js\
 2021-09-16 - firstNVowels.js\
+2021-09-17 - isHarshad.js\
 
 ## Hard
 
