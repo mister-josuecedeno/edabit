@@ -235,6 +235,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-09-16 - firstNVowels.js\
 2021-09-17 - isHarshad.js\
 2021-09-18 - shortestDistance.js\
+2021-09-19 - mathExpr.js\
 
 ## Hard
 
