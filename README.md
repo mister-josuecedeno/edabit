@@ -238,6 +238,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-09-19 - mathExpr.js\
 2021-09-20 - isPrime.js\
 2021-09-21 - split.js\
+2021-09-22 - probability.js\
 
 ## Hard
 
