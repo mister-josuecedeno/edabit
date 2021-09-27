@@ -1,11 +1,10 @@
 const findVertex = (x) => {
-  const equation = x.split(' ');
+  const regex = /\-?\w*x\b/gi;
+  const matches = x.match(regex);
   
-  console.log(equation);
-  let a = parseInt(equation[0]);
-  let b = parseInt(equation[2]);
-  console.log(a,b)
-  return -b / (2 * a);
+  let [a, b] = matches.map(n => +n.slice(0,-1));
+  let vertex = -b / (2 * a);
+  return Math.floor(vertex);
 }
 
 // Tests
