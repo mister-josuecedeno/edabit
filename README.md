@@ -242,7 +242,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-09-23 - squarePatch.js\
 2021-09-24 - firstBeforeSecond.js\
 2021-09-25 - findVertex.js\
-2021-09-25 - findVertex.js (solved)\
+2021-09-26 - findVertex.js (solved)\
 
 ## Hard
 
