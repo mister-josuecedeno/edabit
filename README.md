@@ -247,6 +247,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-09-29 - quadraticEquation.js\
 2021-09-30 - inatorInator.js\
 2021-10-01 - StringPrototype.js\
+2021-10-02 - gradNumberSum.js\
 2021-10-03 - simonSays.js\
 ## Hard
 
