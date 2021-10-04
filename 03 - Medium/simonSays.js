@@ -1,5 +1,10 @@
-const simonSays = (arr1, arr2) => {
-  return;
+// Not my solution
+
+function simonSays(arr1, arr2) {
+	for (var i = 1; i < arr2.length; i++) {
+		if (arr1[i-1] != arr2[i]) return false;
+	}
+	return true;
 }
 
 // Tests
