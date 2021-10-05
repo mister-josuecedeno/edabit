@@ -249,6 +249,8 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-10-01 - StringPrototype.js\
 2021-10-02 - gradNumberSum.js\
 2021-10-03 - simonSays.js\
+2021-10-04 - isEqual.js\
+
 ## Hard
 
 2020-12-08 - countBoomerangs.js\
