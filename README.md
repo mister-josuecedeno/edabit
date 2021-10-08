@@ -252,6 +252,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-10-04 - isEqual.js\
 2021-10-05 - count_towers.js\
 2021-10-07 - pingPong.js\
+2021-10-08 - accum.js\
 
 ## Hard
 
