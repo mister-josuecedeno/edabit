@@ -253,6 +253,8 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-10-05 - count_towers.js\
 2021-10-07 - pingPong.js\
 2021-10-08 - accum.js\
+2021-10-09 - magnitude.js\
+2021-10-09 - capLast.js\
 
 ## Hard
 
