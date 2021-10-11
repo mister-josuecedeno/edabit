@@ -9,11 +9,9 @@ const divingMinigame = (arr) => {
   }
   
   for (const item of arr) {
-    breathMeter -= airLoss;
-    if(item >= 0) increaseBreath();
-    console.log(breathMeter)
+    if(item < 0) breathMeter -= airLoss;
+    if(item > 0) increaseBreath();
     if(breathMeter <= 0) {
-      console.log("Gave Over!");
       return false;
     }
   }
