@@ -257,6 +257,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-10-09 - capLast.js\
 2021-10-10 - divingMinigame.js\
 2021-10-11 - malthusian.js\
+2021-10-12 - validDivision.js\
 
 ## Hard
 
