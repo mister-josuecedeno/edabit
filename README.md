@@ -260,6 +260,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-10-12 - validDivision.js\
 2021-10-13 - abbreviate.js\
 2021-10-14 - move.js\
+2021-10-15 - variableValid.js\
 
 ## Hard
 
