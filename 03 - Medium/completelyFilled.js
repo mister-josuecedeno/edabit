@@ -1,5 +1,8 @@
-const completelyFilled = (arr) => {
-  return;
+const completelyFilled = (strings) => {
+  for (const string of strings) {
+    if (string.indexOf(' ') > -1) return false;
+  }
+  return true;
 }
 
 // Tests
