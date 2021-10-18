@@ -11,7 +11,7 @@ const fibonacciSequence = () => {
     if (result < MAX) {
       numbers.push(result);
     } else {
-      return numbers;
+      break;
     }
   }
 
