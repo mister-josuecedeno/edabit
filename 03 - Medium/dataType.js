@@ -1,5 +1,6 @@
 const dataType = (value) => {
-  return;
+  let valueType = Object.prototype.toString.call(value);
+  return valueType.split(' ')[1].toLowerCase().slice(0,-1);
 }
 
 // Tests
