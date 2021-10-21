@@ -265,6 +265,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-10-17 - howCloseToC.js\eabit
 2021-10-18 - fibonacciSequence.js\
 2021-10-19 - dataType.js\
+2021-10-20 - isHarshad.js\
 
 ## Hard
 
