@@ -266,6 +266,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-10-18 - fibonacciSequence.js\
 2021-10-19 - dataType.js\
 2021-10-20 - isHarshad.js, isNarcissistic.js\
+2021-10-21 - scaleTip.js\
 
 ## Hard
 
