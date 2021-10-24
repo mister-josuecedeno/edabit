@@ -268,6 +268,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-10-20 - isHarshad.js, isNarcissistic.js\
 2021-10-21 - scaleTip.js\
 2021-10-22 - sumOfTwo.js\
+2021-10-24 - letterCheck.js\
 
 ## Hard
 
