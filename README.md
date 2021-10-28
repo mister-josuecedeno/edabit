@@ -272,6 +272,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-10-25 - flash.js\
 2021-10-26 - countIdentical.js\
 2021-10-27 - edaBit.js\
+2021-10-28 - rps.js\
 
 ## Hard
 
