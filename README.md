@@ -275,6 +275,8 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-10-28 - rps.js\
 2021-10-29 - rearrangedDifference.js\
 2021-10-30 - cumulativeSum.js\
+2021-10-30 - sleepZones.js\
+2021-10-31 - median.js\
 
 ## Hard
 
