@@ -1,8 +1,8 @@
 const median = (arr) => {
-  // if odd, middle
-  // if even, ad two middle and divide by two
-  
-  return arr;
+  arr.sort((a, b) => a - b);
+  let lowMiddle = Math.floor((arr.length - 1) / 2);
+  let highMiddle = Math.ceil((arr.length - 1) / 2);
+  return (arr[lowMiddle] + arr[highMiddle]) / 2;
 }
 
 // Tests
