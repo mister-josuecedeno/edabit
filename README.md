@@ -277,7 +277,8 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-10-30 - cumulativeSum.js\
 2021-10-30 - sleepZones.js\
 2021-10-31 - median.js\
-
+2021-11-01 - adjacentProduct.js\
+2021-11-02 - verbify.js\
 ## Hard
 
 2020-12-08 - countBoomerangs.js\
