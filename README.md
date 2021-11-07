@@ -283,6 +283,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-11-04 - tidyBooks.js\
 2021-11-05 - shirtSize.js\
 2021-11-06 - sumOddAndEven.js\
+2021-11-07 - spaceWeights.js\
 ## Hard
 
 2020-12-08 - countBoomerangs.js\
