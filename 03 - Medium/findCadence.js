@@ -1,6 +1,14 @@
 const findCadence = (chords) => {
-  return;
+  const [c1,c2] = chords.slice(-2).map(c => c.toLowerCase()); 
+
+  if(c1 == 'v' && c2 == 'i') return 'perfect';
+  if(c1 == 'iv' && c2 == 'i') return 'plagal';
+  if(c1 == 'v' && c2 !== 'i') return 'interrupted';
+  if(c2 == 'v') return 'imperfect';
+
+  return "no cadence";
 }
+
 
 // Tests
 
