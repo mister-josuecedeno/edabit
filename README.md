@@ -286,6 +286,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-11-07 - spaceWeights.js\
 2021-11-08 - findCadence.js\
 2021-11-09 - getTriangleType.js\
+2021-11-10 - grabCity.js\
 ## Hard
 
 2020-12-08 - countBoomerangs.js\
