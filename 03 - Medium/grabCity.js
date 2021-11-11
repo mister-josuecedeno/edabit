@@ -1,7 +1,7 @@
 const grabCity = (str) => {
   const regex = /\[(.*?)\]/g
-  const lastWord = str.match(regex).slice(-1);
-  return lastWord;
+  const lastWord = str.match(regex).slice(-1)[0];
+  return lastWord.slice(1,-1);
 }
 
 // Tests
