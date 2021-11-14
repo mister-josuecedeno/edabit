@@ -1,5 +1,8 @@
 const countAll = (str) => {
-  return;
+  return {
+    "LETTERS" : (str.match(/[a-z]/gi) || []).length,
+    "DIGITS" : (str.match(/[0-9]/gi) || []).length
+  };
 }
 
 // Tests
