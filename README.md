@@ -292,6 +292,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-11-13 - unstretch.js\
 2021-11-14 - countAll.js\
 2021-11-15 - freeThrows.js\
+2021-11-16 - alphabetIndex.js\
 ## Hard
 
 2020-12-08 - countBoomerangs.js\
