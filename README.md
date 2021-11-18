@@ -294,6 +294,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-11-15 - freeThrows.js\
 2021-11-16 - alphabetIndex.js\
 2021-11-17 - countAdverbs.js\
+2021-11-18 - isEqual.js\
 ## Hard
 
 2020-12-08 - countBoomerangs.js\
