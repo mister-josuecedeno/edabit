@@ -297,6 +297,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-11-18 - isEqual.js\
 2021-11-19 - booleanChain.js\
 2021-11-19 - duplicates.js\
+2021-11-20 - promise.js\
 
 ## Hard
 
