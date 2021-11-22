@@ -1,5 +1,10 @@
 function duplicates(str) {
-	return;
+	const charMap = {};
+	for (const char of [...str]) {
+		charMap[char] = charMap[char] + 1 || 1;
+	}
+	return (Object.entries(charMap).filter(c => c[1] > 1) || [])
+						.reduce((acc,cv) => acc + (cv[1] - 1), 0);
 }
 
 // Tests
