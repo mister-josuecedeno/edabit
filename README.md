@@ -299,7 +299,8 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-11-19 - duplicates.js\
 2021-11-20 - promise.js\
 2021-11-21 - mostExpensiveItem.js\
-2021-11-22 - 
+2021-11-22 - duplicates.js\
+2021-11-23 - sumDigits.js\
 
 ## Hard
 
