@@ -303,6 +303,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-11-23 - sumDigits.js\
 2021-11-24 - clubEntry.js\
 2021-11-25 - accumulatingArray.js\
+2021-11-26 - notGoodMath.js\
 
 ## Hard
 
