@@ -306,6 +306,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-11-26 - notGoodMath.js\
 2021-11-27 - robotPath.js\
 2021-11-28 - longestWord.js\
+2021-11-29 - progressBar.js\
 
 ## Hard
 
