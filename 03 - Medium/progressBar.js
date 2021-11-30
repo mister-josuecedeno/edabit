@@ -1,9 +1,9 @@
 const progressBar = (bar, progress) => {
   let n = (progress/100) * 10;
   let repeater = bar.repeat(n);
-  let space = ''.repeat(10 - n);
+  let space = ' '.repeat(10 - n);
   let result = progress === 100 ? 'Completed!' : `Progress: ${progress}%`;
-  return `|${repeater}${space} | ${result}`;
+  return `|${repeater}${space}| ${result}`;
 }
 
 // Tests
