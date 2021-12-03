@@ -310,6 +310,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-11-30 - reversibleInclusiveList.js\
 2021-12-01 - wormLength.js\
 2021-12-02 - howManyMissing.js\
+2021-12-03 - endsAddTo10.js\
 
 ## Hard
 
