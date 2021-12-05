@@ -313,6 +313,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-12-03 - endsAddTo10.js\
 2021-12-04 - pointsInCircle.js\
 2021-12-05 - floatSum.js\
+2021-12-05 - convertToNumber.js\
 
 ## Hard
 
