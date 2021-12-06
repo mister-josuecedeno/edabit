@@ -1,4 +1,4 @@
-// set-up
+// Not my solution
 const forwardAssertion = (params) => {
-  const REGEXP = /(\w+)/g;
+  const REGEXP = /(\w+)(?=.*yes)/g;
 }
