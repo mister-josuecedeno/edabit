@@ -315,6 +315,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-12-04 - floatSum.js\
 2021-12-05 - convertToNumber.js\
 2021-12-06 - calc.js\
+2021-12-07 - correctSentences.js\
 
 ## Hard
 
