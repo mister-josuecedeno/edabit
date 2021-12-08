@@ -1,17 +1,21 @@
 const correctSentences = (str) => {
   // Remove extra spaces.
-  let trim = str.replace(/\s+/g,' ');
-  trim.trim();
-  console.log('|' + trim + '|');
+  let trim = str.replace(/\s+/g,' ')
+                .slice(1);
 
   // Capitalise first character.
   let upper = trim[0].toUpperCase() + trim.slice(1);
-  console.log(upper)
 
-  // Dot followed by an empty space before "Matt".
   // A dot at the end.
+  let words = upper.trim().split(' ');
 
-  return upper;
+  for (let i = 0; i < words.length - 1; i++) {
+    if(words[i + 1][0] == words[i + 1][0].toUpperCase()){
+      words[i] = `${words[i]}.`
+    }
+  }
+  
+  return `${words.join(' ')}.`;
 }
 
 // Tests
