@@ -320,6 +320,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-12-09 - getXP.js\
 2021-12-10 - getIndices.js\
 2021-12-11 - digitDistance.js\
+2021-12-12 - mirror.js\
 
 ## Hard
 
