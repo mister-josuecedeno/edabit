@@ -322,6 +322,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-12-11 - digitDistance.js\
 2021-12-12 - mirror.js\
 2021-12-13 - pyramidArrays.js\
+2021-12-14 - mineralFormation.js\
 
 ## Hard
 
