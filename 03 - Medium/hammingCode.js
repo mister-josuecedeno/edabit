@@ -1,11 +1,15 @@
 // Set-up
 const hammingCode = (params) => {
   const getASCII = (n) => n.charCodeAt(0);
+  const getBits = (n) => n.toString(2);
   const addPad = (n, size) => n.padStart(size, '0');
+  const tripleBit = (n) => [...n].map(n => n.repeat(3)).join('');
   
-  
-  return addPad('h',8);
+  const ham = (n) => tripleBit(addPad(getBits(getASCII(n)),8));
+
+  return [...params].map(p => ham(p)).join('');
 }
+
 
 // Tests
 
