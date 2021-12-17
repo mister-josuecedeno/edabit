@@ -325,6 +325,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-12-14 - mineralFormation.js\
 2021-12-15 - secret.js\
 2021-12-16 - hammingCode.js\
+2021-12-17 - rectangles.js\
 
 ## Hard
 
