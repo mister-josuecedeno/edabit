@@ -329,6 +329,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-12-18 - tallestBuildingHeight.js\
 2021-12-20 - noddyFunction.js\
 2021-12-21 - sharedLetters.js\
+2021-12-22 - regexTrim.js\
 
 ## Hard
 
