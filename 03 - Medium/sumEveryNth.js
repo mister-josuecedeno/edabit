@@ -1,5 +1,6 @@
-const sumEveryNth = (params) => {
-  return;
+const sumEveryNth = (numbers, n) => {
+  return numbers.filter((num, i) => (i + 1) % n === 0)
+                .reduce((acc, cv) => acc + cv, 0);
 }
 
 // Tests
