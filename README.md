@@ -333,6 +333,8 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-12-22 - regexTrim.js\
 2021-12-23 - covid.js\
 2021-12-24 - sumEveryNth.js\
+2021-12-25 - normalSequence.js\
+2021-12-25 - mergeArrays.js\
 
 ## Hard
 
