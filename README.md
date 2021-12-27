@@ -336,6 +336,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-12-25 - normalSequence.js\
 2021-12-25 - mergeArrays.js\
 2021-12-26 - user.js\
+2021-12-27 - completeBinary.js\
 
 ## Hard
 
