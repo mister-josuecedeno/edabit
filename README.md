@@ -338,6 +338,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-12-26 - user.js\
 2021-12-27 - completeBinary.js\
 2021-12-28 - bestFriendDeconstruction.js\
+2021-12-29 - countOverlapping.js\
 
 ## Hard
 
