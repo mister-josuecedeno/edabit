@@ -339,7 +339,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-12-27 - completeBinary.js\
 2021-12-28 - bestFriendDeconstruction.js\
 2021-12-29 - countOverlapping.js\
-
+2021-12-30 - calcBundledTemp.js\
 ## Hard
 
 2020-12-08 - countBoomerangs.js\
