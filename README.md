@@ -343,6 +343,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-12-31 - signAgain.js\
 2022-01-01 - totalOvers.js\
 2022-01-02 - billSplit.js\
+2022-01-03 - fixTheError.js\
 ## Hard
 
 2020-12-08 - countBoomerangs.js\
