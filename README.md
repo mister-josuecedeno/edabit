@@ -346,6 +346,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-01-03 - fixTheError.js\
 2022-01-04 - flip.js\
 2022-01-05 - getProducts.js\
+2022-01-06 - reverseComplement.js\
 ## Hard
 
 2020-12-08 - countBoomerangs.js\
