@@ -349,6 +349,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-01-06 - reverseComplement.js\
 2022-01-07 - mergeSort.js\
 2022-01-08 - remix.js\
+2022-01-09 - replace.js\
 ## Hard
 
 2020-12-08 - countBoomerangs.js\
