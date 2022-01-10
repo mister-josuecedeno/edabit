@@ -350,6 +350,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-01-07 - mergeSort.js\
 2022-01-08 - remix.js\
 2022-01-09 - replace.js\
+2022-01-10 - lodash-partition.js, heightNeeded.js, dailyStreak.js\
 ## Hard
 
 2020-12-08 - countBoomerangs.js\
