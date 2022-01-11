@@ -5,7 +5,9 @@ const dailyStreak = (logs) => {
   let max = 0;
 
   for (const log of logs) {
-    
+    if(log) countOfLogs++;
+    if(countOfLogs > max) max = countOfLogs;
+    if(!log) countOfLogs = 0;
   }
 
   return max;
