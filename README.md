@@ -353,6 +353,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-01-10 - lodash-partition.js, heightNeeded.js, dailyStreak.js\
 2022-01-11 - numberOfDays.js\
 2022-01-12 - countNumber.js\
+2022-01-13 - negativeSum.js\
 ## Hard
 
 2020-12-08 - countBoomerangs.js\
