@@ -1,3 +1,8 @@
+// Better solution
+// function possiblePath(arr) {
+// 	return arr.every((a,i) => typeof a !== typeof arr[i+1])
+// }
+
 const possiblePath = (arr) => {
   let isPossible = true;
   let isPreviousValid, isNextValid;
