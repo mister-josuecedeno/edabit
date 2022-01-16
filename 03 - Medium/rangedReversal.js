@@ -1,5 +1,7 @@
 const rangedReversal = (arr, start, end) => {
-  return;
+  let sub = arr.slice(start, end+1).reverse();
+  arr.splice(start, sub.length, ...sub);
+  return arr;
 }
 
 // TESTS
