@@ -358,6 +358,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-01-15 - rangedReversal.js\
 2022-01-17 - countdown.js\
 2022-01-18 - smallest.js\
+2022-01-19 - countSmileys.js\
 ## Hard
 
 2020-12-08 - countBoomerangs.js\
