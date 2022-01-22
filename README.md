@@ -360,7 +360,8 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-01-18 - smallest.js\
 2022-01-19 - countSmileys.js\
 2022-01-20 - sumFractions.js\
-2022-01-23 - partiallyHide.js\
+2022-01-21 - partiallyHide.js\
+2022-01-22 - differenceWith.js\
 ## Hard
 
 2020-12-08 - countBoomerangs.js\
