@@ -362,6 +362,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-01-20 - sumFractions.js\
 2022-01-21 - partiallyHide.js\
 2022-01-22 - differenceWith.js, digitalDecipher.js\
+2022-01-23 - isGoodMatch.js\
 ## Hard
 
 2020-12-08 - countBoomerangs.js\
