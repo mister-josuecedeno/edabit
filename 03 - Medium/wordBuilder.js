@@ -1,5 +1,9 @@
 const wordBuilder = (letters, positions) => {
-  return;
+  return letters
+    .map((l, i) => [l, positions[i]])
+    .sort((a, b) => a[1] - b[1])
+    .map((l) => l[0])
+    .join('');
 };
 
 // Tests
