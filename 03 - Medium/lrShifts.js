@@ -1,6 +1,16 @@
-function leftShift(arr, num) {}
+function leftShift(arr, num) {
+  for (let i = 0; i < num; i++) {
+    arr.push(arr.shift());
+  }
+  return arr;
+}
 
-function rightShift(arr, num) {}
+function rightShift(arr, num) {
+  for (let i = 0; i < num; i++) {
+    arr.unshift(arr.pop());
+  }
+  return arr;
+}
 
 // Tests
 
