@@ -364,6 +364,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-01-22 - differenceWith.js, digitalDecipher.js\
 2022-01-23 - isGoodMatch.js\
 2022-01-24 - wordBuilder.js\
+2022-01-25 - lrShifts.js
 
 ## Hard
 
