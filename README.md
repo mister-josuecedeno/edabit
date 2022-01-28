@@ -367,6 +367,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-01-25 - lrShifts.js
 2022-01-26 - noPermsDigits.js, toBinary.js, antiDivisors.js\
 2022-01-27 - fibonacci.js\
+2022-01-28 - faceInterval.js\
 
 ## Hard
 
