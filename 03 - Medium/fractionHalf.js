@@ -1,8 +1,8 @@
-// In Progress
-const fractionHalf = (fraction) => {
-  const half = eval(fraction) / 2;
-  return half;
-};
+// Not my solution
+function fractionHalf(fraction) {
+  const [n, d] = fraction.split('/');
+  return n % 2 === 0 ? `${n / 2}/${d}` : `${n}/${d * 2}`;
+}
 
 // Tests
 
