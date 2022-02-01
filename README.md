@@ -371,6 +371,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-01-29 - rightTriangle.js, cardsNeeded.js\
 2022-01-30 - regexValidate.js\
 2022-01-31 - checkPerfect.js\
+2022-02-01 - flatten.js\
 
 ## Hard
 
