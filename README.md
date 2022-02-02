@@ -372,6 +372,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-01-30 - regexValidate.js\
 2022-01-31 - checkPerfect.js\
 2022-02-01 - flatten.js\
+2022-02-02 - largestGap.js\
 
 ## Hard
 
