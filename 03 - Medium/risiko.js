@@ -1,5 +1,16 @@
+// In Progress
 const risiko = (att, def) => {
-  return;
+  const compare = (a, d) => {
+    if (a === d) {
+      return 'd';
+    } else if (a > d) {
+      return 'a';
+    } else {
+      return 'd';
+    }
+  };
+
+  return compare(3, 5);
 };
 
 // Tests
