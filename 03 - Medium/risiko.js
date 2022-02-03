@@ -1,16 +1,16 @@
-// In Progress
 const risiko = (att, def) => {
-  const compare = (a, d) => {
-    if (a === d) {
-      return 'd';
-    } else if (a > d) {
-      return 'a';
-    } else {
-      return 'd';
-    }
-  };
+  const compare = (a, d) => (a > d ? 1 : 0);
+  const attacks = att.sort((a, b) => b - a);
+  const defends = def.sort((a, b) => b - a);
+  const battles = Math.min(att.length, def.length);
 
-  return compare(3, 5);
+  let losses = 0;
+
+  for (let i = 0; i < battles; i++) {
+    losses += compare(attacks[i], defends[i]);
+  }
+
+  return losses;
 };
 
 // Tests
