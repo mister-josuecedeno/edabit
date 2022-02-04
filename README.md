@@ -374,6 +374,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-02-01 - flatten.js\
 2022-02-02 - largestGap.js\
 2022-02-03 - risiko.js\
+2022-02-04 - gimmeTheLetters.js\
 
 ## Hard
 
