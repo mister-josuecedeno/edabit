@@ -376,6 +376,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-02-03 - risiko.js\
 2022-02-04 - gimmeTheLetters.js\
 2022-02-05 - trueEquations.js\
+2022-02-06 - alliterationCorrect.js\
 
 ## Hard
 
