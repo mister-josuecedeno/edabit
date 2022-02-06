@@ -1,5 +1,9 @@
-const alliterationCorrect = (second) => {
-  return;
+const alliterationCorrect = (sentence) => {
+  return sentence
+    .split(' ')
+    .filter((w) => w.length > 3)
+    .map((l) => l[0].toLowerCase())
+    .every((l, i, arr) => l === arr[0]);
 };
 
 // Tests
