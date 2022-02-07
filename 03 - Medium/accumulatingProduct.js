@@ -1,7 +1,13 @@
-// Set-up
+const accumulatingProduct = (arr) => {
+  const result = [];
+  let last;
 
-const accumulatingProduct = (second) => {
-  return;
+  for (let i = 0; i < arr.length; i++) {
+    last = result.slice(-1);
+    result.length === 0 ? result.push(arr[i]) : result.push(arr[i] * last);
+  }
+
+  return result;
 };
 
 // Tests
