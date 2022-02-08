@@ -1,15 +1,9 @@
-// Set-up
-
 function isShifted(arr1, arr2) {
-  if (arr2.every((n) => n === 0)) return true;
-  const shift = arr2[0] - arr1[0];
-  return shift;
+  return arr2.map((n, i) => n - arr1[i]).every((n, i, arr) => n === arr[0]);
 }
 
 function isMultiplied(arr1, arr2) {
-  if (arr2.every((n) => n === 0)) return true;
-  const shift = arr2[0] / arr1[0];
-  return shift;
+  return arr2.map((n, i) => n / arr1[i]).every((n, i, arr) => n === arr[0]);
 }
 
 // Tests
