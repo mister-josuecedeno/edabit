@@ -380,6 +380,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-02-07 - accumulatingProduct.js\
 2022-02-08 - isShifted.js\
 2022-02-09 - arrEleSum.js\
+2022-02-10 - wordBuilder.js\
 
 ## Hard
 
