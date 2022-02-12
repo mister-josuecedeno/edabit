@@ -1,4 +1,3 @@
-// set-up
 const evalFactorial = (arr) => {
   const factorial = (n) => {
     if (n === 0 || n === 1) {
@@ -13,7 +12,7 @@ const evalFactorial = (arr) => {
     return result;
   };
 
-  return factorial(5);
+  return arr.reduce((acc, cv) => acc + factorial(parseInt(cv)), 0);
 };
 
 // Tests
