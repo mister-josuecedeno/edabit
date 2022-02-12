@@ -382,6 +382,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-02-09 - arrEleSum.js\
 2022-02-10 - wordBuilder.js\
 2022-02-11 - evalFactorial.js\
+2022-02-12 - constructDeconstruct.js\
 
 ## Hard
 
