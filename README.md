@@ -384,6 +384,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-02-11 - evalFactorial.js\
 2022-02-12 - constructDeconstruct.js\
 2022-02-13 - isMiniSudoku.js\
+2022-02-14 - dollaDollaBills.js\
 
 ## Hard
 
