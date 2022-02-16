@@ -386,6 +386,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-02-13 - isMiniSudoku.js\
 2022-02-14 - dollaDollaBills.js\
 2022-02-15 - countOnes.js\
+2022-02-16 - mysteryFunc.js\
 
 ## Hard
 
