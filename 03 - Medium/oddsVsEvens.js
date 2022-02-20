@@ -1,7 +1,10 @@
-// Set-up
 const oddsVsEvens = (num) => {
   const str = [...`${num}`];
-  return str;
+  const even = str.filter((e) => e % 2 === 0).reduce((acc, cv) => acc + +cv, 0);
+  const odd = str.filter((e) => e % 2 !== 0).reduce((acc, cv) => acc + +cv, 0);
+  if (even === odd) return 'equal';
+  if (even > odd) return 'even';
+  return 'odd';
 };
 
 // Tests
