@@ -1,4 +1,15 @@
 // set-up
+const getCharCodes = (str) => {
+  return [...str].map((l) => l.charCodeAt(0));
+};
+
+console.log(getCharCodes('ABC'));
+
+const isMiniWin = (ticket) => {
+  const [letters, number] = ticket;
+  const codes = getCharCodes(letters);
+  return codes.some((n) => n === number);
+};
 
 const lottery = (ticket, win) => {
   return;
