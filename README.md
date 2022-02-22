@@ -390,6 +390,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-02-17 - retrieve.js\
 2022-02-18 - lottery.js\
 2022-02-19 - oddsVsEvens.js\
+2022-02-22 - lottery.js\
 
 ## Hard
 
