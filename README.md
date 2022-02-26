@@ -394,6 +394,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-02-23 - regex_findAllNumbers.js\
 2022-02-24 - splitGroups.js (set-up)\
 2022-02-25 - splitGroups.js (completed)\
+2022-02-26 - toArrow.js\
 
 ## Hard
 
