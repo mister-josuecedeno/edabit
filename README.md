@@ -390,13 +390,14 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-02-17 - retrieve.js\
 2022-02-18 - lottery.js\
 2022-02-19 - oddsVsEvens.js\
-2022-02-22 - lottery.js\
-2022-02-23 - regex_findAllNumbers.js\
-2022-02-24 - splitGroups.js (set-up)\
-2022-02-25 - splitGroups.js (completed)\
-2022-02-26 - toArrow.js\
-2022-02-27 - time.js\
-2002-02-28 - multiply.js\
+2022-02-20 - lottery.js\
+2022-02-21 - regex_findAllNumbers.js\
+2022-02-22 - splitGroups.js (set-up)\
+2022-02-23 - splitGroups.js (completed)\
+2022-02-24 - toArrow.js\
+2022-02-25 - time.js\
+2002-02-26 - multiply.js\
+2022-02-28 - isAlpha.js\
 
 ## Hard
 
