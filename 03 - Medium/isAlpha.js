@@ -1,6 +1,11 @@
-// Set-up - position in the alphbet NOT ascii code
 const isAlpha = (word) => {
-  return word.match(/[a-zA-Z]/g).map((l) => l.charCodeAt(0)); //.reduce((acc,cv) => acc + cv.charCodeAt(0), 0);
+  let sum = word
+    .toLowerCase()
+    .match(/[a-z]/g)
+    .map((l) => l.charCodeAt(0) - 96)
+    .reduce((acc, cv) => acc + cv, 0);
+
+  return sum % 2 === 0;
 };
 
 // Tests
