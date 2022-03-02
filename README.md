@@ -399,6 +399,8 @@ Additional code examples can be found under my profile in Edabit. This migration
 2002-02-26 - multiply.js\
 2022-02-28 - isAlpha.js\
 2022-03-01 - isAlpha.js\
+2022-03-02 - reverseComplement.js\
+2022-03-02 - solve.js\
 
 ## Hard
 
