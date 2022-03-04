@@ -402,6 +402,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-03-02 - reverseComplement.js\
 2022-03-02 - solve.js\
 2022-03-03 - isCurzon.js\
+2022-03-04 - isCurzon.js\
 
 ## Hard
 

@@ -1,8 +1,7 @@
-// Set-up
 const isCurzon = (num) => {
-  const pow = 2 ** num + 1;
-  const mult = 2 * num + 1;
-  return pow % mult === 0;
+  const pow = BigInt(2 ** num) + BigInt(1);
+  const mult = BigInt(2 * num) + BigInt(1);
+  return BigInt(pow) % BigInt(mult) == 0;
 };
 
 // Tests
