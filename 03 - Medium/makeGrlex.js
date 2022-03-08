@@ -1,7 +1,12 @@
-// Set-up
-// How to sort if length is a tie
 const makeGrlex = (arr) => {
-  return arr.sort((a, b) => a.length - b.length);
+  return arr.sort((a, b) => {
+    let diff = a.length - b.length;
+    if (diff === 0) {
+      return a < b ? -1 : a > b ? 1 : 0;
+    } else {
+      return diff;
+    }
+  });
 };
 
 // Tests
