@@ -1,13 +1,14 @@
-// set-up
-// loop to compare prior and next
 const neighboring = (str) => {
-  const isValidNeighbor = (current, neighbor) => {
-    let currentCode = current.charCodeAt(0);
-    let neighborCode = neighbor.charCodeAt(0);
-    return Math.abs(neighborCode - currentCode) === 1;
+  const isNextValid = (current, next) => {
+    if (next === undefined) return true;
+    return Math.abs(current.charCodeAt(0) - next.charCodeAt(0)) === 1;
   };
 
-  return isValidNeighbor('b', 'a');
+  let validLetters = (
+    [...str].filter((l, i, arr) => isNextValid(l, arr[i + 1])) || []
+  ).length;
+
+  return str.length === validLetters;
 };
 
 // Tests
