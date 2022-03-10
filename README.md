@@ -408,6 +408,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-03-07 - makeGrlex.js\
 2022-03-08 - neighboring.js\
 2022-03-09 - neighboring.js\
+2022-03-10 - chemicalReactions.js\
 
 ## Hard
 
