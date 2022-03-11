@@ -1,6 +1,9 @@
 // set-up
 
 const chemicalReactions = (carbon, hydrogen, oxygen) => {
+  // how many h2o
+  // how many co2
+  // how many ch4
   return;
 };
 
