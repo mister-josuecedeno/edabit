@@ -1,10 +1,17 @@
-// set-up
-
 const chemicalReactions = (carbon, hydrogen, oxygen) => {
-  // how many h2o
-  // how many co2
-  // how many ch4
-  return;
+  const h2o = Math.min(Math.floor(hydrogen / 2), oxygen);
+  hydrogen -= h2o * 2;
+  oxygen -= h2o;
+
+  const co2 = Math.min(Math.floor(oxygen / 2), carbon);
+  oxygen -= oxygen * 2;
+  carbon -= co2;
+
+  const ch4 = Math.min(Math.floor(hydrogen / 4), carbon);
+  hydrogen -= hydrogen * 4;
+  carbon -= ch4;
+
+  return [h2o, co2, ch4];
 };
 
 // Tests
