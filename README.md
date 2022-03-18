@@ -416,6 +416,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-03-15 - javascriptClasses.js
 2022-03-16 - pagesInBook.js\
 2022-03-17 - split2.js\
+2022-03-18 - countPalindromes.js\
 
 ## Hard
 
