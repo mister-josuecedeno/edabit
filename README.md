@@ -419,6 +419,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-03-18 - countPalindromes.js\
 2022-03-19 - factFact.js\
 2022-03-20 - findOdd.js\
+2022-03-21 - camelToSnake.js\
 
 ## Hard
 
