@@ -423,6 +423,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-03-22 - filterValues.js\
 2022-03-22 - partition.js\
 2022-03-24 - makeHappy.js\
+2022-03-25 - isApocalyptic.js\
 
 ## Hard
 
