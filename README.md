@@ -436,6 +436,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-04-03 - euclidean.js\
 2022-04-04 - euclidean.js\
 2022-04-05 - euclidean.js\
+2022-04-06 - swap.js\
 
 ## Hard
 
