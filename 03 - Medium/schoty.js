@@ -1,0 +1,127 @@
+const schoty = (frame) => {
+  const beads = frame.map((b) => b.split('-')[0].length).reverse();
+  return beads.reduce((acc, cv, i) => acc + cv * Math.pow(10, i), 0);
+};
+
+// Tests
+
+console.log(
+  schoty([
+    'OOOOO---OOOOO',
+    '---OOOOOOOOOO',
+    'O---OOOOOOOOO',
+    'O---OOOOOOOOO',
+    '---OOOOOOOOOO',
+    'OOOOOOOO---OO',
+    'OO---OOOOOOOO',
+  ]),
+  5011082
+);
+console.log(
+  schoty([
+    'OOOOOO---OOOO',
+    'OOOOOO---OOOO',
+    'OOOO---OOOOOO',
+    'OOOOOOO---OOO',
+    'O---OOOOOOOOO',
+    'OOOOOOO---OOO',
+    'OOOOOOO---OOO',
+  ]),
+  6647177
+);
+console.log(
+  schoty([
+    '---OOOOOOOOOO',
+    '---OOOOOOOOOO',
+    '---OOOOOOOOOO',
+    'OO---OOOOOOOO',
+    'O---OOOOOOOOO',
+    '---OOOOOOOOOO',
+    'OOOOOOOOO---O',
+  ]),
+  2109
+);
+console.log(
+  schoty([
+    'O---OOOOOOOOO',
+    'OOO---OOOOOOO',
+    'OOOOOOO---OOO',
+    '---OOOOOOOOOO',
+    'OOOOOOOO---OO',
+    'OO---OOOOOOOO',
+    'OOOOOOO---OOO',
+  ]),
+  1370827
+);
+console.log(
+  schoty([
+    '---OOOOOOOOOO',
+    'OOOOOOOOO---O',
+    'OOO---OOOOOOO',
+    '---OOOOOOOOOO',
+    'OO---OOOOOOOO',
+    'OOOOOO---OOOO',
+    'OOOOO---OOOOO',
+  ]),
+  930265
+);
+console.log(
+  schoty([
+    '---OOOOOOOOOO',
+    'OOOOOO---OOOO',
+    'OOOOOOO---OOO',
+    'OOOOOOO---OOO',
+    '---OOOOOOOOOO',
+    '---OOOOOOOOOO',
+    'OOOOOOOO---OO',
+  ]),
+  677008
+);
+console.log(
+  schoty([
+    'OOOOOOOOO---O',
+    'OOOOOOO---OOO',
+    'OOOOO---OOOOO',
+    'OOOOOOO---OOO',
+    '---OOOOOOOOOO',
+    'O---OOOOOOOOO',
+    'OOO---OOOOOOO',
+  ]),
+  9757013
+);
+console.log(
+  schoty([
+    'OOOOOOO---OOO',
+    'O---OOOOOOOOO',
+    'OOOO---OOOOOO',
+    'O---OOOOOOOOO',
+    'OO---OOOOOOOO',
+    'O---OOOOOOOOO',
+    'OOOOOOO---OOO',
+  ]),
+  7141217
+);
+console.log(
+  schoty([
+    '---OOOOOOOOOO',
+    '---OOOOOOOOOO',
+    'OOOO---OOOOOO',
+    'OOOOOOO---OOO',
+    'O---OOOOOOOOO',
+    'OOOOOOOO---OO',
+    'OOO---OOOOOOO',
+  ]),
+  47183
+);
+console.log(
+  schoty([
+    'OOOOOO---OOOO',
+    '---OOOOOOOOOO',
+    '---OOOOOOOOOO',
+    'O---OOOOOOOOO',
+    'OOOOOOOOO---O',
+    'OOOOO---OOOOO',
+    '---OOOOOOOOOO',
+  ]),
+  6001950
+);
