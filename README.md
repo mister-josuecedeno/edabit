@@ -439,6 +439,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-04-06 - swap.js\
 2022-04-07 - gcd.js\
 2022-04-07 - schoty.js\
+2022-04-08 - impedanceCalculator.js\
 
 ## Hard
 
