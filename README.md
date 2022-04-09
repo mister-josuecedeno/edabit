@@ -1,4 +1,4 @@
-# Daily Javascript Coding Challenge
+# Daily Javascript Edabit Coding Challenges
 
 Additional code examples can be found under my profile in Edabit. This migration of code starts at Day 100+. Adding other sources in Feb 2021.
 
@@ -441,6 +441,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-04-07 - schoty.js\
 2022-04-08 - impedanceCalculator.js\
 2022-04-09 - palindromicDate.js\
+2022-04-10 -
 
 ## Hard
 
