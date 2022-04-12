@@ -441,8 +441,9 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-04-07 - schoty.js\
 2022-04-08 - impedanceCalculator.js\
 2022-04-09 - palindromicDate.js\
-2022-04-10 -
+2022-04-10 - palindromicDate.js\
 2022-04-11 - sockMerchant.js\
+2022-04-12 - positiveNumbers.js\
 
 ## Hard
 
