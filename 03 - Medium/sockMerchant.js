@@ -1,5 +1,11 @@
 const sockMerchant = (arr) => {
-  return;
+  const numMap = {};
+
+  for (let i = 0; i < arr.length; i++) {
+    numMap[arr[i]] = numMap[arr[i]] + 1 || 1;
+  }
+
+  return Object.values(numMap).reduce((acc, cv) => acc + parseInt(cv / 2), 0);
 };
 
 // Tests
