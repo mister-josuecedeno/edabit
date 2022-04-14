@@ -1,5 +1,8 @@
 const centroid = (x1, y1, x2, y2, x3, y3) => {
-  return;
+  if (y2 * x3 == y3) return false;
+  const x = (x1 + x2 + x3) / 3;
+  const y = (y1 + y2 + y3) / 3;
+  return [+x.toFixed(2), +y.toFixed(2)];
 };
 
 // Tests
