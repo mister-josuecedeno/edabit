@@ -449,6 +449,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-04-15 - toObj.js\
 2022-04-16 - mubashirCipher.js\
 2022-04-17 - initialize.js\
+2022-04-18 - logarithm.js\
 
 ## Hard
 
