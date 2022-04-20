@@ -1,3 +1,5 @@
+// set-up
+
 const split = (n) => {
   let str = `${n}`;
   let index = Math.floor(str.length / 2);
