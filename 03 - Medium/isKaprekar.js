@@ -1,17 +1,15 @@
-// set-up
-
-const split = (n) => {
+const splitSum = (n) => {
   let str = `${n}`;
   let index = Math.floor(str.length / 2);
   let left = str.length < 2 ? 0 : str.slice(0, index);
   let right = str.length % 2 ? str.slice(-(index + 1)) : str.slice(index);
 
-  return [left, right];
+  return +left + +right;
 };
 
 const isKaprekar = (n) => {
   const squared = Math.pow(n, 2);
-  return split(squared);
+  return splitSum(squared) === n;
 };
 
 // Tests
