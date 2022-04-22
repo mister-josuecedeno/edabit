@@ -453,6 +453,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-04-19 - multiply.js\
 2022-04-20 - isKaprekar.js\
 2022-04-21 - isKaprekar.js\
+2022-04-22 - sortByLast.js\
 
 ## Hard
 
