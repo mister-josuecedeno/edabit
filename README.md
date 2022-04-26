@@ -457,6 +457,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-04-23 - consecutiveSum.js\
 2022-04-24 - canPlay.js\
 2022-04-25 - roundNearest.js\
+2022-04-26 - roundNearest.js\
 
 ## Hard
 

@@ -1,6 +1,6 @@
-// set-up
 const roundNearest = (num, nearest) => {
-  return;
+  if (nearest === undefined) return Math.round(num);
+  return Math.round(num / nearest) * nearest;
 };
 
 // Tests
