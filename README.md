@@ -459,6 +459,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-04-25 - roundNearest.js\
 2022-04-26 - roundNearest.js\
 2022-04-27 - isShapePossible.js\
+2022-04-28 - makeWordRiddle.js\
 
 ## Hard
 
