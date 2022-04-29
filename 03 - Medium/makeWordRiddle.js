@@ -1,11 +1,11 @@
 // Set-up
 const makeWordRiddle = (s) => {
   const regex = /.+in/gi;
-  const match = s.match(regex);
-  // find index to create remaining word
-  // insert first letter into word
-  // cpitalize the remianing word
-  return match;
+  const match = [...s.match(regex)[0]];
+  const insert = match.slice(0, -2).join('');
+  let str = s.slice(insert.length + 2);
+  //return `${str[0]}${insert[0]}${[...str].slice(1,).join('')}`.toUpperCase();
+  return [insert, str];
 };
 
 // Tests
