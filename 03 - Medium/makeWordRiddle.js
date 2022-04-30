@@ -1,11 +1,10 @@
-// Set-up
 const makeWordRiddle = (s) => {
   const regex = /.+in/gi;
   const match = [...s.match(regex)[0]];
   const insert = match.slice(0, -2).join('');
-  let str = s.slice(insert.length + 2);
-  //return `${str[0]}${insert[0]}${[...str].slice(1,).join('')}`.toUpperCase();
-  return [insert, str];
+  const str = s.slice(insert.length + 2).split('');
+  const word = `${str[0]}${insert}${str.slice(1).join('')}`;
+  return word.toUpperCase();
 };
 
 // Tests
