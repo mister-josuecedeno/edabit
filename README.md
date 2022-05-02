@@ -463,6 +463,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-04-29 - makeWordRiddle.js\
 2022-04-30 - makeWordRiddle.js\
 2022-05-01 - hoursPassed.js\
+2022-05-02 - decrypt.js\
 
 ## Hard
 
