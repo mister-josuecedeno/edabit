@@ -1,6 +1,6 @@
-// Set-up
 const tidyLink = (url, name, hoverText) => {
-  return;
+  let hover = hoverText ? ` "${hoverText}"` : '';
+  return `[${name}](${url}${hover})`;
 };
 
 // Tests
