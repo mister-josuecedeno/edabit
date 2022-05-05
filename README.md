@@ -466,6 +466,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-05-02 - decrypt.js\
 2022-05-03 - tidyLink.js\
 2022-05-04 - tidyLink.js\
+2022-05-05 - seesaw.js\
 
 ## Hard
 
