@@ -1,8 +1,14 @@
-// set-up
-const seesaw = (n) => {
-  // odd ignore the middle number (remove)
-  // even split
-  return;
+const seesaw = (n = 0) => {
+  let str = `${n}`;
+  if (str.length === 1 || n === 0) return 'balanced';
+
+  const sum = (str) => [...str].reduce((acc, cv) => acc + +cv, 0);
+
+  let middle = Math.floor(str.length / 2);
+  let left = sum(str.slice(0, middle));
+  let right = sum(str.slice(-middle));
+
+  return left > right ? 'left' : right > left ? 'right' : 'balanced';
 };
 
 // Tests
