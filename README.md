@@ -469,6 +469,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-05-05 - seesaw.js\
 2022-05-06 - seesaw.js\
 2022-05-07 - releaseYear.js\
+2022-05-08 - perrin.js\
 
 ## Hard
 
