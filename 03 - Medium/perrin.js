@@ -1,6 +1,6 @@
-// Set-up
 const perrin = (n) => {
-  return;
+  if (n <= 2) return [3, 0, 2][n];
+  return perrin(n - 2) + perrin(n - 3);
 };
 
 // Tests
