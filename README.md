@@ -473,6 +473,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-05-09 - perrin.js\
 2022-05-10 - binaryConversionjs\
 2022-05-11 - oldest.js\
+2022-05-12 - replaceThe.js\
 
 ## Hard
 
