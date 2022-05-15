@@ -1,15 +1,8 @@
-// Set-up
 const chooseFuse = (fuses, current) => {
-  const numbers = fuses.map((f) => parseInt(f));
-  const number = parseInt(current);
+  const numbers = fuses.map((f) => parseFloat(f)).sort((a, b) => a - b);
+  const number = parseFloat(current);
 
-  let bestFit;
-
-  for (let i = 0; i < numbers.length; i++) {
-    if (numbers[i] < number) continue;
-  }
-
-  return bestFit;
+  return numbers.filter((n) => n >= number)[0] + 'V';
 };
 
 // Tests
