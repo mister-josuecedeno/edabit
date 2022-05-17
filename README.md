@@ -478,6 +478,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-05-14 - cons.js\
 2022-05-15 - golfScore.js\
 2022-05-16 - percentFilled.js\
+2022-05-17 - percentFilled.js\
 
 ## Hard
 

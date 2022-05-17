@@ -1,9 +1,7 @@
-// set-up
 const percentFilled = (box) => {
-  return box.flat().join('');
-  // count o
-  // count total
-  // return percent
+  let spaces = (box[0].length - 2) * (box.length - 2);
+  let str = (box.flat().join('').match(/o/g) || []).length;
+  return ((str / spaces) * 100).toFixed(0) + '%';
 };
 
 // Tests
