@@ -1,6 +1,8 @@
-// set-up
 const blahBlah = (str, n) => {
-  return;
+  let arr = str.split(' ');
+  n = n > arr.length ? arr.length : n;
+  let blahs = `${'blah '.repeat(n - 1)}blah...`;
+  return `${arr.slice(0, -n).join(' ')} ${blahs}`.trimStart();
 };
 
 // Tests
