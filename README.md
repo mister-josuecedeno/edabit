@@ -481,9 +481,10 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-05-17 - percentFilled.js\
 2022-05-18 - blahBlah.js\
 2022-05-19 - blahBlah.js\
-2022-05-20 - 
-2022-05-21 - 
-2022-05-22 - 
+2022-05-20 - lambdaDepth.js\
+2022-05-21 - lambdaDepth.js\
+2022-05-22 - lambdaDepth.js\
+2022-05-23 - lambdaDepth.js\
 
 ## Hard
 
