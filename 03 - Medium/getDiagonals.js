@@ -1,6 +1,7 @@
-// set-up
 const getDiagonals = (arr) => {
-  return;
+  const d1 = arr.map((v, i) => v[i]);
+  const d2 = arr.map((v, i) => v[v.length - i - 1]);
+  return [d1, d2];
 };
 
 // Tests
