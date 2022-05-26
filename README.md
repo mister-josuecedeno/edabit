@@ -487,7 +487,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-05-23 - lambdaDepth.js\
 2022-05-24 - isHeteromecic.js\
 2022-05-25 - getDiagonals.js\
-2022-05-25 - getDiagonals.js\
+2022-05-25 - toStringReverse.js\
 
 ## Hard
 
