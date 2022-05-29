@@ -489,8 +489,8 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-05-25 - getDiagonals.js\
 2022-05-26 - toStringReverse.js\
 2022-05-27 - swapcards.js\
-2022-05-28 - swap cards.js\
-
+2022-05-28 - swapcards.js\
+2022-05-29 - swapcards.js\
 ## Hard
 
 2020-12-08 - countBoomerangs.js\
