@@ -491,6 +491,9 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-05-27 - swapcards.js\
 2022-05-28 - swapcards.js\
 2022-05-29 - swapcards.js\
+2022-05-30 - swapcards.js\
+2022-05-31 -
+
 ## Hard
 
 2020-12-08 - countBoomerangs.js\
