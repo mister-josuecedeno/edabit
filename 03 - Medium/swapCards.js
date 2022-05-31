@@ -1,6 +1,21 @@
-// set-up
 const swapCards = (n1, n2) => {
-  return;
+  // convert numbers to aray
+  const arr1 = n1.toString().split('');
+  const arr2 = n2.toString().split('');
+
+  // n1 lowest card
+  const lowNum = `${Math.min(...arr1)}`;
+  const lowIndex = arr1.indexOf(lowNum);
+
+  // swap for n2[0]
+  const tens = arr2[0].toString();
+  arr1[lowIndex] = tens;
+  arr2[0] = lowNum;
+
+  // compare n1 > n2
+  const compare = +arr1.join('') > +arr2.join('');
+
+  return compare;
 };
 
 // Tests
