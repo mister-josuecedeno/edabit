@@ -1,5 +1,5 @@
 const swapCards = (n1, n2) => {
-  // convert numbers to aray
+  // convert numbers to array
   const arr1 = n1.toString().split('');
   const arr2 = n2.toString().split('');
 
