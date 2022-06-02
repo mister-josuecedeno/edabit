@@ -494,6 +494,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-05-30 - swapcards.js\
 2022-05-31 - swapcards.js\
 2022-06-01 - validateSpelling.js\
+2022-06-02 - differenceTwo.js\
 
 ## Hard
 
