@@ -496,6 +496,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-06-01 - validateSpelling.js\
 2022-06-02 - differenceTwo.js\
 2022-06-03 - differenceTwo.js\
+2022-06-04 - createSquare.js\
 
 ## Hard
 
