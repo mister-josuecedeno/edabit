@@ -498,6 +498,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-06-03 - differenceTwo.js\
 2022-06-04 - createSquare.js\
 2022-06-05 - switchCase.js\
+2022-06-06 - digitOccurrences.js\
 
 ## Hard
 
