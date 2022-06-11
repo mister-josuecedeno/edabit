@@ -503,6 +503,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-06-08 - isPrime.js\
 2022-06-09 - censorString.js\
 2022-06-10 - makeBox.js\
+2022-06-11 - makeBox.js\
 
 ## Hard
 

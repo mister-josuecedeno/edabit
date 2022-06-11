@@ -1,6 +1,10 @@
-// set-up
 const makeBox = (n) => {
-  return;
+  const arr = [...Array(n)].map((_) => '#'.repeat(n));
+  if (n < 3) return arr;
+
+  return arr.map((r, i) =>
+    i > 0 && i < n - 1 ? '#' + ' '.repeat(n - 2) + '#' : r
+  );
 };
 
 // Tests
