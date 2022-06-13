@@ -506,6 +506,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-06-11 - makeBox.js\
 2022-06-12 - harmonic.js\
 2022-06-13 - primorial.js\
+2022-06-14 - trouble.js\
 
 ## Hard
 
