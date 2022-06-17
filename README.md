@@ -510,6 +510,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-06-15 - trouble.js\
 2022-06-16 - check.js\
 2022-06-17 - tree.js\
+2022-06-18 - tree.js\
 
 ## Hard
 
