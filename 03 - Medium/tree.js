@@ -1,6 +1,8 @@
-// set-up
+const pad = (str, length, char = ' ') =>
+  str.padStart((str.length + length) / 2, char).padEnd(length, char);
+
 const tree = (h) => {
-  let result = [];
+  const result = [];
   let plus = '';
 
   for (let i = 1; i <= h; i++) {
@@ -8,7 +10,8 @@ const tree = (h) => {
     plus += '#';
   }
 
-  return result;
+  let l = (result[result.length - 1] || []).length;
+  return result.map((r) => pad(r, l));
 };
 
 // Tests
