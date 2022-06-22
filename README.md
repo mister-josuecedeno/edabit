@@ -515,6 +515,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-06-19 - tree.js\
 2022-06-20 - tree.js\
 2022-06-21 - tree.js\
+2022-06-22 - wordedMath.js\
 
 ## Hard
 
