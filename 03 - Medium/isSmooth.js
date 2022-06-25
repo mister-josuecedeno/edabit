@@ -1,6 +1,12 @@
-// set-up
 const isSmooth = (sentence) => {
-  return;
+  const spaces = sentence.match(/\s/g).length;
+  const smooth = (
+    sentence
+      .toLowerCase()
+      .match(/[a-z] [a-z]/g)
+      .filter((l) => l[0] === l[2]) || []
+  ).length;
+  return smooth === spaces;
 };
 
 // Tests
