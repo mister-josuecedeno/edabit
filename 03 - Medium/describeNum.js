@@ -10,10 +10,11 @@ const describeNum = (n) => {
     7: 'beautiful',
     8: 'exhilarating',
     9: 'emotional',
+    10: 'inspiring',
   };
 
   let descriptor = divBy[1];
-  return `The most ${descriptor} is ${n}`;
+  return `The most ${descriptor} is ${n}!`;
 };
 
 // Tests
