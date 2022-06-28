@@ -521,6 +521,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-06-25 - isSmooth.js\
 2022-06-26 - textToNumberBinary.js\
 2022-06-27 - describeNum.js\
+2022-06-28 - describeNum.js\
 
 ## Hard
 

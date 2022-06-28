@@ -1,4 +1,3 @@
-// set-up
 const describeNum = (n) => {
   const divBy = {
     1: 'brilliant',
@@ -6,15 +5,22 @@ const describeNum = (n) => {
     3: 'fantastic',
     4: 'virtuous',
     5: 'heart-warming',
-    6: 'tear-jerking ',
+    6: 'tear-jerking',
     7: 'beautiful',
     8: 'exhilarating',
     9: 'emotional',
     10: 'inspiring',
   };
 
-  let descriptor = divBy[1];
-  return `The most ${descriptor} is ${n}!`;
+  const numbers = [];
+
+  for (let i = 1; i <= 10; i++) {
+    if (n % i === 0) numbers.push(i);
+  }
+
+  const words = numbers.map((n) => divBy[n]).join(' ');
+
+  return `The most ${words} number is ${n}!`;
 };
 
 // Tests
