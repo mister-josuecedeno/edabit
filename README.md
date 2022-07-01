@@ -524,6 +524,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-06-28 - describeNum.js\
 2022-06-29 - goldDistribution.js\
 2022-06-30 - allAboutStrings.js\
+2022-07-01 - orderedMatrix.js\
 
 ## Hard
 
