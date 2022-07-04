@@ -527,6 +527,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-07-01 - orderedMatrix.js\
 2022-07-02 - happyYear.js\
 2022-07-03 - briscolaScore.js\
+2022-07-04 - briscolaScore.js\
 
 ## Hard
 

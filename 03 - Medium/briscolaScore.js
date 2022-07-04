@@ -13,10 +13,11 @@ const briscolaScore = (myDeck1, myDeck2) => {
   };
 
   const score = sumDeck(myDeck1) + sumDeck(myDeck2);
-
+  const round1 = 120 - sumDeck(myDeck1);
+  console.log(round1);
   console.log(score);
 
-  if (score > 120) return 'You Win!';
+  if (sumDeck(myDeck2) > round1) return 'You Win!';
   if (score < 120) return 'You Lose!';
   if (score === 120) return 'Draw!';
 };
