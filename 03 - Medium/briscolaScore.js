@@ -1,25 +1,19 @@
-// set-up
-const briscolaScore = (myDeck1, myDeck2) => {
-  const points = {
-    A: 11,
-    K: 4,
-    Q: 3,
-    J: 2,
-    3: 10,
-  };
+const MAX_SCORE = 120;
+const CARD_SCORES = {
+  A: 11,
+  3: 10,
+  K: 4,
+  Q: 3,
+  J: 2,
+};
 
-  const sumDeck = (deck) => {
-    return deck.map((c) => c[0]).reduce((acc, cv) => acc + points[cv] || 0, 0);
-  };
+const briscolaScore = (...turns) => {
+  const score = turns
+    .flat()
+    .reduce((total, card) => total + (CARD_SCORES[card[0]] || 0), 0);
 
-  const score = sumDeck(myDeck1) + sumDeck(myDeck2);
-  const round1 = 120 - sumDeck(myDeck1);
-  console.log(round1);
-  console.log(score);
-
-  if (sumDeck(myDeck2) > round1) return 'You Win!';
-  if (score < 120) return 'You Lose!';
-  if (score === 120) return 'Draw!';
+  if (score === MAX_SCORE) return 'Draw!';
+  return score > MAX_SCORE ? 'You Win!' : 'You Lose!';
 };
 
 // Tests
