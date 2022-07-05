@@ -1,8 +1,27 @@
-// set-up
 const fibSeq = (end) => {
   if (end === 0) return [];
   if (end === undefined) return undefined;
-  return new Array(end);
+  const result = [];
+  let lastTwoSum = 0;
+
+  while (result.length < end) {
+    if (result.length === 0) {
+      result.push(0);
+      continue;
+    }
+
+    if (result.length === 1) {
+      result.push(1);
+      continue;
+    }
+
+    if (result.length > 1) {
+      lastTwoSum = result.slice(-2).reduce((acc, cv) => acc + cv, 0);
+      result.push(lastTwoSum);
+    }
+  }
+
+  return result;
 };
 
 // Tests
