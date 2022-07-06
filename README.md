@@ -584,6 +584,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2021-08-19 - doesBrickFit.js\
 2021-08-23 - countNumberOfOccurrences.js\
 2022-07-05 - aveSpd.js\
+2022-07-06 - product.js\
 
 ## Very Hard
 
