@@ -1,0 +1,151 @@
+const colorPatternTimes = (cols) => {
+  const color = cols.length * 2;
+  let change = 0;
+
+  for (let i = 1; i < cols.length; i++) {
+    if (cols[i] !== cols[i - 1]) change++;
+  }
+
+  return color + change;
+};
+
+// Tests
+
+console.log(
+  colorPatternTimes([
+    'Red',
+    'Green',
+    'Blue',
+    'Yellow',
+    'Red',
+    'Red',
+    'Yellow',
+    'Green',
+    'Green',
+    'Green',
+    'Red',
+    'Blue',
+    'Yellow',
+    'Blue',
+    'Green',
+    'Green',
+    'Red',
+    'Red',
+    'Red',
+    'Blue',
+    'Green',
+    'Red',
+    'Blue',
+    'Blue',
+    'Red',
+    'Blue',
+  ]),
+  70
+);
+console.log(
+  colorPatternTimes([
+    'Red',
+    'Blue',
+    'Yellow',
+    'Blue',
+    'Green',
+    'Green',
+    'Yellow',
+    'Green',
+    'Blue',
+    'Blue',
+    'Blue',
+    'Red',
+    'Blue',
+    'Red',
+    'Green',
+    'Red',
+  ]),
+  44
+);
+console.log(colorPatternTimes(['Yellow', 'Green', 'Blue']), 8);
+console.log(
+  colorPatternTimes([
+    'Green',
+    'Green',
+    'Red',
+    'Green',
+    'Yellow',
+    'Red',
+    'Red',
+    'Green',
+    'Red',
+    'Green',
+  ]),
+  27
+);
+console.log(colorPatternTimes(['Red']), 2);
+console.log(
+  colorPatternTimes([
+    'Red',
+    'Red',
+    'Blue',
+    'Red',
+    'Green',
+    'Red',
+    'Blue',
+    'Green',
+    'Green',
+    'Yellow',
+    'Red',
+  ]),
+  30
+);
+console.log(
+  colorPatternTimes([
+    'Green',
+    'Green',
+    'Blue',
+    'Red',
+    'Red',
+    'Blue',
+    'Yellow',
+    'Red',
+    'Red',
+    'Green',
+    'Yellow',
+    'Red',
+    'Yellow',
+    'Red',
+    'Green',
+    'Yellow',
+    'Red',
+    'Green',
+    'Yellow',
+    'Blue',
+    'Yellow',
+    'Red',
+    'Green',
+    'Green',
+    'Blue',
+    'Yellow',
+    'Green',
+    'Green',
+    'Green',
+    'Blue',
+  ]),
+  83
+);
+console.log(
+  colorPatternTimes([
+    'Red',
+    'Blue',
+    'Red',
+    'Blue',
+    'Green',
+    'Blue',
+    'Yellow',
+    'Blue',
+    'Yellow',
+    'Yellow',
+    'Yellow',
+    'Red',
+  ]),
+  33
+);
+console.log(colorPatternTimes(['Yellow', 'Green', 'Yellow', 'Yellow']), 10);
