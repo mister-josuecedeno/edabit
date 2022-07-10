@@ -588,6 +588,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-07-07 - colorPatternTimes.js\
 2022-07-08 - isDisarium.js\
 2022-07-09 - dropWhile.js\
+2022-07-10 - mostExpensive .js\
 
 ## Very Hard
 
