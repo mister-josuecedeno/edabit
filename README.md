@@ -590,6 +590,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-07-09 - dropWhile.js\
 2022-07-10 - mostExpensive .js\
 2022-07-11 - toDisplay.js\
+2022-07-12 - valueInTree.js\
 
 ## Very Hard
 
