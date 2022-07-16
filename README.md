@@ -594,6 +594,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-07-13 - countLoneOnes.js\
 2022-07-14 - createTest.js\
 2022-07-15 - primeInRange.js\
+2022-07-16 - daysUntil2021.js\
 
 ## Very Hard
 
