@@ -1,4 +1,4 @@
-// set-up
+// set-up: https://edabit.com/challenge/MJKYcPsw34sWbcqP8
 
 const movingPartition = (arr) => {
   const result = [];
