@@ -599,6 +599,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-07-18 - isFactorial.js\
 2022-07-19 - movingPartition.js\
 2022-07-20 - movingPartition.js\
+2022-07-21 - pentagonal.js\
 
 ## Very Hard
 
