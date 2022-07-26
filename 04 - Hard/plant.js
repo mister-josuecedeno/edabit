@@ -1,6 +1,15 @@
-// set-up
+const getStem = (water) => `-`.repeat(water);
+const getFlower = (seed, fert) => seed.repeat(fert);
+const inRange = (temp) => temp >= 20 && temp <= 30;
+
 const plant = (seed, water, fert, temp) => {
-  return;
+  let p = '';
+  for (let i = 0; i < water; i++) {
+    p += getStem(water);
+    if (inRange(temp)) p += getFlower(seed, fert);
+  }
+
+  return `${p}${inRange(temp) ? '' : seed}`;
 };
 
 // Tests
