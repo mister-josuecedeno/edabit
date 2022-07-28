@@ -606,6 +606,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-07-25 - antipodesAverage.js\
 2022-07-26 - plant.js\
 2022-07-27 - multTable.js\
+2022-07-28 - isProbMatrix.js\
 
 ## Very Hard
 
