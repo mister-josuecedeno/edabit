@@ -608,6 +608,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-07-27 - multTable.js\
 2022-07-28 - isProbMatrix.js\
 2022-07-29 - makeChange.js\
+2022-07-30 - makeChange.js\
 
 ## Very Hard
 
