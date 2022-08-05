@@ -614,6 +614,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-08-02 - chunkify.js\
 2022-08-03 - weeklySalary.js\
 2022-08-04 - toBoolArray.js\
+2022-08-05 - signAll.js\
 
 ## Very Hard
 
