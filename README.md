@@ -615,7 +615,6 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-08-03 - weeklySalary.js\
 2022-08-04 - toBoolArray.js\
 2022-08-05 - signAll.js\
-2022-08-07 - histogram.js\
 
 ## Very Hard
 
