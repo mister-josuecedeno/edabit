@@ -618,6 +618,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-08-06 - xPronounce.js\
 2022-08-07 - histogram.js\
 2022-08-08 - calculateDamage.js\
+2022-08-09 - calculateDamage.js\
 
 ## Very Hard
 

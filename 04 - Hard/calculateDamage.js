@@ -1,11 +1,9 @@
 // https://edabit.com/challenge/3hgkBd68EyYQF9YxG
 
-// Set-up
-
 const types = {
-  fire: { water: 0.5, electric: 0 },
-  grass: { water: 0, electric: 0, fire: 0 },
-  electric: { fire: 0 },
+  fire: { water: 0.5, electric: 1 },
+  grass: { water: 2, electric: 1, fire: 0.5 },
+  electric: { fire: 1 },
 };
 
 const getDamage = (attack, defense, effectiveness) => {
