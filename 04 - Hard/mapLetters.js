@@ -1,10 +1,24 @@
 // https://edabit.com/challenge/Bd2jQS9xA6QecB34h
-// set-up
+
+const getIndexArr = (l, arr) => {
+  const indexes = [];
+
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === l) indexes.push(i);
+  }
+
+  return indexes;
+};
 
 const mapLetters = (word) => {
   const letters = [...new Set([...word])];
+  const result = {};
 
-  return letters;
+  for (const l of letters) {
+    result[l] = getIndexArr(l, word);
+  }
+
+  return result;
 };
 
 // Tests
