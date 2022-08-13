@@ -622,6 +622,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-08-10 - mapLetters.js\
 2022-08-11 - mapLetters.js\
 2022-08-12 - canFind.js\
+2022-08-13 - threeLetterCollection.js\
 
 ## Very Hard
 
