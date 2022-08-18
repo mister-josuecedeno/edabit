@@ -627,6 +627,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-08-15 - incDec.js\
 2022-08-16 - incDec.js\
 2022-08-17 - countDigits.js\
+2022-08-18 - returnUnique.js\
 
 ## Very Hard
 
