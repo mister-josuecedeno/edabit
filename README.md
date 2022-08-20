@@ -629,6 +629,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-08-17 - countDigits.js\
 2022-08-18 - returnUnique.js\
 2022-08-19 - shiftToLeft.js\
+2022-08-20 - f.js\
 
 ## Very Hard
 
