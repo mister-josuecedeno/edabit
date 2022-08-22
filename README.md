@@ -631,6 +631,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-08-19 - shiftToLeft.js\
 2022-08-20 - f.js\
 2022-08-21 - missing.js\
+2022-08-22 - missing.js\
 
 ## Very Hard
 
