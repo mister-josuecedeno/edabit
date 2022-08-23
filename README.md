@@ -633,6 +633,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-08-21 - missing.js\
 2022-08-22 - missing.js\
 2022-08-23 - integral.js\
+2022-08-23 - carMaker.js\
 
 ## Very Hard
 
