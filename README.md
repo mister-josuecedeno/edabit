@@ -636,6 +636,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-08-23 - carMaker.js\
 2022-08-24 - encrypt.js\
 2022-08-25 - cupSwapping.js\
+2022-08-26 - multiplicationTable.js\
 
 ## Very Hard
 
