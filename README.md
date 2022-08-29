@@ -639,6 +639,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-08-26 - multiplicationTable.js\
 2022-08-27 - chunk.js\
 2022-08-28 - duplicateNums.js\
+2022-08-29 - getCatalanNumber.js\
 
 ## Very Hard
 
