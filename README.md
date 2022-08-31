@@ -641,6 +641,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-08-28 - duplicateNums.js\
 2022-08-29 - getCatalanNumber.js, trailingZeros.js\
 2022-08-30 - closestToPage.js\
+2022-08-31 - consecutiveCombo.js\
 
 ## Very Hard
 
