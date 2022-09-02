@@ -2,7 +2,9 @@
 
 // set-up
 const intersection = (...a) => {
-  return;
+  const [first, ...others] = a;
+
+  // Add psuedocode
 };
 
 // Tests
