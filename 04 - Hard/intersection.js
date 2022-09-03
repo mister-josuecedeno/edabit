@@ -1,6 +1,20 @@
 // https://edabit.com/challenge/96PKn2siDra5D7oPD
 
-// set-up
+// Not my solution
+
+/*
+const intersection = (a, ...b) => {
+  a = a.map(JSON.stringify);
+  let int = [];
+  for (let i of b)
+    for (let j of i.map(JSON.stringify))
+      if (a.includes(j) && !int.includes(j))
+        int.push(j);
+  return int.map(JSON.parse);
+};
+*/
+
+// Following works for arrays but not objects
 
 const getMatches = (obj1, obj2) => {
   // this works for arrays but not objects
