@@ -1,7 +1,7 @@
 // https://edabit.com/challenge/fbTF9EksvFpq3wZaX
 
 const getPrices = (arr) => {
-  const regex = /\d+\.\d\d/gi;
+  const regex = /\d+\.\d+/gi;
   return arr.map((p) => +p.match(regex));
 };
 
