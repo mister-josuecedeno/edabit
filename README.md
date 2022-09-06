@@ -647,6 +647,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-09-03 - intersection.js\
 2022-09-04 - saySomething.js\
 2022-09-05 - diamondArrays.js\
+2022-09-06 - getPrices.js\
 
 ## Very Hard
 
