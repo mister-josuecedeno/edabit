@@ -649,6 +649,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-09-05 - diamondArrays.js\
 2022-09-06 - getPrices.js\
 2022-09-07 - reorderDigits.js\
+2022-09-08 - wordToDecimal.js\
 
 ## Very Hard
 
