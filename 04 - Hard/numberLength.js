@@ -1,3 +1,5 @@
+// https://edabit.com/challenge/5DwLy7WxYrTAAEJad
+
 const numberLength = (num) => {
   let count = 0;
   if (num < 10) return 1;
