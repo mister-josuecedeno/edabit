@@ -4,14 +4,17 @@ const getPosition = (letter) => {
   return letter.charCodeAt() - 96;
 };
 
-// const getLetter = (position) => {
-//   if (position <= 26) return String.fromCharCode(position + 96);
-//   return String.fromCharCode(26 - (position + 96));
-// };
+const getLetter = (position) => {
+  position %= 26;
+  if (position === 0) return 'z';
+  return String.fromCharCode(position + 96);
+};
 
 const addLetters = (a) => {
   if (a.length === 0) return 'z';
-  return a.map((n) => getLetter(getPosition(n)));
+  const positions = a.map((n) => getPosition(n));
+  const total = positions.reduce((acc, cv) => acc + cv, 0);
+  return getLetter(total);
 };
 
 // Tests
