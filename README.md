@@ -657,6 +657,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-09-13 - addLetters.js\
 2022-09-14 - fatPrime.js\
 2022-09-15 - buildStaircase.js\
+2022-09-16 - collatz.js\
 
 ## Very Hard
 
