@@ -660,6 +660,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-09-16 - collatz.js\
 2022-09-17 - primeNumbers.js\
 2022-09-18 - sumPrimes.js\
+2022-09-19 - primesBelowNum.js\
 
 ## Very Hard
 
