@@ -662,6 +662,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-09-18 - sumPrimes.js\
 2022-09-19 - primesBelowNum.js\
 2022-09-20 - fretFreq.js\
+2022-09-21 - invert.js\
 
 ## Very Hard
 
