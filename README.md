@@ -663,6 +663,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-09-19 - primesBelowNum.js\
 2022-09-20 - fretFreq.js\
 2022-09-21 - invert.js\
+2022-09-22 - numberOfRepeats.js\
 
 ## Very Hard
 
