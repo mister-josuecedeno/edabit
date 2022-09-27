@@ -668,6 +668,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-09-24 - roundNumber.js\
 2022-09-25 - primeFactorize.js\
 2022-09-26 - willFit.js\
+2022-09-26 - uniqueAbbrev.js\
 
 ## Very Hard
 
