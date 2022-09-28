@@ -669,6 +669,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-09-25 - primeFactorize.js\
 2022-09-26 - willFit.js\
 2022-09-26 - uniqueAbbrev.js\
+2022-09-27 - swapTwo.js\
 
 ## Very Hard
 
