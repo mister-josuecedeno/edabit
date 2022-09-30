@@ -671,6 +671,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-09-27 - uniqueAbbrev.js\
 2022-09-28 - swapTwo.js\
 2022-09-29 - threeDaysAgo.js\
+2022-09-30 - pairs.js\
 
 ## Very Hard
 
