@@ -676,6 +676,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-10-02 - balanced.js\
 2022-10-03 - balanced.js\
 2022-10-04 - findOccurrences.js\
+2022-10-05 - lastNameLensort.js\
 
 ## Very Hard
 
