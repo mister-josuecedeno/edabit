@@ -1,5 +1,11 @@
 // https://edabit.com/challenge/SvodRRbyv7g3LxZsK
 
+// Top rated solution
+// function determineWhoCursedTheMost(obj) {
+// 	const c = Object.values(obj).reduce((a, c) => a + c.me - c.spouse, 0);
+// 	return (c ? c > 0 ? "ME" : "SPOUSE" : "DRAW") + "!";
+// }
+
 const determineWhoCursedTheMost = (obj) => {
   let mPoints = 0;
   let sPoints = 0;
