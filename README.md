@@ -678,6 +678,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-10-04 - findOccurrences.js\
 2022-10-05 - lastNameLensort.js\
 2022-10-06 - determineWhoCursedTheMost.js\
+2022-10-07 - averageWordLength.js\
 
 ## Very Hard
 
