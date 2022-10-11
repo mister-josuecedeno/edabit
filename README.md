@@ -682,6 +682,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-10-08 - flattenArray.js\
 2022-10-09 - fire.js\
 2022-10-10 - filterPrimes.js\
+2022-10-11 - filterPrimes.js\
 
 ## Very Hard
 
