@@ -1,5 +1,16 @@
 // https://edabit.com/challenge/whHvvEDo67GDB7d9T
 
+// Highest rated solution
+const countByValue = (collection, iteratee) => {
+  return Object.values(collection).reduce((a, c) => {
+    const k = typeof iteratee === 'string' ? c[iteratee] : iteratee(c);
+    a[k] = (a[k] || 0) + 1;
+    return a;
+  }, {});
+};
+
+// Still buggy but the answers are correct
+/*
 const getMap = (collection, iteratee) => {
   const carMap = {};
   for (const c of collection) {
@@ -13,15 +24,15 @@ const countByValue = (collection, iteratee) => {
     collection = Object.values(collection);
   }
 
-  // TODO: How to apply the filter?
-  let filter;
   if (typeof iteratee === 'function') {
-    filter = iteratee;
-    iteratee = iteratee.toString().split(' =>')[0];
+    let t = (collection.filter(iteratee) || []).length;
+    let f = collection.length - t;
+    return { true: t, false: f };
   }
 
   return getMap(collection, iteratee);
 };
+*/
 
 // Tests
 
