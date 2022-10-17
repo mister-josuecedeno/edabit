@@ -3,6 +3,14 @@ const parseCode = (str) => {
   return { firstName: f, lastName: l, id: i };
 };
 
+// I like this solution too
+/*
+function parseCode(str) {
+	[firstName,lastName,id]=str.split(/0+/g);
+	return {firstName,lastName,id}
+}
+*/
+
 // Tests
 
 console.log(parseCode('John000Doe000123'), {
