@@ -687,6 +687,8 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-10-13 - countBy.js\
 2022-10-14 - splitAndDelimit.js\
 2022-10-15 - charAtPos.js\
+2022-10-16 - c# pracetice\
+2022-10-17 - parseCode.js\
 
 ## Very Hard
 
