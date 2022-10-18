@@ -689,6 +689,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-10-15 - charAtPos.js\
 2022-10-16 - c# pracetice\
 2022-10-17 - parseCode.js\
+2022-10-18 - safecracker.js\
 
 ## Very Hard
 
