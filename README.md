@@ -691,6 +691,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-10-17 - parseCode.js\
 2022-10-18 - safecracker.js\
 2022-10-19 - safecracker.js\
+2022-10-20 - swapCase.js\
 
 ## Very Hard
 
