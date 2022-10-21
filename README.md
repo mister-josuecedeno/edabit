@@ -692,7 +692,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-10-18 - safecracker.js\
 2022-10-19 - safecracker.js\
 2022-10-20 - swapCase.js, GetLastItem.cs\
-2022-10-21 - thirdMostExpensive.js\
+2022-10-21 - thirdMostExpensive.js, IsPlural.cs\
 
 ## Very Hard
 
