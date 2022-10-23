@@ -694,6 +694,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-10-20 - swapCase.js, GetLastItem.cs\
 2022-10-21 - thirdMostExpensive.js, IsPlural.cs\
 2022-10-22 - rowSum.js\
+2022-10-23 - rowSum.js\
 
 ## Very Hard
 
