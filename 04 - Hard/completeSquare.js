@@ -1,19 +1,23 @@
 // https://edabit.com/challenge/RcDBnBJwZfg8oDiB4
 
-// Set-up
 const padRight = (arr, n) => {
-  return;
+  const fill = new Array(n).fill(0);
+  return arr.map((r) => [...r, ...fill]);
 };
 
 const padBottom = (arr, n) => {
-  return;
+  const fill = new Array(arr[0].length).fill(0);
+  const arr2 = new Array(n).fill(fill);
+  return [...arr, ...arr2];
 };
 
 const completeSquare = (arr) => {
   const height = arr.length;
   const width = arr[0].length;
   if (height === width) return arr;
-  return height > width ? padRight(height - width) : padBottom(width - height);
+  return height > width
+    ? padRight(arr, height - width)
+    : padBottom(arr, width - height);
 };
 
 // Tests
