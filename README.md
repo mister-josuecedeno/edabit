@@ -697,6 +697,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-10-23 - rowSum.js\
 2022-10-24 - completeSquare.js\
 2022-10-25 - completeSquare.js\
+2022-10-26 - eratosthenes.js\
 
 ## Very Hard
 
