@@ -1,7 +1,9 @@
-//
+// Refactor for single s
 
 const isParselTongue = (sentence) => {
-  return;
+  const moreThanOneS = (sentence.match(/s{2,}/gi) || []).length;
+  const onlyOneS = (sentence.match(/s{1,}/gi) || []).length;
+  return [moreThanOneS > 1, onlyOneS > 1];
 };
 
 // Tests
