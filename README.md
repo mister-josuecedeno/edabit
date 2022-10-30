@@ -701,6 +701,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-10-27 - palindromeType.js, Operation.cs\
 2022-10-28 - snakefill.js\
 2022-10-29 - snakefill.js\
+2022-10-30 - isParselTongue.js\
 
 ## Very Hard
 
