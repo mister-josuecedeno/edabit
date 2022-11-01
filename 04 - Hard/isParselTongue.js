@@ -2,8 +2,8 @@
 
 const isParselTongue = (sentence) => {
   const moreThanOneS = (sentence.match(/s{2,}/gi) || []).length;
-  const onlyOneS = (sentence.match(/s{1,}/gi) || []).length;
-  return [moreThanOneS >= 1, onlyOneS === 0];
+  const onlyOneS = (sentence.match(/[^s]s[^s]/gi) || []).length;
+  return [moreThanOneS, onlyOneS];
 };
 
 // Tests
