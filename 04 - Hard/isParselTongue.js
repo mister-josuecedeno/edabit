@@ -1,10 +1,18 @@
-// Refactor for single s
+// https://edabit.com/challenge/5Jeq8Cf59KnLLg4Go
 
-const isParselTongue = (sentence) => {
-  const moreThanOneS = (sentence.match(/s{2,}/gi) || []).length;
-  const onlyOneS = (sentence.match(/[^s]s[^s]/gi) || []).length;
-  return [moreThanOneS, onlyOneS];
-};
+// Not my solution
+function isParselTongue(sentence) {
+  return sentence
+    .toLowerCase()
+    .split(' ')
+    .every((e) => e.match(/s{2}|^[^s]+$/));
+}
+
+// const isParselTongue = (sentence) => {
+//   const moreThanOneS = (sentence.match(/s{2,}/gi) || []).length;
+//   const onlyOneS = (sentence.match(/[^s]s[^s]/gi) || []).length;
+//   return [moreThanOneS, onlyOneS];
+// };
 
 // Tests
 
