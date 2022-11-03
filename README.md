@@ -705,6 +705,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-10-31 - isParselTongue.js\
 2022-11-01 - isParselTongue.js\
 2022-11-02 - isParselTongue.js\
+2022-11-03 - realType.js\
 
 ## Very Hard
 
