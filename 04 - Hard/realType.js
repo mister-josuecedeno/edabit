@@ -1,12 +1,8 @@
 // https://edabit.com/challenge/yfRLRFYF8sdr7kRRq
 
-// Refactor
-
 const realType = (value) => {
-  if (value instanceof Date) return 'date';
-  if (value instanceof RegExp) return 'regexp';
-  if (value === null) return 'null';
-  return typeof value;
+  const type = Object.prototype.toString.call(value);
+  return type.split(' ')[1].slice(0, -1).toLowerCase();
 };
 
 // Tests
