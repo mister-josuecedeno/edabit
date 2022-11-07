@@ -1,17 +1,19 @@
 // https://edabit.com/challenge/xt4CMLpfFRuDTsJgC
 
-// Refactor
-
 const splitByDashOrUnderscore = (str) => {
   if (str.includes('_')) return str.split('_');
   if (str.includes('-')) return str.split('-');
 };
 
+const capitalize = (word, index) => {
+  if (index === 0) return word;
+  return word[0].toUpperCase() + word.slice(1);
+};
+
 const toCamelCase = (str) => {
   if (str === '') return '';
   const arr = splitByDashOrUnderscore(str);
-  const upperCaseAll = arr.map((w) => w[0].toUpperCase() + w.slice(1)).join('');
-  return upperCaseAll[0].toLowerCase() + upperCaseAll.slice(1);
+  return arr.map((word, index) => capitalize(word, index)).join('');
 };
 
 // Tests
