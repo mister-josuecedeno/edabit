@@ -708,8 +708,9 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-11-03 - realType.js\
 2022-11-04 - realType.js\
 2022-11-05 - toCamelCase.js\
-2022-11-06 - happy birthday js\
-2022-11-07 - toCamelCase.js\
+2022-11-06 - toCamelCase.js\
+2022-11-07 - hemisphereSeason.js\
+2022-11-08 - hemisphereSeason.js\
 
 ## Very Hard
 
