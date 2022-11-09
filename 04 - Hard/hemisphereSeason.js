@@ -1,41 +1,26 @@
 // https://edabit.com/challenge/4d4RamC7mArPEwHpX
 
-// Refactor
+const seasons = ['Spring', 'Summer', 'Autumn', 'Winter'];
 
-const season = ['Spring', 'Summer', 'Autumn', 'Winter'];
-const month = [
-  'January',
-  'February',
-  'March',
-  'April',
-  'May',
-  'June',
-  'July',
-  'August',
-  'September',
-  'October',
-  'November',
-  'December',
-];
-const location = ['N', 'S'];
+const seasonByMonth = {
+  January: [3, 1],
+  February: [3, 1],
+  March: [0, 2],
+  April: [0, 2],
+  May: [0, 2],
+  June: [1, 3],
+  July: [1, 3],
+  August: [1, 3],
+  September: [2, 0],
+  October: [2, 0],
+  November: [2, 0],
+  December: [3, 1],
+};
 
 const hemisphereSeason = (hemisphere, date) => {
-  const seasons = {
-    dateRange: [
-      [2, 4],
-      [5, 7],
-      [8, 10],
-      [11, 1],
-    ],
-    seasonByHemisphere: [
-      [0, 2],
-      [1, 3],
-      [2, 0],
-      [3, 1],
-    ],
-  };
-
-  return false;
+  const month = date.split(',')[0];
+  const location = hemisphere === 'N' ? 0 : 1;
+  return seasons[seasonByMonth[month][location]];
 };
 
 // Tests
