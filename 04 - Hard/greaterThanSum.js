@@ -1,17 +1,15 @@
 // https://edabit.com/challenge/Q6f6SKcnc922g95s5
 
-// refactor
-
 const greaterThanSum = (nums) => {
-  let runningSum = 0;
+  let runningSum = nums[0];
   let isGreaterThanRunningSum = false;
 
-  for (let i = 0; i < nums.length - 1; i++) {
-    runningSum += nums[i];
-    isGreaterThanRunningSum = nums[i + 1] >= runningSum;
+  for (let i = 1; i < nums.length; i++) {
+    isGreaterThanRunningSum = nums[i] > runningSum;
     if (!isGreaterThanRunningSum) {
       break;
     }
+    runningSum += nums[i];
   }
 
   return isGreaterThanRunningSum;
