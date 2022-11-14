@@ -1,5 +1,6 @@
 // https://edabit.com/challenge/fLDHdMhmaNEd528wB
 
+// set-up
 const afterNDays = (days, n) => {
   return;
 };
