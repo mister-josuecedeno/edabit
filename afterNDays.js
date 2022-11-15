@@ -10,8 +10,12 @@ const daysOfTheWeek = [
   'Saturday',
 ];
 
+const getDayOfWeek = (day, n) => {
+  return 'tbd';
+};
+
 const afterNDays = (days, n) => {
-  return;
+  return days.map((d) => getDayOfWeek(d, n));
 };
 
 // Tests
