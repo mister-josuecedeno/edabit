@@ -1,6 +1,15 @@
 // https://edabit.com/challenge/fLDHdMhmaNEd528wB
 
-// set-up
+const daysOfTheWeek = [
+  'Sunday',
+  'Monday',
+  'Tuesday',
+  'Wednesday',
+  'Thursday',
+  'Friday',
+  'Saturday',
+];
+
 const afterNDays = (days, n) => {
   return;
 };
