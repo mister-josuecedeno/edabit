@@ -716,6 +716,8 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-11-11 - greaterThanSum.js\
 2022-11-12 - dance.js\
 2022-11-13 - dance.js\
+2022-11-14 - afterNDays.js\
+2022-11-15 - afterNDays.js\
 
 ## Very Hard
 
