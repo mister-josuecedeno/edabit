@@ -10,8 +10,11 @@ const daysOfTheWeek = [
   'Saturday',
 ];
 
+// refactor - what to do when the number is greater than the aray length
 const getDayOfWeek = (day, n) => {
-  return 'tbd';
+  const currentIndex = daysOfTheWeek.indexOf(day);
+  const newIndex = currentIndex + n;
+  return [currentIndex, newIndex, daysOfTheWeek[newIndex]];
 };
 
 const afterNDays = (days, n) => {
