@@ -722,6 +722,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-11-17 - isZygodrome.js\
 2022-11-18 - extractValueRegExp.js\
 2022-11-19 - nextPrime.js\
+2022-11-20 - nextPrime.js\
 
 ## Very Hard
 

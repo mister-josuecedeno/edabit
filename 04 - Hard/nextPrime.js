@@ -1,7 +1,20 @@
 // https://edabit.com/challenge/WYHgoTtdQHjjSvD7G
 
+const isPrime = (n) => {
+  let count = 0;
+
+  for (let i = 1; i <= n && count < 3; i++) {
+    if (n % i === 0) count++;
+  }
+
+  return count === 2;
+};
+
 const nextPrime = (n) => {
-  return;
+  while (isPrime(n) === false) {
+    n++;
+  }
+  return n;
 };
 
 // Tests
