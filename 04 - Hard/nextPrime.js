@@ -11,9 +11,6 @@ const isPrime = (n) => {
 };
 
 const nextPrime = (n) => {
-  // Check if is prime
-  // if not, iterate until next prime
-  return;
   while (isPrime(n) === false) {
     n++;
   }
