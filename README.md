@@ -725,6 +725,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-11-20 - nextPrime.js\
 2022-11-21 - canPartition.js\
 2022-11-22 - wordsToSentence.js\
+2022-11-23 - howUnlucky.js\
 
 ## Very Hard
 
