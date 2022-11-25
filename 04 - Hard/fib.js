@@ -1,5 +1,12 @@
 // https://edabit.com/challenge/j7BazSkQteP8Czp5b
 
+// Alternative
+// function fib(n) {
+//   let a = 0, b = 1;
+//   for (let i = 0; i < n; i++) [a, b] = [b, a + b];
+//   return a;
+// }
+
 const fib = (n) => {
   if (n === 0) return 0;
   if (n === 1) return 1;
