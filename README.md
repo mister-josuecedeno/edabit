@@ -728,6 +728,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-11-23 - howUnlucky.js\
 2022-11-24 - compact.js\
 2022-11-25 - fib.js\
+2022-11-26 - decision.js\
 
 ## Very Hard
 
