@@ -1,7 +1,15 @@
 // https://edabit.com/challenge/eJtRrrpRZEoaaYgvw
 
 const isFullHouse = (hand) => {
-  return;
+  const set = [...new Set(hand)];
+  if (set.length === 2) {
+    const card1 = hand.filter((c) => c === set[0]);
+    const card2 = hand.filter((c) => c === set[1]);
+
+    if (card1.length < 4 && card2.length < 4) return true;
+  }
+
+  return false;
 };
 
 // Tests
