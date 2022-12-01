@@ -733,6 +733,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-11-28 - isFullHouse.js\
 2022-11-29 - circle.js\
 2022-11-30 - initials.js\
+2022-12-01 - lovesMe.js\
 
 ## Very Hard
 
