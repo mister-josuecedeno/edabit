@@ -735,6 +735,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-11-30 - initials.js\
 2022-12-01 - lovesMe.js\
 2022-12-02 - lunarSum.js\
+2022-12-03 - dance.js\
 
 ## Very Hard
 
