@@ -1,8 +1,13 @@
 // https://edabit.com/challenge/mrteErHiwHpWGo2vo
 
-const numberTransform = (n, m) => {
-  return;
-};
+// Not my solution
+function numberTransform(n, m) {
+  return n != m
+    ? m % n == 0
+      ? 1 + numberTransform(n * 2, m)
+      : 1 + numberTransform(n >> 1, m)
+    : 0;
+}
 
 // Tests
 
