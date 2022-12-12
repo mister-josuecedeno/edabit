@@ -744,6 +744,8 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-12-09 - countSubstring.js\
 2022-12-10 - doesRhyme.js\
 2022-12-11 - arrow.js\
+2022-12-12 - missingLetter.js\
+2022-12-12 - isCorrectAliases.js\
 
 ## Very Hard
 
