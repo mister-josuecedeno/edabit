@@ -1,15 +1,13 @@
 // https://edabit.com/challenge/pYSX8duMGhQCM3mWZ
 
-// Review again tomorrow
 const truncate = (string, length) => {
   const words = string.split(' ');
-  const spaces = words.length - 1;
   const result = [];
   let sum = 0;
 
   for (const word of words) {
-    sum += word.length + 1;
-    if (sum > length + spaces) break;
+    sum += word.length + result.length;
+    if (sum > length) break;
     result.push(word);
   }
 
