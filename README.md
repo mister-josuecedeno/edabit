@@ -754,6 +754,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-12-18 - truncate.js\
 2022-12-19 - truncate.js\
 2022-12-20 - standardDeviation.js\
+2022-12-21 - imgurUrlParser.js\
 
 ## Very Hard
 
