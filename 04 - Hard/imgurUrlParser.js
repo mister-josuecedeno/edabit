@@ -1,7 +1,16 @@
 // https://edabit.com/challenge/iEDvqagg62roh5q3K
 
 const imgurUrlParser = (url) => {
-  return;
+  // Refactor
+  // https://usefulangle.com/post/3/javascript-search-array-of-objects
+  let result = Object.entries(results).find(function (post, index) {});
+
+  // for (const result of Object.entries(results)) {
+
+  //   console.log(result)
+  // }
+
+  return result;
 };
 
 // Tests
