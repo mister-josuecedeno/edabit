@@ -759,6 +759,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-12-23 - imgurUrlParser.js\
 2022-12-24 - bridgeShuffle.js\
 2022-12-25 - noDuplicateLetters.js\
+2022-12-26 - halveCount.js\
 
 ## Very Hard
 
