@@ -762,6 +762,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-12-26 - halveCount.js\
 2022-12-27 - minRemovals.js\
 2022-12-28 - isBalanced.js\
+2022-12-29 - isBalanced.js\
 
 ## Very Hard
 
