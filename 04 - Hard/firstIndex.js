@@ -1,7 +1,10 @@
 // https://edabit.com/challenge/Fev8jkLtDunP9wexv
 
 const firstIndex = (hex, needle) => {
-  return hex.map((h) => h);
+  return hex
+    .split(' ')
+    .map((h) => String.fromCharCode(parseInt(h, 16)))
+    .indexOf(needle[0]);
 };
 
 // Tests
