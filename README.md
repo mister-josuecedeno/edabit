@@ -764,7 +764,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-12-28 - isBalanced.js\
 2022-12-29 - isBalanced.js\
 2022-12-30 - tbd\
-2022-12-31 - tbd\
+2022-12-31 - tbd (should be something)
 2023-01-01 - hey.js\
 
 ## Very Hard
