@@ -767,6 +767,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2022-12-30 - array-prototype.js\
 2022-12-31 - array-prototype.js\
 2023-01-01 - firstIndex.js\
+2023-01-02 - lengthen.js\
 
 ## Very Hard
 
