@@ -1,7 +1,10 @@
 // https://edabit.com/challenge/i5ZanfQWsJ8EGheW8
 
+// refactor - where to truncate
 const lengthen = (s1, s2) => {
-  return;
+  const div = s1.length / s2.length;
+  const repeat = s2.repeat(Math.ceil(div));
+  return [div, repeat];
 };
 
 // Tests
