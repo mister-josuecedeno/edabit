@@ -1,10 +1,17 @@
 // https://edabit.com/challenge/i5ZanfQWsJ8EGheW8
 
-// refactor - where to truncate
 const lengthen = (s1, s2) => {
-  const div = s1.length / s2.length;
-  const repeat = s2.repeat(Math.ceil(div));
-  return [div, repeat];
+  let longer = s1;
+  let shorter = s2;
+
+  if (s1.length < s2.length) {
+    longer = s2;
+    shorter = s1;
+  }
+
+  const div = longer.length / shorter.length;
+  const repeat = shorter.repeat(Math.ceil(div));
+  return repeat.slice(0, longer.length);
 };
 
 // Tests
