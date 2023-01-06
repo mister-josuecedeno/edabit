@@ -771,6 +771,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-01-03 - lengthen.js\
 2023-01-04 - lengthen.js\
 2023-01-05 - recurAdd.js\
+2023-01-06 - getFrame.j\
 
 ## Very Hard
 
