@@ -1,9 +1,7 @@
 // https://edabit.com/challenge/KNjaveTsz3PQiHa8w
 
-// Neeeds more thought
 const piratesKilled = (gold, tolerance) => {
-  const max = Math.max(...gold);
-  return gold.map((g, i) => [max - g, tolerance[i]]);
+  return gold.some((g, i) => Math.max(...gold) - g > tolerance[i]);
 };
 
 // Tests
