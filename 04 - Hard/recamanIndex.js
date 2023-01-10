@@ -1,40 +1,42 @@
 // https://edabit.com/challenge/jDtwBwYhaMD2HftdX
 
-// Instructions:
-// sequence starts with 0 => [0]
-// last element
-// length
-// length - last > 0 && not in the sequence => add to sequence
-// else length + last (even if in sequence)
-// Repeat
+// Other solution (mine partially worked - performance issue)
+function recamanIndex(n) {
+  let [size, last] = [2, 1];
+  const found = new Set();
+  found.add(1);
 
-// Refactor last step
+  while (last !== n) {
+    let new_ = last - size;
+    if (new_ > 0 && !found.has(new_)) {
+      found.add(new_);
+      last = new_;
+    } else {
+      last += size;
+      found.add(last);
+    }
+    size++;
+  }
+  return size - 1;
+}
 
-const recamanIndex = (n) => {
+const _recamanIndex = (n) => {
   const sequence = [0];
-  let length, last, add, sub;
   let inSequence = false;
   let isGreaterThanZero = false;
   let index = -1;
 
   while (index === -1) {
-    length = sequence.length;
-    last = sequence.slice(-1);
-    sub = length - last;
-    add = length + last;
+    let length = sequence.length;
+    let last = sequence.slice(-1)[0];
+    let sub = +last - +length;
+    let add = +last + +length;
     inSequence = sequence.indexOf(sub) != -1;
     isGreaterThanZero = sub > 0;
-    console.log([length, last, sub, add, inSequence, isGreaterThanZero]);
 
-    // Option 1: isGreaterThanZero && NOT inSequence
     if (isGreaterThanZero && !inSequence) sequence.push(sub);
-
-    // Option 2: NOT isGreaterThanZero
     if (!isGreaterThanZero) sequence.push(add);
-
-    // Check for index
     index = sequence.indexOf(n);
-    console.log([sequence, n, index]);
   }
 
   return index;
@@ -43,8 +45,8 @@ const recamanIndex = (n) => {
 // Tests
 
 console.log(recamanIndex(2), 4, 'Example explained in Instructions');
-// console.log(recamanIndex(3), 2);
-// console.log(recamanIndex(7), 5);
+console.log(recamanIndex(3), 2);
+console.log(recamanIndex(7), 5);
 // console.log(recamanIndex(20), 7);
 // console.log(recamanIndex(56), 204);
 // console.log(recamanIndex(100), 387);
