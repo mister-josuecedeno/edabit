@@ -1,7 +1,16 @@
 // https://edabit.com/challenge/nLiY7c7S6aPwpB989
 
+// Refactor: Need to account for a letter being duplicated
 const findTheDifference = (s, t) => {
-  return;
+  console.log([s, t]);
+  const arr = [...t];
+  const result = [];
+
+  for (const c of arr) {
+    if (![...s].includes(c)) result.push(c);
+  }
+
+  return result;
 };
 
 // Tests
