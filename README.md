@@ -776,6 +776,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-01-08 - piratesKilled.js\
 2023-01-09 - recamanIndex.js\
 2023-01-10 - recamanIndex.js\
+2023-01-11 - findTheDifference.js\
 
 ## Very Hard
 
