@@ -779,6 +779,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-01-11 - findTheDifference.js\
 2023-01-12 - findTheDifference.js\
 2023-01-13 - charAppears.js\
+2023-01-14 - Zouk.js\
 
 ## Very Hard
 
