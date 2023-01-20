@@ -785,6 +785,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-01-17 - isUban.js\
 2023-01-18 - isUban.js\
 2023-01-19 - belize.js\
+2023-01-20 - belize.js\
 
 ## Very Hard
 
