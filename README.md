@@ -788,6 +788,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-01-20 - belize.js\
 2023-01-21 - belize.js\
 2023-01-22 - belize.js\
+2023-01-23 - sumOfMissingNums.js\
 
 ## Very Hard
 
