@@ -1,9 +1,10 @@
 // https://edabit.com/challenge/5X9SgidXaNf7pikbp
 
-// Next step: Sum the gaps
 const sumOfMissingNums = (arr) => {
   const nums = arr.filter((n) => !isNaN(n)).sort((a, b) => a - b);
-  return nums;
+  const totalNums = +nums.slice(-1)[0] - +nums[0];
+
+  return totalNums - nums.length + 1;
 };
 
 // Tests
