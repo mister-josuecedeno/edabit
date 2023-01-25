@@ -791,6 +791,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-01-23 - sumOfMissingNums.js\
 2023-01-24 - sumOfMissingNums.js\
 2023-01-25 - secret.js\
+2023-01-25 - sortList.js\
 
 ## Very Hard
 
