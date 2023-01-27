@@ -793,6 +793,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-01-25 - secret.js\
 2023-01-25 - sortList.js\
 2023-01-26 - determineWinnerOfFight.js\
+2023-01-27 - sumOfSlices.js\
 
 ## Very Hard
 
