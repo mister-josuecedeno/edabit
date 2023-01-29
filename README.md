@@ -795,6 +795,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-01-26 - determineWinnerOfFight.js\
 2023-01-27 - sumOfSlices.js\
 2023-01-28 - digitCount.js\
+2023-01-29 - decodeMorse.js\
 
 ## Very Hard
 
