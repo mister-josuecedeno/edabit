@@ -797,6 +797,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-01-28 - digitCount.js\
 2023-01-29 - decodeMorse.js\
 2023-01-30 - nomNom.js\
+2023-01-31 - timeSum.js\
 
 ## Very Hard
 
