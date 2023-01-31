@@ -1,7 +1,18 @@
 // https://edabit.com/challenge/dHAk8zPwacSev6Hmv
 
 const nomNom = (arr) => {
-  return;
+  const result = [];
+  let sum = 0;
+
+  for (let i = 0; i < arr.length; i++) {
+    sum += arr[i];
+    if (sum <= arr[i + 1] || arr[i + 1] === undefined) {
+      result.push(sum);
+      sum = 0;
+    }
+  }
+
+  return result;
 };
 
 // Tests
