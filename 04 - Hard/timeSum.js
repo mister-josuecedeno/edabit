@@ -1,11 +1,8 @@
 // https://edabit.com/challenge/BP82XMfoRoREMRxLw
 
-const convertToSeconds = (str) => {
-  return;
-};
-
 const timeSum = (times) => {
-  return;
+  const numbers = times.map((t) => t.split(':'));
+  return numbers;
 };
 
 // Tests
