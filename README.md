@@ -799,6 +799,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-01-30 - nomNom.js\
 2023-01-31 - timeSum.js\
 2023-02-01 - timeSum.js\
+2023-02-02 - straightDigital.js\
 
 ## Very Hard
 
