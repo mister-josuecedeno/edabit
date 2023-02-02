@@ -1,8 +1,37 @@
 // https://edabit.com/challenge/BP82XMfoRoREMRxLw
 
+const parseString = (str) => {
+  const [h, m, s] = str.split(':');
+  return [+h, +m, +s];
+};
+
+const distributeTime = (time) => {
+  [h, m, s] = time;
+
+  // if > 60, add minutes
+  m += Math.floor(s / 60);
+  s = s % 60;
+
+  // if > 60, add hours
+  h += Math.floor(m / 60);
+  m = m % 60;
+
+  return [h, m, s];
+};
+
 const timeSum = (times) => {
-  const numbers = times.map((t) => t.split(':'));
-  return numbers;
+  let h = 0;
+  let m = 0;
+  let s = 0;
+
+  const numbers = times.map((t) => parseString(t));
+  numbers.forEach((n) => {
+    h += n[0];
+    m += n[1];
+    s += n[2];
+  });
+
+  return distributeTime([h, m, s]);
 };
 
 // Tests
