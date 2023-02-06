@@ -1,7 +1,21 @@
 // https://edabit.com/challenge/WMorR7e2z3AkoesJC
 
+const getSteps = (numbers) => {
+  const steps = new Set();
+
+  for (let i = 1; i < numbers.length; i++) {
+    steps.add(numbers[i] - numbers[i - 1]);
+  }
+
+  return steps;
+};
+
 const straightDigital = (number) => {
-  return;
+  if (number < 100) return 'Not Straight';
+  const numbers = [...`${number}`].map((n) => +n);
+  if ([...new Set(numbers)].length === 1) return 'Trivial Straight';
+  const steps = getSteps(numbers);
+  return steps.size > 1 ? 'Not Straight' : steps.values().next().value;
 };
 
 // Tests
