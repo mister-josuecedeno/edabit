@@ -800,9 +800,9 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-01-31 - timeSum.js\
 2023-02-01 - timeSum.js\
 2023-02-02 - straightDigital.js\
-2023-02-03 - Denver.js\
-2023-02-04 - Denver.js\
-2023-02-05 - Denver.js\
+2023-02-03 - straightDigital.js\
+2023-02-04 - straightDigital.js\
+2023-02-05 - straightDigital.js\
 2023-02-06 - straightDigital.js\
 
 ## Very Hard
