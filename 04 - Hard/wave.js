@@ -1,13 +1,28 @@
 // https://edabit.com/challenge/Jqp5E7SNY3gYFBNRL
-// Need to install npm and node
+
+// Refactor using ChatGPT
+/*
+const wave = (str) => {
+  const wave = [];
+
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] === ' ') continue;
+    wave.push(str.slice(0, i) + str[i].toUpperCase() + str.slice(i + 1));
+  }
+
+  return wave;
+};
+*/
 
 const wave = (str) => {
   const wave = [];
 
   for (let i = 0; i < str.length; i++) {
-    str.toLowerCase();
-    str[i].toUpperCase();
-    wave.push(str);
+    let result = str.toLowerCase().split('');
+    if (result[i] === ' ') continue;
+    result[i] = result[i].toUpperCase();
+    result = result.join('');
+    wave.push(result);
   }
 
   return wave;
