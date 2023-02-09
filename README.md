@@ -806,6 +806,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-02-06 - straightDigital.js\
 2023-02-07 - countDigits.js\
 2023-02-08 - formatDate.js\
+2023-02-09 - wave.js\
 
 ## Very Hard
 
