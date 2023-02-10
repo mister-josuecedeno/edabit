@@ -1,7 +1,18 @@
 // https://edabit.com/challenge/FSJcckvq4rry72xCw
 
 const replaceNth = (str, nth, oldChar, newChar) => {
-  return;
+  if (nth <= 0) return str;
+  let instance = 0;
+
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] === oldChar) instance++;
+    if (instance === nth) {
+      instance = 0;
+      str = str.slice(0, i) + newChar + str.slice(i + 1);
+    }
+  }
+
+  return str;
 };
 
 // Tests
