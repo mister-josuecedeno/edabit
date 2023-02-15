@@ -813,6 +813,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-02-12 - count.js\
 2023-02-13 - intersectionUnion.js\
 2023-02-14 - mysteryFunc.js\
+2023-02-15 - largerThanRight.js\
 
 ## Very Hard
 
