@@ -1,7 +1,18 @@
 // https://edabit.com/challenge/LzmaSDaSTn7zSwe2d
 
-const largerThanRight = (second) => {
-  return;
+const largerThanRight = (arr) => {
+  const largest = new Set();
+
+  while (arr.length > 0) {
+    let max = Math.max(...arr);
+    let first = arr[0];
+    if (first === max) {
+      largest.add(first);
+    }
+    arr.shift();
+  }
+
+  return [...largest];
 };
 
 // Tests
