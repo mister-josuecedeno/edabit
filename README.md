@@ -816,6 +816,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-02-15 - largerThanRight.js\
 2023-02-16 - isEqual.js\
 2023-02-17 - getStudentsWithNamesAndAvgNote.js\
+2023-02-18 - getStudentsWithNamesAndAvgNote.js\
 
 ## Very Hard
 
