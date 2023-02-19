@@ -1,14 +1,20 @@
 // https://edabit.com/challenge/skaEqSDppmQqApNQu
 
 const toStarShorthand = (str) => {
-  // Character Map
   const charMap = {};
 
   for (const char of str) {
     charMap[char] = charMap[char] + 1 || 1;
   }
 
-  return charMap;
+  const chars = new Set(str);
+  let result = '';
+
+  for (const char of chars) {
+    result += charMap[char] === 1 ? char : `${char}*${charMap[char]}`;
+  }
+
+  return result;
 };
 
 // Tests
