@@ -819,6 +819,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-02-18 - getStudentsWithNamesAndAvgNote.js\
 2023-02-19 - toStarShorthand.js\
 2023-02-20 - majorSum.js\
+2023-02-21 - multiplicity.js\
 
 ## Very Hard
 
