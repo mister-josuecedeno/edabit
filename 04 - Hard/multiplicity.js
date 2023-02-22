@@ -1,6 +1,5 @@
 // https://edabit.com/challenge/PgNvoxjjy7Gx6zDni
 
-// Refactor - the order is wrong
 const multiplicity = (arr) => {
   const charMap = {};
 
@@ -8,7 +7,7 @@ const multiplicity = (arr) => {
     charMap[char] = charMap[char] + 1 || 1;
   }
 
-  return Object.entries(charMap).map((e) => [+e[0], e[1]]);
+  return [...new Set(arr)].map((n) => [n, charMap[n]]);
 };
 
 // Tests
