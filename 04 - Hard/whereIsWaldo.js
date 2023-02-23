@@ -1,7 +1,18 @@
 // https://edabit.com/challenge/pNNvNZQCz2DmvT59d
 
-const whereIsWaldo = (second) => {
-  return;
+const whereIsWaldo = (arrs) => {
+  let waldoIndex;
+  let row = 0;
+  for (const arr of arrs) {
+    row++;
+    if ([...new Set(arr)].length > 1) {
+      let sort = [...arr].sort();
+      let waldo = sort.every((a) => sort[0]) ? sort.at(-1) : sort[0];
+      waldoIndex = arr.indexOf(waldo) + 1;
+      break;
+    }
+  }
+  return [row, waldoIndex];
 };
 
 // Tests
