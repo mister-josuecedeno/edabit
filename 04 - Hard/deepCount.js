@@ -1,7 +1,10 @@
 // https://edabit.com/challenge/Aq9mrJ9FWyxWCpgLq
 
-const deepCount = (arr) => {
-  return;
+// This is not my solution
+const deepCount = (arr = []) => {
+  return arr.reduce((acc, val) => {
+    return acc + (Array.isArray(val) ? deepCount(val) : 0);
+  }, arr.length);
 };
 
 // Tests
