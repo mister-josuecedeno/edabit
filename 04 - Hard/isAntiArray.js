@@ -1,5 +1,6 @@
 // https://edabit.com/challenge/ci4pyupzxrJmZydJ5
 
+// try to upload to edabit - received a 500 error
 const isAntiArray = (arr1, arr2) => {
   const arr3 = arr1.concat(arr2);
   if ([...new Set(arr3)].length > 2) return false;
