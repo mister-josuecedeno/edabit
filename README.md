@@ -823,6 +823,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-02-22 - multiplicity.js\
 2023-02-23 - whereIsWaldo.js\
 2023-02-24 - deepCount.js\
+2023-02-25 - isAntiArray.js\
 
 ## Very Hard
 
