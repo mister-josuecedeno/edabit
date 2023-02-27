@@ -825,6 +825,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-02-24 - deepCount.js\
 2023-02-25 - isAntiArray.js\
 2023-02-26 - twins.js\
+2023-02-27 - regex-xix-group-ranges.js\
 
 ## Very Hard
 
