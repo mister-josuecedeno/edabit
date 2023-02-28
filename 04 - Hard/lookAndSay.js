@@ -1,7 +1,10 @@
 // https://edabit.com/challenge/iKdJfMrxkWsBcEKEL
 
 const lookAndSay = (n) => {
-  return;
+  if (n.toString().length % 2 !== 0) return 'invalid';
+  const regex = /(\d){2}/g;
+  const numbers = n.toString().match(regex);
+  return +numbers.map((n) => n[1].repeat(n[0])).join('');
 };
 
 // Tests
