@@ -1,10 +1,21 @@
 // https://edabit.com/challenge/GcAyjyN5rvdHSXnLP
 
-const mixMiddle = (second) => {
-  return;
+const reverseMiddle = (word) => {
+  if (word.length <= 3) return word;
+  const letters = [...word];
+  const first = letters.shift();
+  const last = letters.pop();
+  return `${first}${letters.reverse().join('')}${last}`;
+};
+
+const mixMiddle = (str) => {
+  const words = str.split(' ');
+  return words.map((w) => reverseMiddle(w)).join(' ');
 };
 
 // Tests
+
+console.log(reverseMiddle('test'));
 
 console.log(
   mixMiddle('the quick brown fox jumps high'),
