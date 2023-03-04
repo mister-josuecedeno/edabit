@@ -830,6 +830,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-03-01 - bugger.js\
 2023-03-02 - mixMiddle.js\
 2023-03-03 - twins.js\
+2023-03-04 - waysToClimb.js\
 
 ## Very Hard
 
