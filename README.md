@@ -834,7 +834,6 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-03-05 - digitalVowelBan.js\
 2023-03-06 - digitalVowelBan.js\
 2023-03-07 - min-max-value-bst.js\
-2023-03-07 - min-max-value-bst.js\
 
 ## Very Hard
 
