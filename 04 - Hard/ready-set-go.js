@@ -1,13 +1,12 @@
 // https://edabit.com/challenge/2FF7RKw9RLwc3EBY9
-// Test and Refactor the results
 class Challenge {
   constructor(id, level) {
     this.id = id;
     this.level = level;
   }
 
-  points = () => {
-    xp = {
+  get points() {
+    const xp = {
       VE: 5,
       EA: 10,
       ME: 20,
@@ -16,8 +15,8 @@ class Challenge {
       EX: 120,
     };
 
-    return xp(this.level);
-  };
+    return xp[this.level];
+  }
 }
 
 class User {
@@ -28,7 +27,7 @@ class User {
   }
 
   newSolvedChallenge = (Challenge) => {
-    ++Challenge.xp;
+    this.xp += Challenge.points;
     this.log.push(Challenge.id);
   };
 }
