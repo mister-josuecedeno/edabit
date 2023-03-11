@@ -837,6 +837,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-03-08 - isLegitimate.js\
 2023-03-09 - ready-set-go.js\
 2023-03-10 - ready-set-go.js\
+2023-03-11 - erase.js\
 
 ## Very Hard
 
