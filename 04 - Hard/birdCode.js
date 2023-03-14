@@ -3,13 +3,24 @@
 const getCode = (name) => {
   // remove hyphens
   name = name.replace('-', ' ');
+  words = name.split(' ').map((w) => w.toUpperCase());
 
   // use switch for the different rules
-  return name;
+  switch (words.length) {
+    case 1:
+      return words[0].slice(0, 4);
+    case 2:
+      return words[0].slice(0, 2) + words[1].slice(0, 2);
+
+    default:
+      break;
+  }
+
+  return;
 };
 
 const birdCode = (arr) => {
-  return getCode('test-bird');
+  return getCode('test two');
 };
 
 // Tests
