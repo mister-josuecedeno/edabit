@@ -11,16 +11,17 @@ const getCode = (name) => {
       return words[0].slice(0, 4);
     case 2:
       return words[0].slice(0, 2) + words[1].slice(0, 2);
-
+    case 3:
+      return words[0].slice(0, 3) + words[1].slice(0, 3) + words[2].slice(0, 2);
+    case 4:
+      return words.map((w) => w[0]).join('');
     default:
       break;
   }
-
-  return;
 };
 
 const birdCode = (arr) => {
-  return getCode('test two');
+  return getCode('test two three four');
 };
 
 // Tests
