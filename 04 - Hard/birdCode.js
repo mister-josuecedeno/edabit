@@ -1,5 +1,6 @@
 // https://edabit.com/challenge/MDixWSYxH5JZX3xo3
 
+// test results
 const getCode = (name) => {
   // remove hyphens
   name = name.replace('-', ' ');
@@ -20,8 +21,12 @@ const getCode = (name) => {
   }
 };
 
-const birdCode = (arr) => {
-  return getCode('test two three four');
+const birdCode = (birds) => {
+  const result = [];
+  for (const bird of birds) {
+    result.push(getCode(bird));
+  }
+  return result;
 };
 
 // Tests
