@@ -1,19 +1,16 @@
 // https://edabit.com/challenge/MDixWSYxH5JZX3xo3
 
-// test results
 const getCode = (name) => {
-  // remove hyphens
   name = name.replace('-', ' ');
   words = name.split(' ').map((w) => w.toUpperCase());
 
-  // use switch for the different rules
   switch (words.length) {
     case 1:
       return words[0].slice(0, 4);
     case 2:
       return words[0].slice(0, 2) + words[1].slice(0, 2);
     case 3:
-      return words[0].slice(0, 3) + words[1].slice(0, 3) + words[2].slice(0, 2);
+      return words[0].slice(0, 1) + words[1].slice(0, 1) + words[2].slice(0, 2);
     case 4:
       return words.map((w) => w[0]).join('');
     default:
