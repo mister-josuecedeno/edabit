@@ -845,6 +845,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-03-15 - birdCode.js\
 2023-03-16 - birdCode.js\
 2023-03-17 - birdCode.js\
+2023-03-18 - sortByString.js\
 
 ## Very Hard
 
