@@ -2,9 +2,7 @@
 
 // refactor
 const sortByString = (arr, str) => {
-  return arr.sort((a, b) => {
-    return str.indexOf(a[0] - str.indexOf(b[0]));
-  });
+  return arr.sort((a, b) => str.indexOf(a[0]) - str.indexOf(b[0]));
 };
 
 // Tests
