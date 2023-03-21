@@ -848,6 +848,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-03-18 - sortByString.js\
 2023-03-19 - sortByString.js\
 2023-03-20 - volShell.js\
+2023-03-21 - mirrorCipher.js\
 
 ## Very Hard
 
