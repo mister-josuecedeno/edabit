@@ -1,6 +1,8 @@
 // https://edabit.com/challenge/pwYsCgk8g7ZjC3d7p
 
 // refactor - need to better understand 'mirror'
+// ' how far is the letter from the left'
+// 'the mirror is that far from the right'
 const mirrorCipher = (message, key = 'abcdefghijklmnopqrstuvwxyz') => {
   message = message.toLowerCase();
   let newMessage = '';
