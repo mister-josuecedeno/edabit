@@ -851,6 +851,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-03-21 - mirrorCipher.js\
 2023-03-22 - regexxxi.js\
 2023-03-23 - primeFactors.js\
+2023-03-24 - anagram.js\
 
 ## Very Hard
 
