@@ -852,6 +852,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-03-22 - regexxxi.js\
 2023-03-23 - primeFactors.js\
 2023-03-24 - anagram.js\
+2023-03-25 - pizzaPoints.js\
 
 ## Very Hard
 
