@@ -1,7 +1,15 @@
 // https://edabit.com/challenge/raWPf5nZyRKEEH6ZQ
 
 const pizzaPoints = (customers, minOrders, minPrice) => {
-  return;
+  const result = [];
+
+  for (const customer in customers) {
+    let orders = customers[customer];
+    let qualifiedOrders = orders.filter((p) => p >= minPrice) || [];
+    if (qualifiedOrders.length >= minOrders) result.push(customer);
+  }
+
+  return result.sort();
 };
 
 // Tests
