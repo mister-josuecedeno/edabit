@@ -854,6 +854,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-03-24 - anagram.js\
 2023-03-25 - pizzaPoints.js\
 2023-03-26 - longestCommonEnding.js\
+2023-03-27 - persistence.js\
 
 ## Very Hard
 
