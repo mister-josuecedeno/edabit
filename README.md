@@ -857,6 +857,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-03-27 - persistence.js\
 2023-03-28 - primorial.js\
 2023-03-29 - lcmOfArray.js\
+2023-03-30 - findMissing.js\
 
 ## Very Hard
 
