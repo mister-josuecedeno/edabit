@@ -1,7 +1,10 @@
 // https://edabit.com/challenge/ufzPhQEbECxfvmSAu
 
-const findMissing = (second) => {
-  return;
+const findMissing = (arr) => {
+  if (arr === null || arr.length === 0) return false;
+  if (arr.some((a) => a.length === 0)) return false;
+  const lengths = arr.map((a) => a.length).sort();
+  return lengths.filter((n, i, l) => n + 1 != l[i + 1])[0] + 1;
 };
 
 // Tests
