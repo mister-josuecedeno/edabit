@@ -1,7 +1,9 @@
 // https://edabit.com/challenge/kBDrADkw28RHim74Q
 
-const averageDate = (second) => {
-  return;
+const averageDate = (dates) => {
+  if (dates.length === 0) return null;
+  const sum = dates.reduce((acc, cv) => acc + cv.getTime(), 0);
+  return new Date(sum / dates.length).toISOString();
 };
 
 // Tests
