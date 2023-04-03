@@ -861,6 +861,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-03-31 - products.js\
 2023-04-01 - averageDate.js\
 2023-04-02 - tweakLetters.js\
+2023-04-03 - pyramidVolume.js\
 
 ## Very Hard
 
