@@ -1,7 +1,15 @@
 // https://edabit.com/challenge/DQR6rjLkFtKgoqgWX
 
 const stockPicker = (arr) => {
-  return;
+  let maxProfit = -1;
+
+  for (let i = 0; i < arr.length - 1; i++) {
+    let max = Math.max(...arr.slice(i + 1));
+    let diff = max - arr[i];
+    if (diff > maxProfit) maxProfit = diff;
+  }
+
+  return maxProfit;
 };
 
 // Tests
