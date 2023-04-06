@@ -864,6 +864,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-04-03 - pyramidVolume.js\
 2023-04-04 - c-sharp-day\
 2023-04-05 - stockPicker.js\
+2023-04-06 - differenceMaxMin.cs\
 
 ## Very Hard
 
