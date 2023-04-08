@@ -866,6 +866,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-04-05 - stockPicker.js\
 2023-04-06 - differenceMaxMin.cs\
 2023-04-07 - letsMeet.js\
+2023-04-08 - FirstLast.cs\
 
 ## Very Hard
 
