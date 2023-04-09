@@ -1,7 +1,14 @@
 // https://edabit.com/challenge/mTT8M47D6EuEdTXLv
 
-const fullKeyName = (second) => {
-  return;
+const fullKeyName = (piece) => {
+  const words = piece.split(' ');
+  const signature = words[words.length - 1];
+
+  // format sentence
+  const start = words.slice(0, -1).join(' ');
+  const proper = signature[0].toUpperCase() + signature.slice(1).toLowerCase();
+  const key = signature[0] === signature[0].toUpperCase() ? 'major' : 'minor';
+  return `${start} ${proper} ${key}`;
 };
 
 // Tests
