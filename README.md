@@ -872,6 +872,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-04-11 - fibo.js\
 2023-04-12 - PosCom.cs\
 2023-04-13 - tallestSkyscraper.js\
+2023-04-14 - tallestSkyscraper.js\
 
 ## Very Hard
 
