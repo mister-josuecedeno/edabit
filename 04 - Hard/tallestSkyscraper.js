@@ -1,17 +1,16 @@
 // https://edabit.com/challenge/bJJTkKdyBwxWy4J3o
 
-// refactor - returning the length of the array and not the sum
 const tallestSkyscraper = (arr) => {
-  const heights = [];
+  const numColumns = arr[0].length;
+  const columnTotals = new Array(numColumns).fill(0);
 
-  for (let i = 0; i < arr.length; i++) {
-    for (let j = 0; j < arr[i].length; j++) {
-      heights[i] = (heights[i] || 0) + arr[i][j];
+  for (let i = 0; i < numColumns; i++) {
+    for (let j = 0; j < arr.length; j++) {
+      columnTotals[i] += arr[j][i];
     }
   }
 
-  return heights;
-  //return Math.max(...heights);
+  return Math.max(...columnTotals);
 };
 
 // Tests
