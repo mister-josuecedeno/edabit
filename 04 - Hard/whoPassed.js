@@ -1,7 +1,10 @@
 // https://edabit.com/challenge/jq6Ra5ms4hPTk9GNi
 
-const whoPassed = (second) => {
-  return;
+const whoPassed = (students) => {
+  return Object.entries(students)
+    .filter((s) => s[1].every((g) => eval(g) === 1))
+    .map((n) => n[0])
+    .sort();
 };
 
 // Tests
