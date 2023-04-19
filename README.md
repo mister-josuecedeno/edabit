@@ -877,6 +877,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-04-16 - whoPassed.js\
 2023-04-17 - Reverse.cs\
 2023-04-18 - colouredTriangle.js\
+2023-04-19 - colouredTriangle.js\
 
 ## Very Hard
 
