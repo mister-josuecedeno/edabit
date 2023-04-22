@@ -1,5 +1,10 @@
 // https://edabit.com/challenge/CtzrFDd3wpDtu9TCg
 
+const isPrime = (num) => {
+  for (let i = 2; i < num; i++) if (num % i === 0) return false;
+  return num > 1;
+};
+
 // Still needs to be refactored
 const goldbachConjecture = (n) => {
   // if odd and greater than 2 return an empty array
@@ -7,6 +12,20 @@ const goldbachConjecture = (n) => {
 
   // if even and greater than 2
   if (n % 2 === 0 && n > 2) {
+    let isValid = false;
+    let i = 3;
+
+    // Debug: what if diff is < starting number?
+    while (!isValid) {
+      if (isPrime(i)) {
+        let diff = n - i;
+        if (isPrime(diff)) {
+          return [i, diff];
+        }
+      }
+      i++;
+    }
+
     return [-1];
   }
 
