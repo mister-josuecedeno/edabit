@@ -5,7 +5,7 @@ const isPrime = (num) => {
   return num > 1;
 };
 
-// Still needs to be refactored
+// Still needs to be refactored: might need to ball it up and try again
 const goldbachConjecture = (n) => {
   // if odd and greater than 2 return an empty array
   if (n % 2 != 0 && n > 2) return [];
