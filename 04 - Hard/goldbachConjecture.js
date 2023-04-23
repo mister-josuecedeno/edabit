@@ -5,31 +5,27 @@ const isPrime = (num) => {
   return num > 1;
 };
 
-// Still needs to be refactored: might need to ball it up and try again
 const goldbachConjecture = (n) => {
-  // if odd and greater than 2 return an empty array
-  if (n % 2 != 0 && n > 2) return [];
+  if (n < 2) return [];
+  if (n % 2 != 0) return [];
 
-  // if even and greater than 2
-  if (n % 2 === 0 && n > 2) {
-    let isValid = false;
-    let i = 3;
+  const result = [];
 
-    // Debug: what if diff is < starting number?
-    while (!isValid) {
-      if (isPrime(i)) {
-        let diff = n - i;
-        if (isPrime(diff)) {
-          return [i, diff];
-        }
-      }
-      i++;
+  for (let i = 0; i < n; i++) {
+    let currentIsPrime = isPrime(i);
+    if (!currentIsPrime) continue;
+
+    let diff = n - i;
+    let diffIsPrime = isPrime(diff);
+
+    if (diffIsPrime) {
+      result.push(i);
+      result.push(diff);
+      break;
     }
-
-    return [-1];
   }
 
-  return [];
+  return result;
 };
 
 // Tests

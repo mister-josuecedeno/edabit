@@ -880,6 +880,8 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-04-19 - colouredTriangle.js\
 2023-04-20 - AmazingEdabit.cs\
 2023-04-21 - goldbachConjecture.js\
+2023-04-22 - goldbachConjecture.js\
+2023-04-23 - goldbachConjecture.js\
 
 ## Very Hard
 
