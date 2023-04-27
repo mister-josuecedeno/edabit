@@ -885,6 +885,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-04-24 - AddEnding.cs\
 2023-04-25 - AddEnding.cs\
 2023-04-26 - isIcecreamSandwich.js\
+2023-04-27 - SeriesResistance.cs\
 
 ## Very Hard
 
