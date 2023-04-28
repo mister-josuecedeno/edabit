@@ -1,7 +1,19 @@
 // https://edabit.com/challenge/P7SoyRXhQrhdZTFak
 
-const canBuild = (second) => {
-  return;
+const canBuild = (arr) => {
+  let result = true;
+
+  for (let i = 0; i < arr.length - 1; i++) {
+    let current = arr[i];
+    let next = arr[i + 1];
+    let index = next.indexOf(current);
+    if (index === -1 || next.length != current.length + 1) {
+      result = false;
+      break;
+    }
+  }
+
+  return result;
 };
 
 // Tests
