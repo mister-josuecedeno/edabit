@@ -5,11 +5,13 @@ const expand = (num) => {
   const expanded = [];
 
   for (let i = len; i > 0; i--) {
-    let pow = Math.pow(10, len - 1);
-    console.log(pow);
+    let pow = Math.pow(10, i - 1);
+    let exp = Math.floor(num / pow) * pow;
+    if (exp != 0) expanded.push(exp);
+    num -= exp;
   }
 
-  return;
+  return expanded.join(' + ');
 };
 
 // Tests
