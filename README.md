@@ -888,6 +888,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-04-27 - SeriesResistance.cs\
 2023-04-28 - canBuild.js\
 2023-04-29 - FindDigitAmount.cs\
+2023-04-30 - expand.js\
 
 ## Very Hard
 
