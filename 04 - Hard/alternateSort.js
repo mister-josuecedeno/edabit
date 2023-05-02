@@ -1,7 +1,17 @@
 // https://edabit.com/challenge/kqvtyGZPNPvBbkGg3
 
 const alternateSort = (arr) => {
-  return;
+  const result = [];
+
+  const numbers = arr.filter((n) => !isNaN(n)).sort((a, b) => a - b);
+  const letters = arr.filter((n) => isNaN(n)).sort();
+
+  for (let i = 0; i < numbers.length; i++) {
+    result.push(numbers[i]);
+    result.push(letters[i]);
+  }
+
+  return result;
 };
 
 // Tests
