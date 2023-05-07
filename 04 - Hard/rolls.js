@@ -1,7 +1,14 @@
 // https://edabit.com/challenge/QuhNPjLubRNh2McfX
 
-const rolls = (second) => {
-  return;
+const rolls = (arr) => {
+  const copy = [...arr];
+  for (let i = 1; i < arr.length; i++) {
+    let previous = arr[i - 1];
+    if (previous === 1) copy[i] = 0;
+    if (previous === 6) copy[i] = arr[i] * 2;
+  }
+
+  return copy.reduce((acc, cv) => acc + cv, 0);
 };
 
 // Tests
