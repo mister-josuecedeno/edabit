@@ -895,6 +895,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-05-04 - findLongest.js\
 2023-05-05 - FirstLast.cs\
 2023-05-06 - FirstLast.cs\
+2023-05-06 - rolls.js\
 
 ## Very Hard
 
