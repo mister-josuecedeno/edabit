@@ -897,6 +897,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-05-06 - FirstLast.cs\
 2023-05-06 - rolls.js\
 2023-05-07 - letterDistance.js\
+2023-05-08 - letterDistance.js\
 
 ## Very Hard
 

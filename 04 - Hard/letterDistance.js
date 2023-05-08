@@ -3,7 +3,16 @@
 const letterDistance = (str1, str2) => {
   const arr1 = [...str1].map((l) => l.charCodeAt(0));
   const arr2 = [...str2].map((l) => l.charCodeAt(0));
-  //return arr1.reduce((acc, cv, i) => acc + Math.abs(cv - arr2[i]) || 0, 0);
+  const minLength = Math.min(arr1.length, arr2.length);
+  let total = 0;
+
+  for (let i = 0; i < minLength; i++) {
+    total += Math.abs(arr1[i] - arr2[i]);
+  }
+
+  total += Math.abs(arr1.length - arr2.length);
+
+  return total;
 };
 
 // Tests
