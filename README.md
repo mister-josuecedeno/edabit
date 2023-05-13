@@ -901,7 +901,8 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-05-09 - FirstLastAgain.cs\
 2023-05-10 - Wumbo.cs\
 2023-05-11 - Flip.cs\
-2023-05-12 - sigilize.js\
+2023-05-12 - combineArrays.js\
+2023-05-13 - sigilize.js\
 
 ## Very Hard
 
