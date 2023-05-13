@@ -1,5 +1,9 @@
 // https://edabit.com/challenge/kqup45hRWqWQ7LqDm
 
+// Steps:
+// 1. remove all vowels
+// 2. remove duplicate letters (only keep the last occurrence)
+
 const sigilize = (desire) => {
   return;
 };
