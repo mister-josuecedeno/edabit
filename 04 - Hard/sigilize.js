@@ -5,7 +5,8 @@
 // 2. remove duplicate letters (only keep the last occurrence)
 
 const sigilize = (desire) => {
-  return;
+  let result = desire.replace(/[aeiou]/gi, '');
+  return result;
 };
 
 // Tests
