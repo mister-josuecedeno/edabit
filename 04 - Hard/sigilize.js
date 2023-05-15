@@ -1,11 +1,15 @@
 // https://edabit.com/challenge/kqup45hRWqWQ7LqDm
 
-// Steps:
-// 1. remove all vowels
-// 2. remove duplicate letters (only keep the last occurrence)
-
 const sigilize = (desire) => {
-  let result = desire.replace(/[aeiou]/gi, '');
+  let letters = desire.replace(/[aeiou\s]/gi, '').toUpperCase();
+  let result = '';
+
+  for (let i = 0; i < letters.length; i++) {
+    if (i === letters.lastIndexOf(letters[i])) {
+      result += letters[i];
+    }
+  }
+
   return result;
 };
 
