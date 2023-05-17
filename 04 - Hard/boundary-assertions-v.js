@@ -1,6 +1,6 @@
 // https://edabit.com/challenge/kcQmoJJE8CXC5kqnP
 
-const REGEXP = /(\w{4,})/g;
+const REGEXP = /(\w{4,})(?!.*yes)/g;
 
 // Tests
 
