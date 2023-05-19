@@ -1,7 +1,11 @@
 // https://edabit.com/challenge/StoCYdQvX2i7zaNLY
 
 const checkFlush = (table, hand) => {
-  return;
+  const tableSuits = table.map((c) => c.split('_')[1]);
+  const handSuits = hand.map((c) => c.split('_')[1]);
+  const hasTwoOfAKind = handSuits[0] === handSuits[1];
+  const hasRequiredCard = tableSuits.includes(handSuits[0]);
+  return hasTwoOfAKind && hasRequiredCard;
 };
 
 // Tests
