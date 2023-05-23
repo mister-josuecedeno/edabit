@@ -1,7 +1,10 @@
 // https://edabit.com/challenge/AK85Q669ArEKstGjT
 
 const youtubeId = (link) => {
-  return;
+  const lastSlash = link.lastIndexOf('/');
+  const pattern = /(?<=v=)[^&?]+/;
+  const match = link.match(pattern);
+  return link.includes('v=') ? match[0] : link.slice(lastSlash + 1);
 };
 
 // Tests
