@@ -1,7 +1,20 @@
 // https://edabit.com/challenge/nSg24HbusyCQKn9xk
 
-const getBestStudent = (second) => {
-  return;
+const getBestStudent = (grades) => {
+  let highestAvg = 0;
+  let highest = 'TBD';
+
+  for (const grade in grades) {
+    let average =
+      grades[grade].reduce((acc, cv) => acc + cv, 0) / grades[grade].length;
+
+    if (average > highestAvg) {
+      highestAvg = average;
+      highest = grade;
+    }
+  }
+
+  return highest;
 };
 
 // Tests
