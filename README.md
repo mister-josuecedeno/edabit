@@ -916,6 +916,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-05-24 - concat.cs\
 2023-05-25 - isCheckerboard.js\
 2023-05-26 - CubesSum.cs\
+2023-05-27 - getBestStudent.js\
 
 ## Very Hard
 
