@@ -1,7 +1,8 @@
 // https://edabit.com/challenge/vwQAXZLaWZjonzcnu
 
-const isThereConsecutive = (second) => {
-  return;
+const isThereConsecutive = (arr, n, times) => {
+  const regex = new RegExp(n);
+  return arr.join('').match(regex);
 };
 
 // Tests
