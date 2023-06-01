@@ -1,7 +1,7 @@
 // https://edabit.com/challenge/vwQAXZLaWZjonzcnu
 
 const isThereConsecutive = (arr, n, times) => {
-  const regex = new RegExp(n);
+  const regex = new RegExp(`${n}{${times}}`);
   return arr.join('').match(regex);
 };
 

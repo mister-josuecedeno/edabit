@@ -920,6 +920,8 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-05-28 - CountTrue.cs\
 2023-05-29 - chiSquaredTest.js\
 2023-05-30 - isThereConsecutive.js\
+2023-05-31 - isThereConsecutive.js\
+2023-06-01 - isThereConsecutive.js\
 
 ## Very Hard
 
