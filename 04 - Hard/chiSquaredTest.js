@@ -1,8 +1,19 @@
 // https://edabit.com/challenge/69t9okDM6RqXmK33F
 
-const chiSquaredTest = (second) => {
-  return;
-};
+// Not my solution
+function chiSquaredTest(data) {
+  let [a, b] = data['E'];
+  let [c, d] = data['T'];
+  let chi = Number(
+    (
+      ((a * d - b * c) ** 2 * (a + b + c + d)) /
+      ((a + b) * (c + d) * (b + d) * (a + c))
+    ).toFixed(1)
+  );
+
+  if (chi <= 3.841) return [chi, 'Edabitin is ininfluent'];
+  return [chi, `Edabitin effectiveness = ${chi > 6.635 ? 99 : 95}%`];
+}
 
 // Tests
 
