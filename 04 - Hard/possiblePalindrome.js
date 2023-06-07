@@ -1,7 +1,11 @@
 // https://edabit.com/challenge/ej8abBJapqjz72mgF
 
-const possiblePalindrome = (second) => {
-  return;
+const possiblePalindrome = (str) => {
+  const regex = /([a-z])\1/g;
+  const pairs = [...str].sort().join('').match(regex) || [];
+  const diff = pairs.length * 2;
+  //return [pairs, diff];
+  return str.length - diff <= 1;
 };
 
 // Tests
