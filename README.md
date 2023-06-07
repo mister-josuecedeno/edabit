@@ -927,6 +927,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-06-04 - YenToUsd.cs\
 2023-06-05 - seqLevel.js\
 2023-06-06 - NumArgs.cs\
+2023-06-07 - possiblePalindrome.js\
 
 ## Very Hard
 
