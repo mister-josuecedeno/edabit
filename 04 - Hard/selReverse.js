@@ -1,16 +1,18 @@
 // https://edabit.com/challenge/LMRMELZHhzvdqaQE8
 
 const selReverse = (arr, len) => {
-  // create sub arrays
+  if (len >= arr.length) return arr.reverse();
+  if (len === 0) return arr;
+
   const groups = [];
+
   for (let i = 0; i < arr.length; i += len) {
-    let chunk = arr.slice(i, i + len);
+    let chunk = arr.slice(i, i + len).reverse();
     groups.push(chunk);
   }
 
-  // sort in descending order
-  // flatten the arrays
-  return groups;
+  const flat = groups.flat(1);
+  return flat;
 };
 
 // Tests
