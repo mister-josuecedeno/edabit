@@ -1,5 +1,9 @@
 // https://edabit.com/challenge/6xWP2WqWrhjbu2ZyG
 
+// Alternative using Array.from
+// const transposeMatrix = (arr) =>
+//   Array.from({ length: arr[0].length }, (_, i) => arr.map((row) => row[i]));
+
 const transposeMatrix = (arr) => {
   const result = [];
 
