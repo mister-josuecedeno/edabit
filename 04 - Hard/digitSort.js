@@ -1,7 +1,16 @@
 // https://edabit.com/challenge/S3sM8FkrWDrfjWeJ6
 
 const digitSort = (arr) => {
-  return;
+  arr.sort((a, b) => {
+    const A = a.toString().length;
+    const B = b.toString().length;
+
+    if (B < A) return -1;
+    if (B > A) return 1;
+    return a - b;
+  });
+
+  return arr;
 };
 
 // Tests
