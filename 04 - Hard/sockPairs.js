@@ -1,7 +1,10 @@
 // https://edabit.com/challenge/AkSERJZ9pTEZfFMNE
 
-const sockPairs = (second) => {
-  return;
+const sockPairs = (socks) => {
+  if (socks === '') return 0;
+  const sorted = [...socks].sort().join('');
+  const regex = /(\w)\1/g;
+  return (sorted.match(regex) || []).length;
 };
 
 // Tests
