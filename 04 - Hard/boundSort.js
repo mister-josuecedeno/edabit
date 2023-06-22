@@ -1,11 +1,11 @@
 // https://edabit.com/challenge/riBaZGcbdEwBKmqzr
 
-// refactor - read the instructions again
 const boundSort = (arr, bounds) => {
-  if (bounds[1] === arr.length - 1) return true;
-  const arr1 = arr.slice(...bounds).sort();
-  const arr2 = arr.slice(bounds[1] + 1).sort();
-  return arr1.slice(-1)[0] <= arr2[0];
+  const [lower, upper] = bounds;
+  const arr1 = arr.slice(lower, upper + 1).sort();
+  const arr2 = arr.slice(upper + 1);
+  const numbers = [...arr1, ...arr2].join('');
+  return [...arr].sort().join('') === numbers;
 };
 
 // Tests
