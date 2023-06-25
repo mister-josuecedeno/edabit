@@ -1,8 +1,14 @@
 // https://edabit.com/challenge/dpc8d3knJRf2aBkif
 
-const junctionOrSelf = (second) => {
-  return;
-};
+function junctionOrSelf(n) {
+	const junc = [];
+	for (let i = n; i >= -1; i--) {
+		if (n === i + [...String(i)].reduce((a, b) => a + +b, 0)) {
+			junc.push(i);
+		}
+	}
+	return junc.length ? junc : 'Self';
+}
 
 // Tests
 
