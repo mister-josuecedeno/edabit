@@ -945,6 +945,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-06-22 - boundSort.js\
 2023-06-23 - BackToHome.cs\
 2023-06-24 - junctionOrSelf.js\
+2023-06-25 - hurdleJump.cs\
 
 ## Very Hard
 
