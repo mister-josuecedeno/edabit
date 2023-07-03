@@ -1,8 +1,9 @@
 // https://edabit.com/challenge/ZYJNYe2tKhG2kb7Sh
 
-// Needs be refactored
 const possiblyPerfect = (key, answers) => {
-    return key.every((s,i,a) => s == '_' || s == answers[i]);
+    const correct = key.every((s,i,a) => s == '_' || s == answers[i]);
+    const incorrect = key.every((s,i,a) => s == '_' || s != answers[i]);
+    return correct || incorrect;
 }
 
 // Tests
