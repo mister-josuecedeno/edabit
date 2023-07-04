@@ -952,8 +952,9 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-06-29 - roundabout.js\
 2023-06-30 - roundabout.js\
 2023-07-01 - possiblyPerfect.js\
-2022-07-02 - possiblyPerfect.js\
-2022-07-03 - possiblyPerfect.js\
+2023-07-02 - possiblyPerfect.js\
+2023-07-03 - possiblyPerfect.js\
+2023-07-04 - CountClaps.cs\
 
 ## Very Hard
 
