@@ -958,6 +958,8 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-07-05 - moran.js\
 2023-07-06 - LongBurp.cs\
 2023-07-07 - LongBurp.cs\
+2023-07-08 - LongBurp.cs\
+2023-07-09 - digitalDivision.js\
 
 ## Very Hard
 
