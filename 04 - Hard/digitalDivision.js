@@ -1,7 +1,20 @@
 // https://edabit.com/challenge/ZSiHm257pcdv9QiXa
 
-const digitalDivision = () => {
-  return;
+// refactor
+const calculateDigits = (num, calculation, start = 0) => {
+    const numbers = [...`${num}`];
+    return numbers.reduce((acc, cv) => eval(`${acc} ${calculation} ${cv}`), start);
+}
+  
+const digitalDivision = (n) => {
+    // divisible by each digit
+
+    // divisible by sum of digits
+    const sumOfDigitsIsDivisble = Number.isInteger(n / calculateDigits(n, '+', 0));
+    
+    // divisible by product of digits
+    const productOfDigitsIsDivisble = Number.isInteger(n / calculateDigits(n, '*', 1));
+    return [sumOfDigitsIsDivisble, productOfDigitsIsDivisble];
 }
 
 // Tests
