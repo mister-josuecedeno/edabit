@@ -8,13 +8,14 @@ const calculateDigits = (num, calculation, start = 0) => {
   
 const digitalDivision = (n) => {
     // divisible by each digit
+    const divisibleByEachNumber = [...`${n}`].every(dig => Number.isInteger(n / dig));
 
     // divisible by sum of digits
     const sumOfDigitsIsDivisble = Number.isInteger(n / calculateDigits(n, '+', 0));
     
     // divisible by product of digits
     const productOfDigitsIsDivisble = Number.isInteger(n / calculateDigits(n, '*', 1));
-    return [sumOfDigitsIsDivisble, productOfDigitsIsDivisble];
+    return [divisibleByEachNumber, sumOfDigitsIsDivisble, productOfDigitsIsDivisble];
 }
 
 // Tests
