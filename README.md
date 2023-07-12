@@ -961,6 +961,8 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-07-08 - LongBurp.cs\
 2023-07-09 - digitalDivision.js\
 2023-07-10 - digitalDivision.js\
+2023-07-11 - digitalDivision.js\
+2023-07-12 - digitalDivision.js\
 
 ## Very Hard
 
