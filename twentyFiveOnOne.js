@@ -1,12 +1,15 @@
 // https://edabit.com/challenge/7DiEaqrnap9DDXnSo
 
 const twentyFiveOnOne = (cart) => {
-  return;
+  const maxPrice = Math.max(...cart.map((item) => item.price));
+  const discount = maxPrice * 0.25;
+  const total = cart.reduce((acc, cv) => acc + cv.quantity * cv.price, 0);
+  return +(total - discount).toFixed(2);
 };
 
 // Tests
 
-Test.assertEquals(
+console.log(
   twentyFiveOnOne([
     { name: 'jogging pants', quantity: 1, price: 29.99 },
     { name: 'tennis socks', quantity: 2, price: 5.99 },
@@ -14,7 +17,7 @@ Test.assertEquals(
   ]),
   86.96
 );
-Test.assertEquals(
+console.log(
   twentyFiveOnOne([
     { name: 'chocolate bar', quantity: 3, price: 1.63 },
     { name: 'chewing gum', quantity: 6, price: 0.25 },
@@ -22,7 +25,7 @@ Test.assertEquals(
   ]),
   6.13
 );
-Test.assertEquals(
+console.log(
   twentyFiveOnOne([
     { name: 'chair', quantity: 4, price: 125 },
     { name: 'table', quantity: 1, price: 450 },
@@ -30,7 +33,7 @@ Test.assertEquals(
   ]),
   1624.96
 );
-Test.assertEquals(
+console.log(
   twentyFiveOnOne([
     { name: 'bag of potatoes', quantity: 4, price: 3.49 },
     { name: 'can of beans', quantity: 1, price: 1.25 },
@@ -38,7 +41,7 @@ Test.assertEquals(
   ]),
   16.98
 );
-Test.assertEquals(
+console.log(
   twentyFiveOnOne([
     { name: 'Iphone 20x', quantity: 1, price: 1350 },
     { name: 'Samsung x30', quantity: 1, price: 1225 },
@@ -47,11 +50,11 @@ Test.assertEquals(
   ]),
   58124.25
 );
-Test.assertEquals(
+console.log(
   twentyFiveOnOne([{ name: 'E-book Surfing Solo', quantity: 1, price: 13.25 }]),
   9.94
 );
-Test.assertEquals(
+console.log(
   twentyFiveOnOne([
     { name: 'Blue Horse Energy Drink', quantity: 12, price: 2.35 },
   ]),
