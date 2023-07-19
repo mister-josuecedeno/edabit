@@ -1,7 +1,11 @@
 // edabit.com/challenge/rsjKiutZuYaBYeaXt
 
 const simpleSymbols = (str) => {
-  return;
+  const letterRegex = /[a-z]/gi;
+  const letters = str.match(letterRegex);
+  const regex = /\+[a-z]\+/gi;
+  const success = str.match(regex);
+  return letters.length === success.length;
 };
 
 // Tests
