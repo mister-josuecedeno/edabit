@@ -1,8 +1,14 @@
 // https://edabit.com/challenge/bqJmJxZYgkRKrLq7v
 
-const column = (str) => {
-  return;
-};
+function column(name) {
+  let column = 0;
+  let length = name.length;
+  for (let i = 0; i < length; i++) {
+    column *= 26;
+    column += name.charCodeAt(i) - 'A'.charCodeAt(0) + 1;
+  }
+  return column;
+}
 
 // Tests
 console.log(column('A'), 1);
