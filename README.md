@@ -979,6 +979,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-07-26 - CountDs.cs\
 2023-07-27 - column.js\
 2023-07-28 - column.js\
+2023-07-29 - brackets.js\
 
 ## Very Hard
 
