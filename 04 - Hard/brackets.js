@@ -1,8 +1,25 @@
 // https://edabit.com/challenge/AcN98uNF2MmQ7jJJH
 
-const brackets = (str) => {
-  return;
-};
+function brackets(str) {
+  let stack = [];
+
+  for (let char of str) {
+    if (char === '(') {
+      stack.push(char);
+    } else if (char === ')') {
+      if (stack.length === 0) {
+        // If there's a closing bracket without a matching opening bracket
+        return false;
+      } else {
+        // If there's a matching opening bracket for the closing bracket
+        stack.pop();
+      }
+    }
+  }
+
+  // If all opening brackets have matching closing brackets
+  return stack.length === 0;
+}
 
 // Tests
 
