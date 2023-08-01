@@ -1,7 +1,21 @@
 // https://edabit.com/challenge/sDbNXjBdo4AbeZGfe
 
+const squareEndsWithN = (number, n) => {
+  const square = number * number;
+  return `${square}`.endsWith(n);
+};
+
 const babbage = (n) => {
-  return;
+  let current = 1;
+  while (!squareEndsWithN(current, n)) {
+    current++;
+  }
+  if (n === 269696) {
+    let result = current === 99736 ? 'correct' : 'incorrect';
+    return `Babbage was ${result}!`;
+  }
+
+  return current;
 };
 
 // Tests
