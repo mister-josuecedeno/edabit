@@ -981,6 +981,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-07-28 - column.js\
 2023-07-29 - brackets.js\
 2023-07-30 - brackets.js\
+2023-08-01 - babbage.js\
 
 ## Very Hard
 
