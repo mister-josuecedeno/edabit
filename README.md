@@ -986,7 +986,8 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-08-02 - Sum.cs\
 2023-08-03 - Sum.cs\
 2023-08-04 - Sum.cs\
-2023-08-05 - passwordValidation.js
+2023-08-05 - passwordValidation.js\
+2023-08-06 - validatePassword.js\
 
 ## Very Hard
 
