@@ -1,7 +1,10 @@
 // https://edabit.com/challenge/xjv7kk6Q7tDhyZTtZ
 
 const positiveSum = (chars) => {
-  return;
+  const regex = /-?\d+/g;
+  const numbers = chars.match(regex);
+  const positive = numbers.filter((n) => +n > 0);
+  return positive.reduce((acc, cv) => acc + +cv, 0);
 };
 
 // Tests
