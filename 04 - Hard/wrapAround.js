@@ -1,7 +1,12 @@
 // https://edabit.com/challenge/GLYHkz9eDh3rMugwu
 
-const wrapAround = (second) => {
-  return;
+const wrapAround = (string, offset) => {
+  const length = string.length;
+  const adjustedOffset = offset % length;
+  const start = string.slice(adjustedOffset);
+  const end = string.slice(0, adjustedOffset);
+
+  return `${start}${end}`;
 };
 
 // Tests
