@@ -996,6 +996,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-08-12 - RemoveFirstLast.cs\
 2023-08-13 - wrapAround.js\
 2023-08-14 - Stutter.cs\
+2023-08-15 - battleOutcome.js\
 
 ## Very Hard
 
