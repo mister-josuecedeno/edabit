@@ -1,20 +1,24 @@
 // https://edabit.com/challenge/nG3NSjoK4BTi9jxBS
 
+// refactor
 const battleOutcome = (num) => {
   let result = '';
   const str = `${num}`;
 
   for (let i = 0; i < str.length; i = i + 2) {
-    if (str[i] === str[i + 1]) {
+    let current = str[i];
+    let next = str[i + 1];
+
+    if (current === next) {
       continue;
     }
 
-    if (str[i + 1] === undefined) {
-      result += str[i];
+    if (next === undefined) {
+      result += current;
       continue;
     }
 
-    result += Math.max(+str[i], +str[i + 1]);
+    result += Math.max(+current, +next);
   }
 
   return;

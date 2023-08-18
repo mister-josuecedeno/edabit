@@ -999,6 +999,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-08-15 - battleOutcome.js\
 2023-08-16 - battleOutcome.js\
 2023-08-17 - battleOutcome.js\
+2023-08-18 - battleOutcome.js\
 
 ## Very Hard
 
