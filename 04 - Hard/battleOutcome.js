@@ -1,6 +1,5 @@
 // https://edabit.com/challenge/nG3NSjoK4BTi9jxBS
 
-// refactor
 const battleOutcome = (num) => {
   let result = '';
   const str = `${num}`;
@@ -21,7 +20,7 @@ const battleOutcome = (num) => {
     result += Math.max(+current, +next);
   }
 
-  return;
+  return result;
 };
 
 // Tests
