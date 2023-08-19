@@ -20,7 +20,7 @@ const battleOutcome = (num) => {
     result += Math.max(+current, +next);
   }
 
-  return result;
+  return +result;
 };
 
 // Tests
