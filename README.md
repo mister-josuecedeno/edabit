@@ -1002,6 +1002,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-08-18 - battleOutcome.js\
 2023-08-19 - battleOutcome.js\
 2023-08-20 - FormatDate.cs\
+2023-08-21 - mySub.js\
 
 ## Very Hard
 
