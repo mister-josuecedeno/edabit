@@ -1,5 +1,6 @@
 // https://edabit.com/challenge/W4EAzp255xTenaYu7
 
+// Not my solution
 function mySub(a, b) {
   // Continue looping until there's no carry left
   while (b !== 0) {
@@ -17,3 +18,6 @@ function mySub(a, b) {
 }
 
 // Tests
+console.log(mySub(5, 9), 4);
+console.log(mySub(10, 30), 20);
+console.log(mySub(0, 0), 0);
