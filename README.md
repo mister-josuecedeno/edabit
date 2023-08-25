@@ -1006,6 +1006,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-08-22 - mySub.js\
 2023-08-23 - mySub.js\
 2023-08-24 - DivisibleByB.cs\
+2023-08-25 - primeCount.js\
 
 ## Very Hard
 
