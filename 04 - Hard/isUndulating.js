@@ -1,7 +1,10 @@
 // https://edabit.com/challenge/sysGYNhR6ZhKBFt9D
 
-const isUndulating = (second) => {
-  return;
+const isUndulating = (n) => {
+  const str = `${n}`;
+  const hasThreeDigits = str.length > 2;
+  const hasTwoUniqueDigits = new Set([...str]).size !== 2;
+  return hasTwoUniqueDigits;
 };
 
 // Tests
