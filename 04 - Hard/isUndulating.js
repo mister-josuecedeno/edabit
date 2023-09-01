@@ -2,9 +2,7 @@
 
 const isUndulating = (n) => {
   const str = `${n}`;
-  const hasThreeDigits = str.length > 2;
-  const hasTwoUniqueDigits = new Set([...str]).size !== 2;
-  return hasTwoUniqueDigits;
+  if (str.length < 3) return false;
 };
 
 // Tests
