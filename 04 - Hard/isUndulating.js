@@ -2,7 +2,20 @@
 
 const isUndulating = (n) => {
   const str = `${n}`;
+  const digits = [...str];
+  const group = new Set(digits);
+
+  // Has at least 3 digits
   if (str.length < 3) return false;
+
+  // Has exactly two different digits
+  if (group.size != 2) return false;
+
+  // the two digits are alternating without repeating groups
+  const isEven = str.length % 2 === 0;
+  const lastDigit = digits.slice(-1);
+  [first, second] = group;
+  return isEven ? lastDigit == second : lastDigit == first;
 };
 
 // Tests
