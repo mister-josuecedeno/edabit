@@ -1015,6 +1015,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-08-31 - isUndulating.js\
 2023-09-01 - isUndulating.js\
 2023-09-02 - isUndulating.js\
+2023-09-03 - ParallelResistance.cs\
 
 ## Very Hard
 
