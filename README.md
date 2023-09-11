@@ -1023,6 +1023,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-09-08 - ParallelResistance.cs\
 2023-09-09 - ParallelResistance.cs\
 2023-09-10 - DoubleChar.cs\
+2023-09-11 - minDifferencePair.js\
 
 ## Very Hard
 
