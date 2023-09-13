@@ -1,13 +1,24 @@
 // https://edabit.com/challenge/czFD8Y3E253eNCy8v
 
-// Return the diff pairs
-const getPairs = (nums) => {
-  return;
-};
-
+// Refactor: step through first
 const minDifferencePair = (nums) => {
-  // find the diff pairs
-  return getPairs(nums);
+  nums = nums.sort();
+  let minDiff = null;
+  let result = [];
+
+  while (nums.length > 1) {
+    let current = nums[0];
+    let next = nums[1];
+    let diff = Math.abs(current - next);
+
+    if (minDiff === null || diff < minDiff) {
+      result = [current, next];
+      nums.shift();
+      continue;
+    }
+  }
+
+  return result;
 };
 
 // Tests
