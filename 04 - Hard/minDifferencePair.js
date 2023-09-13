@@ -1,7 +1,13 @@
 // https://edabit.com/challenge/czFD8Y3E253eNCy8v
 
-const minDifferencePair = (nums) => {
+// Return the diff pairs
+const getPairs = (nums) => {
   return;
+};
+
+const minDifferencePair = (nums) => {
+  // find the diff pairs
+  return getPairs(nums);
 };
 
 // Tests
