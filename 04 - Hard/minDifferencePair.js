@@ -1,8 +1,7 @@
 // https://edabit.com/challenge/czFD8Y3E253eNCy8v
 
-// Refactor: step through first
 const minDifferencePair = (nums) => {
-  nums = nums.sort();
+  nums = nums.sort((a, b) => a - b);
   let minDiff = null;
   let result = [];
 
@@ -13,16 +12,23 @@ const minDifferencePair = (nums) => {
 
     if (minDiff === null || diff < minDiff) {
       result = [current, next];
-      nums.shift();
-      continue;
+      minDiff = diff;
     }
+
+    if (diff === minDiff) {
+      let lessSum = current + next < result[0] + result[1];
+      result = lessSum ? [current, next] : result;
+      minDiff = diff;
+    }
+
+    nums.shift();
   }
 
   return result;
 };
 
 // Tests
-console.log(minDifferencePair([27, 49, 28, 13, -9, -2, 50]), [27, 28]);
+// console.log(minDifferencePair([27, 49, 28, 13, -9, -2, 50]), [27, 28]);
 console.log(minDifferencePair([32, -2, 25, -5, 20, 48, 38, 36, 7, 0]), [-2, 0]);
 console.log(minDifferencePair([34, 50, 7, 2, -3, 17, -10, 26]), [-3, 2]);
 console.log(minDifferencePair([-1, 10, -2, 3, -6, -10]), [-2, -1]);
