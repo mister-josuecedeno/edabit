@@ -1031,6 +1031,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-09-16 - GetWord.cs\
 2023-09-17 - productEqualTarget.js\
 2023-09-18 - productEqualTarget.js\
+2023-09-19 - generatePalindromes.js\
 
 ## Very Hard
 
