@@ -1,6 +1,6 @@
 // https://edabit.com/challenge/aJHPftoXzexJMcoPf
 
-const profit = (second) => {
+const profit = (A, B) => {
   return;
 };
 
