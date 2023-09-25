@@ -1035,8 +1035,9 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-09-20 - generatePalindromes.js\
 2023-09-21 - DoubleLetters.cs\
 2023-09-22 - DoubleLetters.cs\
-2023-09-24 - completeFactorization.js\
-2023-09-25 - ModifyLast.cs\
+2023-09-23 - completeFactorization.js\
+2023-09-24 - ModifyLast.cs\
+2023-09-25 - profit.js\
 
 ## Very Hard
 
