@@ -1,7 +1,9 @@
 // https://edabit.com/challenge/aJHPftoXzexJMcoPf
 
+// refactor
 const profit = (A, B) => {
-  return;
+  const left = Math.ceil((A + B) / 2);
+  return left;
 };
 
 // Tests
