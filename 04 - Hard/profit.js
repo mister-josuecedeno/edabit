@@ -1,10 +1,24 @@
 // https://edabit.com/challenge/aJHPftoXzexJMcoPf
 
-// refactor
-const profit = (A, B) => {
-  const left = Math.ceil((A + B) / 2);
-  return left;
-};
+// Not my solution
+function profit(A, B) {
+  let countA = 0;
+  let countB = 0;
+
+  for (let i = 0; i <= 100; i++) {
+    let distanceToA = Math.abs(A - i);
+    let distanceToB = Math.abs(B - i);
+
+    if (distanceToA < distanceToB) {
+      countA++;
+    } else if (distanceToB < distanceToA) {
+      countB++;
+    }
+    // We ignore ties, as instructed
+  }
+
+  return [countA, countB];
+}
 
 // Tests
 
