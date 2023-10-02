@@ -1044,6 +1044,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-09-29 - profit.js\
 2023-09-30 - ReverseString.cs\
 2023-10-01 - coveredIntegers.js\
+2023-10-02 - NoOdds.cs\
 
 ## Very Hard
 
