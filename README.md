@@ -1049,6 +1049,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-10-04 - NoOdds.cs\
 2023-10-05 - NoOdds.cs\
 2023-10-06 - lookAndSay.js\
+2023-10-07 - ReverseCapitalize.cs\
 
 ## Very Hard
 
