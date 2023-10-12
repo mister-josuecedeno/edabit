@@ -1054,6 +1054,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-10-09 - ReverseCapitalize.cs\
 2023-10-10 - ReverseCapitalize.cs\
 2023-10-11 - ReverseCapitalize.cs\
+2023-10-12 - lychrel.js\
 
 ## Very Hard
 
