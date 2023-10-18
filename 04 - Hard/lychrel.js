@@ -1,7 +1,21 @@
 // https://edabit.com/challenge/d8gGWEAJuxaPrGoiT
 
-const lychrel = (n) => {
-  return;
+const reverseString = (str) => {
+  return str.split('').reverse().join('');
+};
+
+const getSum = (n) => {
+  return n + +reverseString(`${n}`);
+};
+
+const isPalindrome = (str) => {
+  return str === reverseString(str);
+};
+
+const lychrel = (n, ct = 0) => {
+  if (isPalindrome(`${n}`)) return ct;
+  if (ct > 500) return true;
+  return lychrel(getSum(n), ++ct);
 };
 
 // Tests
