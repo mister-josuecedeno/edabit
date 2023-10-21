@@ -1,7 +1,15 @@
 // https://edabit.com/challenge/vtFsh5CzFep6b9gDf
 
 const sortByLastName = (books) => {
-  return;
+  books = books.sort((a, b) => {
+    const aName = a.author.split(' ')[1];
+    const bName = b.author.split(' ')[1];
+
+    if (aName < bName) return -1;
+    if (aName > bName) return 1;
+    return 0;
+  });
+  return books;
 };
 
 // Tests
