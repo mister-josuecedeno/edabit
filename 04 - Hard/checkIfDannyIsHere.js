@@ -1,7 +1,18 @@
 // https://edabit.com/challenge/mxmZby7FHAW47yTAX
 
+// Not my solution
 const checkIfDannyIsHere = (str) => {
-  return;
+  const dannyRegex = new RegExp(
+    [
+      '[dD|)\\[\\]|]', // D variations
+      '[aA@4^/\\\\/\\\\-\\\\]', // A variations
+      '[nN|\\\\|/\\\\/\\\\(\\\\)]{2}', // N variations (twice for 'nn')
+      "[yY`/'°/]",
+    ].join(''),
+    'i'
+  ); // i flag makes it case-insensitive
+
+  return dannyRegex.test(str);
 };
 
 // Tests
