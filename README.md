@@ -1068,7 +1068,8 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-10-23 - checkIfDannyIsHere.js\
 2023-10-24 - checkIfDannyIsHere.js\
 2023-10-25 - checkIfDannyIsHere.js\
-2023-10-25 - IsAvgWhole.cs\
+2023-10-26 - IsAvgWhole.cs\
+2023-10-27 - IsAvgWhole.cs\
 
 ## Very Hard
 
