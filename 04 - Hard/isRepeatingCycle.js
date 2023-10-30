@@ -1,7 +1,7 @@
 // https://edabit.com/challenge/9opuZaXyTKcwKMb6C
 
 const isRepeatingCycle = (arr, length) => {
-  return;
+  return null;
 };
 
 // Tests
