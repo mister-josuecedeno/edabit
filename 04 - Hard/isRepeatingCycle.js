@@ -1,6 +1,5 @@
 // https://edabit.com/challenge/9opuZaXyTKcwKMb6C
 
-// Debug
 const isRepeatingCycle = (arr, length) => {
   const comp = arr.slice(0, length);
   let counter = 0;
@@ -11,7 +10,7 @@ const isRepeatingCycle = (arr, length) => {
       isRepeating = false;
       break;
     }
-    counter = counter > length ? 0 : counter++;
+    counter = counter >= length - 1 ? 0 : ++counter;
   }
 
   return isRepeating;
