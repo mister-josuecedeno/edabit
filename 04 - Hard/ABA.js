@@ -1,6 +1,10 @@
 // https://edabit.com/challenge/aCiZ77cGuTrZMuwLF
 
+// In Progress
 const ABA = (s) => {
+  // use ansii to define length
+  const letters = ['A', 'B', 'C', 'D', 'E', 'F'];
+  let side = '';
   return;
 };
 
