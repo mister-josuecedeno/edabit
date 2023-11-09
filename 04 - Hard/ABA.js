@@ -2,10 +2,17 @@
 
 // In Progress
 const ABA = (s) => {
-  // use ansii to define length
-  const letters = ['A', 'B', 'C', 'D', 'E', 'F'];
+  const positions = s.charCodeAt(0) - 64;
   let side = '';
-  return;
+
+  // next - set the current position
+
+  for (let i = 0; i < positions; i++) {
+    // appending the stat and end to create a new side
+    //side = `${side}`
+  }
+
+  return positions;
 };
 
 // Tests
