@@ -3,13 +3,13 @@
 // In Progress
 const ABA = (s) => {
   const positions = s.charCodeAt(0) - 64;
-  let side = '';
+  let side = 'A';
+  let result = '';
 
-  // next - set the current position
-
-  for (let i = 0; i < positions; i++) {
+  for (let i = 65; i < positions; i++) {
     // appending the stat and end to create a new side
-    //side = `${side}`
+    side = `${side}`;
+    result = ``;
   }
 
   return positions;
