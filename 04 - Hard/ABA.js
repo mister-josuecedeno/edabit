@@ -1,18 +1,16 @@
 // https://edabit.com/challenge/aCiZ77cGuTrZMuwLF
 
-// In Progress
 const ABA = (s) => {
   const positions = s.charCodeAt(0) - 64;
-  let side = 'A';
+  let current = '';
   let result = '';
 
-  for (let i = 65; i < positions; i++) {
-    // appending the stat and end to create a new side
-    side = `${side}`;
-    result = ``;
+  for (let i = 0; i < positions; i++) {
+    current = String.fromCharCode(65 + i);
+    result = result + current + result;
   }
 
-  return positions;
+  return result;
 };
 
 // Tests
