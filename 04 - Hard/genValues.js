@@ -1,7 +1,16 @@
 // https://edabit.com/challenge/g9z2gkXH5zurRPpSD
 
 const genValues = (n, i) => {
-  return;
+  const result = [];
+  const decimalPlaces = i.toString().includes('.')
+    ? i.toString().split('.')[1].length
+    : 0;
+
+  for (let j = 0; j <= n; j = +(j + i).toFixed(decimalPlaces)) {
+    result.push(j);
+  }
+
+  return result;
 };
 
 // Tests
