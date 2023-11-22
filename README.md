@@ -1095,6 +1095,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-11-19 - genValues.js\
 2023-11-20 - XO.cs\
 2023-11-21 - XO.cs\
+2023-11-22 - findRepeating.js\
 
 ## Very Hard
 
