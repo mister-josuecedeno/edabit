@@ -1100,6 +1100,8 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-11-24 - findRepeating.js\
 2023-11-25 - findRepeating.js\
 2023-11-26 - findRepeating.js\
+2023-11-27 - findRepeating.js\
+2023-11-28 - findRepeating.js\
 
 ## Very Hard
 
