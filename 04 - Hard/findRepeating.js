@@ -2,13 +2,14 @@
 
 const findRepeating = (str) => {
   // create a set
+  const chars = new Set(str);
   // for each element in the set create an array
   // array elements for each set element (create a separate function for readability)
   //  value
   //  first index
   //  last index
   //  times repeated
-  return;
+  return chars;
 };
 
 // Tests
