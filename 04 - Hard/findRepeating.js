@@ -2,7 +2,7 @@
 
 const findRepeating = (str) => {
   const result = [];
-  // create a set
+  // create a set (THIS IS INCORRECT)
   const chars = [...new Set(str)];
   // for each element in the set create an array
   // array elements for each set element (create a separate function for readability)
@@ -12,7 +12,9 @@ const findRepeating = (str) => {
   //  times repeated
 
   chars.forEach((char) => {
-    result.push(char);
+    let firstIndex = str.indexOf(char);
+    let lastIndex = str.lastIndexOf(char);
+    result.push(char, firstIndex, lastIndex);
   });
 
   return result;
