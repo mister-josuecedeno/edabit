@@ -1,24 +1,30 @@
 // https://edabit.com/challenge/AtNMAGcwKDad5rC69
 
-const findRepeating = (str) => {
-  const result = [];
-  // create a set (THIS IS INCORRECT)
-  const chars = [...new Set(str)];
-  // for each element in the set create an array
-  // array elements for each set element (create a separate function for readability)
-  //  value
-  //  first index
-  //  last index
-  //  times repeated
+// Not my answer
+function findRepeating(s) {
+  if (!s) {
+    return [];
+  }
 
-  chars.forEach((char) => {
-    let firstIndex = str.indexOf(char);
-    let lastIndex = str.lastIndexOf(char);
-    result.push(char, firstIndex, lastIndex);
-  });
+  let result = [];
+  let prevChar = s[0];
+  let firstIndex = 0;
+  let timesRepeated = 1;
 
+  for (let i = 1; i < s.length; i++) {
+    if (s[i] === prevChar) {
+      timesRepeated++;
+    } else {
+      result.push([prevChar, firstIndex, i - 1, timesRepeated]);
+      prevChar = s[i];
+      firstIndex = i;
+      timesRepeated = 1;
+    }
+  }
+
+  result.push([prevChar, firstIndex, s.length - 1, timesRepeated]);
   return result;
-};
+}
 
 // Tests
 
