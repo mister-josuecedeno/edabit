@@ -1,7 +1,15 @@
 // https://edabit.com/challenge/Z5tC9uqQrNioT2dLm
 
 const isModest = (num) => {
-  return;
+  let str = `${num}`;
+  for (let i = 0; i < str.length; i++) {
+    let left = str.slice(0, i + 1);
+    let right = str.slice(i + 1);
+
+    if (num % +right == +left) return true;
+  }
+
+  return false;
 };
 
 // Tests
