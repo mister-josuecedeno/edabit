@@ -1,6 +1,8 @@
 // https://edabit.com/challenge/Xpj88Ni3QxoCGFnne
 
-const removeLetters = (second) => {
+const removeLetters = (letters, word) => {
+  // for each array element check the string
+  // reduce the size of the string reference each time
   return;
 };
 
