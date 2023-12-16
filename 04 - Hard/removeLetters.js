@@ -1,8 +1,8 @@
 // https://edabit.com/challenge/Xpj88Ni3QxoCGFnne
 
 const removeLetters = (letters, word) => {
-  // for each array element check the string
-  // reduce the size of the string reference each time
+  // remove letter from string (unshift)
+  // remove from array (first index)
   return;
 };
 
