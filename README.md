@@ -1120,6 +1120,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-12-14 - removeLetters.js\
 2023-12-15 - removeLetters.js\
 2023-12-16 - removeLetters.js\
+2023-12-17 - removeLetters.js\
 
 ## Very Hard
 

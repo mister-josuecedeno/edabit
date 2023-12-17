@@ -1,9 +1,13 @@
 // https://edabit.com/challenge/Xpj88Ni3QxoCGFnne
 
 const removeLetters = (letters, word) => {
-  // remove letter from string (unshift)
-  // remove from array (first index)
-  return;
+  for (let i = 0; i < word.length; i++) {
+    let currentLetter = word[i];
+    let location = letters.indexOf(currentLetter);
+    if (location != -1) letters.splice(location, 1);
+  }
+
+  return letters;
 };
 
 // Tests
