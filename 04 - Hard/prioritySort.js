@@ -1,7 +1,9 @@
 // https://edabit.com/challenge/qMcdtSKAPESJWKpzP
 
-const prioritySort = (second) => {
-  return;
+const prioritySort = (arr, s) => {
+  const inArray = arr.filter((n) => s.has(n)).sort((a, b) => a - b);
+  const notInArray = arr.filter((n) => !s.has(n)).sort((a, b) => a - b);
+  return [...inArray, ...notInArray];
 };
 
 // Tests
