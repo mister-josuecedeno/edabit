@@ -1127,6 +1127,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-12-21 - ImposterFormula.cs\
 2023-12-22 - XORCipher.js\
 2023-12-23 - numbersNeedFriendsToo.js\
+2023-12-24 - LastDig.cs\
 
 ## Very Hard
 
