@@ -1,11 +1,13 @@
 // https://edabit.com/challenge/vuSPSnFC32qEbQBdv
 
 // refactor
-// refactor
 const dakiti = (str) => {
   const words = str.split(' ');
-  const sorted = words.sort((a, b) => parseInt(a) - parseInt(b));
-  return sorted;
+  const sorted = words.sort(
+    (a, b) => parseInt(a.match(/\d+/)[0], 10) - parseInt(b.match(/\d+/)[0], 10)
+  );
+  const removed = sorted.map((w) => w.replace(/\d/g, ''));
+  return removed;
 };
 
 // Tests
