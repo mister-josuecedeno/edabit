@@ -1,8 +1,14 @@
 // https://edabit.com/challenge/vuSPSnFC32qEbQBdv
 
+// refactor
 const dakiti = (str) => {
   const words = str.split(' ');
-  return words;
+  const sorted = words.sort((a, b) => {
+    if (parseInt(a) < parseInt(b)) return -1;
+    if (parseInt(a) > parseInt(b)) return 1;
+    return 0;
+  });
+  return sorted;
 };
 
 // Tests
