@@ -1,6 +1,7 @@
 // https://edabit.com/challenge/vuSPSnFC32qEbQBdv
 
 // refactor
+// refactor
 const dakiti = (str) => {
   const words = str.split(' ');
   const sorted = words.sort((a, b) => parseInt(a) - parseInt(b));
