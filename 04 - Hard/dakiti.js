@@ -3,11 +3,7 @@
 // refactor
 const dakiti = (str) => {
   const words = str.split(' ');
-  const sorted = words.sort((a, b) => {
-    if (parseInt(a) < parseInt(b)) return -1;
-    if (parseInt(a) > parseInt(b)) return 1;
-    return 0;
-  });
+  const sorted = words.sort((a, b) => parseInt(a) - parseInt(b));
   return sorted;
 };
 
