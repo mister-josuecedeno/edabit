@@ -1129,6 +1129,9 @@ Additional code examples can be found under my profile in Edabit. This migration
 2023-12-23 - numbersNeedFriendsToo.js\
 2023-12-24 - LastDig.cs\
 2023-12-25 - dakiti.js\
+2023-12-26 - dakiti.js\
+2023-12-27 - dakiti.js\
+2023-12-28 - dakiti.js\
 
 ## Very Hard
 
