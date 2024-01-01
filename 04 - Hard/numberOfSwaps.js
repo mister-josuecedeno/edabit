@@ -20,12 +20,12 @@ const numberOfSwaps = (arr) => {
       arr[i] = temp;
     }
 
-    if (i === arr.length - 1) {
+    if (i === arr.length - 2) {
       i = 0;
       swaps++;
+    } else {
+      i++;
     }
-
-    i++;
   }
 
   return swaps;
