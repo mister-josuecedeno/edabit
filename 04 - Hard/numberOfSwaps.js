@@ -26,7 +26,6 @@ const numberOfSwaps = (arr) => {
     }
 
     i++;
-    //break;
   }
 
   return swaps;
