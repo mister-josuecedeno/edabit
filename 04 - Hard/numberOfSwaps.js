@@ -1,6 +1,5 @@
 // https://edabit.com/challenge/6ALbTxgu8BZaa6YYN
 
-// Refactor
 const equalsCheck = (a, b) => {
   return JSON.stringify(a) === JSON.stringify(b);
 };
@@ -18,11 +17,11 @@ const numberOfSwaps = (arr) => {
       let temp = next;
       arr[i + 1] = current;
       arr[i] = temp;
+      swaps++;
     }
 
     if (i === arr.length - 2) {
       i = 0;
-      swaps++;
     } else {
       i++;
     }
