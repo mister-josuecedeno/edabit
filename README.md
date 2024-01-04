@@ -1138,6 +1138,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-01-01 - numberOfSwaps.js\
 2024-01-02 - numberOfSwaps.js\
 2024-01-03 - numberOfSwaps.js\
+2024-01-04 - RemoveDups.cs\
 
 ## Very Hard
 
