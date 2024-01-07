@@ -1,8 +1,9 @@
 // https://edabit.com/challenge/9kTgWLWEgpqRKakoy
 
-// confused - walk away
 const annaLikes = (boy) => {
-  return boy.length;
+  const regex = /[aeiou]/gi;
+  const vowels = (boy.match(regex) || []).length;
+  return boy.length - vowels === vowels;
 };
 
 // Tests
