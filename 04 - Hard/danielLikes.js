@@ -1,9 +1,11 @@
 // https://edabit.com/challenge/nbBxCfxPNy4ovFoqQ
 
 const danielLikes = (girl) => {
-  const regex = /[aeiou]/gi;
-  const vowels = (girl.match(regex) || []).length;
-  return girl.length - vowels === vowels;
+  return [...girl].map((l) => l.charCodeAt(0));
 };
 
 // Tests
+console.log(danielLikes('Daniel'), false);
+console.log(danielLikes('Renata'), false);
+console.log(danielLikes('Charli'), true);
+console.log(danielLikes('Holly'), true);
