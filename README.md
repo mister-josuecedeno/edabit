@@ -1149,6 +1149,9 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-01-12 - ReplaceVowels.cs\
 2024-01-13 - ReplaceVowels.cs\
 2024-01-14 - danielLikes.js\
+2024-01-15 - danielLikes.js\
+2024-01-16 - danielLikes.js\
+2024-01-17 - danielLikes.js\
 
 ## Very Hard
 
