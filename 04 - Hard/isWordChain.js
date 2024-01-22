@@ -1,7 +1,9 @@
 // https://edabit.com/challenge/EfC7rRKdAt8ugcCCT
 
-const isWordChain = (second) => {
-  return;
+const isWordChain = (words) => {
+  const sameLength = words.every((word) => word.length === words[0].length);
+  // how to test that only one letter has changed
+  return sameLength;
 };
 
 // Tests
