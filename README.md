@@ -1156,7 +1156,8 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-01-19 - isBetween.cs\
 2024-01-20 - isBetween.cs\
 2024-01-21 - isWordChain.js\
-2024-01-22 - factorial.cs\
+2024-01-22 - isWordChain.js\
+2024-01-23 - factorial.cs\
 
 ## Very Hard
 
