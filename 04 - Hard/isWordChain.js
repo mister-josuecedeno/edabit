@@ -1,9 +1,26 @@
 // https://edabit.com/challenge/EfC7rRKdAt8ugcCCT
 
+const countDifferentLetters = (word1, word2) => {
+  if (word1.length !== word2.length) return -1;
+
+  let count = 0;
+  for (let i = 0; i < word1.length; i++) {
+    if (word1[i] !== word2[i]) {
+      count++;
+      if (count > 1) return count;
+    }
+  }
+
+  return count;
+};
+
 const isWordChain = (words) => {
-  const sameLength = words.every((word) => word.length === words[0].length);
-  // how to test that only one letter has changed
-  return sameLength;
+  for (let i = 1; i < words.length; i++) {
+    let differenceCount = countDifferentLetters(words[i], words[i - 1]);
+    if (differenceCount !== 1) return false;
+  }
+
+  return true;
 };
 
 // Tests
