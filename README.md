@@ -1158,6 +1158,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-01-21 - isWordChain.js\
 2024-01-22 - isWordChain.js\
 2024-01-23 - factorial.cs\
+2024-01-24 - factorial.cs\
 
 ## Very Hard
 
