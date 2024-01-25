@@ -1,6 +1,9 @@
 // https://edabit.com/challenge/m9pkGmuoEWsdHrNHi
 
 const stringCode = (sentence) => {
+  // Loop through the sentence
+  // split vowels and consonants
+  // format the groups with spacing
   return;
 };
 
