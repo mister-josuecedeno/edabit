@@ -1,10 +1,22 @@
 // https://edabit.com/challenge/m9pkGmuoEWsdHrNHi
 
+// In progress
+const getVowelCount = (word) => {
+  const regex = /[aeiou]/gi;
+  return (word.match(regex) || []).length;
+};
+
+const getConsonantCount = (word) => {
+  const regex = /[^aeiou]/gi;
+  return (word.match(regex) || []).length;
+};
+
 const stringCode = (sentence) => {
   // Loop through the sentence
   // split vowels and consonants
   // format the groups with spacing
-  return;
+  let word = 'test';
+  return [getConsonantCount(word), getVowelCount(word)];
 };
 
 // Tests
