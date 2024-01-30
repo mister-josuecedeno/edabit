@@ -1163,7 +1163,8 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-01-26 - stringCode.js\
 2024-01-27 - stringCode.js\
 2024-01-28 - Equal.cs\
-2024-01-28 - primeFactorization.js\
+2024-01-29 - primeFactorization.js\
+2024-01-30 - primeFactorization.js\
 
 ## Very Hard
 
