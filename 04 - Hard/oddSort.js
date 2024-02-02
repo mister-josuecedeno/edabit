@@ -1,7 +1,18 @@
 // https://edabit.com/challenge/NhkHhyK7hSCAdLCeZ
 
-const oddSort = (second) => {
-  return;
+const oddSort = (arr) => {
+  const odds = (arr.filter((number) => number % 2 != 0) || []).sort();
+  let oddIndex = 0;
+
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] % 2 != 0) {
+      arr[i] = odds[oddIndex];
+
+      oddIndex++;
+    }
+  }
+
+  return arr;
 };
 
 // Tests
