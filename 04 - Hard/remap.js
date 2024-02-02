@@ -1,5 +1,6 @@
 // https://edabit.com/challenge/roCH4n2xnBjLoXfjv
 
+// Skipped due to poor instructions
 const remap = (value, low1, high1, low2, high2) => {
   return;
 };
