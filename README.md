@@ -1171,6 +1171,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-02-02 - MissingNum.cs\
 2024-02-03 - maxCollatz.js\
 2024-02-04 - Search.cs\
+2024-02-05 - Search.cs\
 
 ## Very Hard
 
