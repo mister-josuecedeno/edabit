@@ -1173,6 +1173,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-02-05 - Search.cs\
 2024-02-06 - Search.cs\
 2024-02-07 - mostFrequentChar.js\
+2024-02-08 - mostFrequentChar.js\
 
 ## Very Hard
 

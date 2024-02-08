@@ -15,7 +15,6 @@ const mostFrequentChar = (arr) => {
 };
 
 // Tests
-
 console.log(mostFrequentChar(['apple', 'bandage', 'yodel', 'make']), [
   'a',
   'e',
