@@ -10,8 +10,15 @@ const charMap = (str) => {
   return charMap;
 };
 
+// refactor - need to return multiple if tie
+const getMaxValueKey = (obj) => {
+  return Object.keys(obj).reduce((a, b) => (obj[a] > obj[b] ? a : b));
+};
+
 const mostFrequentChar = (arr) => {
-  return charMap();
+  const str = [...arr.join()].sort();
+  const obj = charMap(str);
+  return getMaxValueKey(obj);
 };
 
 // Tests
