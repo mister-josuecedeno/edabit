@@ -10,10 +10,15 @@ const charMap = (str) => {
   return charMap;
 };
 
+const getMaxValue = (obj) => {
+  const maxValue = Math.max(...Object.values(obj));
+  return Object.keys(obj).filter((key) => obj[key] === maxValue);
+};
+
 const mostFrequentChar = (arr) => {
   const str = [...arr.join('')].sort();
   const obj = charMap(str);
-  return obj;
+  return getMaxValue(obj);
 };
 
 // Tests
