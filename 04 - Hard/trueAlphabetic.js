@@ -1,7 +1,9 @@
 // https://edabit.com/challenge/8NDcdD8QZiMKJJaYL
 
 const trueAlphabetic = (str) => {
-  return;
+  const sorted = [...str.split(' ').join('')].sort();
+  const words = [...str];
+  return words.map((w) => (w != ' ' ? sorted.shift() : ' ')).join('');
 };
 
 // Tests
