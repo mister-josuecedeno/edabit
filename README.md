@@ -1179,6 +1179,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-02-11 - LargestSwap.cs\
 2024-02-12 - trueAlphabetic.js\
 2024-02-13 - trueAlphabetic.js\
+2024-02-14 - RemoveVowels.cs\
 
 ## Very Hard
 
