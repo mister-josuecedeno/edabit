@@ -1182,6 +1182,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-02-14 - RemoveVowels.cs\
 2024-02-15 - camelCase.js\
 2024-02-16 - camelCase.js\
+2024-02-17 - camelCase.js\
 
 ## Very Hard
 

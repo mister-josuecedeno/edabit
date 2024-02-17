@@ -1,11 +1,20 @@
 // https://edabit.com/challenge/fdfdgjo6vFYSunMdr
 
-// In Progress
+const toProperCase = (str) => {
+  return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+};
+
 const camelCase = (str) => {
-  const regex = /[a-z0-9]/gi;
-  const match = str.match(regex);
-  if (str === match.join('')) return str;
-  return str.match(regex);
+  const regex = /[A-Za-z0-9]+/g;
+  const words = str.match(regex) || [];
+
+  if (str === words.join('')) return str;
+
+  return words
+    .map((word, index) =>
+      index === 0 ? word.toLowerCase() : toProperCase(word)
+    )
+    .join('');
 };
 
 // Tests
