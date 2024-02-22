@@ -1,7 +1,13 @@
 // https://edabit.com/challenge/WQjRP8ZpmSWZddoMd
 
+// Not my solution
 const switcheroo = (txt) => {
-  return;
+  // Use a regular expression to find words ending with "nts" or "nce"
+  // and replace them accordingly
+  return txt.replace(/\b(\w*)(nts|nce)\b/g, function (match, p1, p2) {
+    // If the ending is "nts", replace with "nce", and vice versa
+    return p2 === 'nts' ? p1 + 'nce' : p1 + 'nts';
+  });
 };
 
 // Tests
