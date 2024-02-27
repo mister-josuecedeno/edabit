@@ -1192,6 +1192,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-02-24 - minTurns.js\
 2024-02-25 - LettersOnly.cs\
 2024-02-26 - LettersOnly.cs\
+2024-02-27 - LettersOnly.cs\
 
 ## Very Hard
 
