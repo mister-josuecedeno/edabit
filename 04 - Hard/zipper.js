@@ -2,18 +2,21 @@
 
 const zipper = (arr1, arr2) => {
   if (arr1.join('') == arr2.join('')) return true;
-  let num1, num2;
 
-  while (num1 === num2) {
+  let num1 = arr1.pop();
+  let num2 = arr2.pop();
+  let changes = 0;
+
+  while (num1 == num2) {
     num1 = arr1.pop();
     num2 = arr2.pop();
+    changes++;
   }
 
-  let noChange = arr1.length > 0 && arr1.length == arr2.length;
-  if (noChange) return false;
-
+  if (changes === 0) return false;
   return [arr1.length, arr2.length];
 };
+
 // Tests
 
 console.log(
