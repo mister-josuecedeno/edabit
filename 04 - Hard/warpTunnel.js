@@ -1,7 +1,19 @@
 // https://edabit.com/challenge/QK4QbxN6oj4EMf5zy
 
 const warpTunnel = (mtx, n) => {
-  return;
+  const numbers = mtx.flat();
+  for (let i = 0; i < n; i++) {
+    let end = numbers.pop();
+    numbers.unshift(end);
+  }
+
+  const group = [];
+  const size = mtx[0].length;
+  for (let i = 0; i < numbers.length; i += size) {
+    group.push(numbers.slice(i, i + size));
+  }
+
+  return group;
 };
 
 // Tests
