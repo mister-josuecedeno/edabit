@@ -1204,6 +1204,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-03-07 - magic.js\
 2024-03-08 - IndexOfCapitals.cs\
 2024-03-09 - IndexOfCapitals.cs\
+2024-03-10 - IndexOfCapitals.cs\
 
 ## Very Hard
 
