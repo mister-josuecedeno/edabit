@@ -1,7 +1,27 @@
 // https://edabit.com/challenge/WnfkPFXNMeT8C4c2z
 
-const isOrdSub = (smarr, bigarr) => {
-  return;
+// Not my solution
+
+/**
+ * Checks if the smaller array is a subarray of the larger array in order.
+ * @param {number[]} smallArr - The smaller array to check for.
+ * @param {number[]} bigArr - The larger array to search in.
+ * @returns {boolean} True if the smaller array is an ordered subarray of the larger array, false otherwise.
+ */
+const isOrdSub = (smallArr, bigArr) => {
+  let smallIndex = 0;
+
+  for (let bigIndex = 0; bigIndex < bigArr.length; bigIndex++) {
+    if (smallArr[smallIndex] === bigArr[bigIndex]) {
+      smallIndex++;
+    }
+
+    if (smallIndex === smallArr.length) {
+      return true;
+    }
+  }
+
+  return false;
 };
 
 // Tests
