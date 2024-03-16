@@ -1,7 +1,15 @@
 // https://edabit.com/challenge/a8pSKKAr4JQBg9WcF
 
 const pull = (arr, ...args) => {
-  return;
+  for (let i = arr.length - 1; i >= 0; i--) {
+    const currentElement = arr[i];
+
+    if (args.includes(currentElement)) {
+      arr.splice(i, 1);
+    }
+  }
+
+  return arr;
 };
 
 // Tests
