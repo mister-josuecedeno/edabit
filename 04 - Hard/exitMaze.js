@@ -1,8 +1,58 @@
 // https://edabit.com/challenge/HSprZxYCc3KxysAoK
 
-const exitMaze = (maze, directions) => {
-  return;
-};
+// Not my solution
+
+// const exitMaze = (maze, directions) => {
+//   return;
+// };
+
+function exitMaze(maze, directions) {
+  let position = findStartPosition(maze);
+  if (!position) return 'No start point';
+
+  for (let direction of directions) {
+    switch (direction) {
+      case 'N':
+        position.x--;
+        break;
+      case 'E':
+        position.y++;
+        break;
+      case 'S':
+        position.x++;
+        break;
+      case 'W':
+        position.y--;
+        break;
+    }
+
+    if (
+      position.x < 0 ||
+      position.x >= maze.length ||
+      position.y < 0 ||
+      position.y >= maze[0].length
+    ) {
+      return 'Dead';
+    } else if (maze[position.x][position.y] === 1) {
+      return 'Dead';
+    } else if (maze[position.x][position.y] === 3) {
+      return 'Finish';
+    }
+  }
+
+  return 'Lost';
+}
+
+function findStartPosition(maze) {
+  for (let i = 0; i < maze.length; i++) {
+    for (let j = 0; j < maze[i].length; j++) {
+      if (maze[i][j] === 2) {
+        return { x: i, y: j };
+      }
+    }
+  }
+  return null;
+}
 
 // Tests
 
