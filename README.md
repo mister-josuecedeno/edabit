@@ -1217,6 +1217,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-03-20 - exitMaze.js\
 2024-03-21 - CountPosSumNeg.cs\
 2024-03-22 - isAlphabeticallySorted.js\
+2024-03-23 - ValidatePIN.cs\
 
 ## Very Hard
 
