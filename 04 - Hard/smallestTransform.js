@@ -1,7 +1,19 @@
 // https://edabit.com/challenge/ejzLBYvAtAiKk9HnP
 
+const transform = (number, numbers) => {
+  return numbers.reduce((acc, cv) => acc + Math.abs(number - cv), 0);
+};
+
 const smallestTransform = (num) => {
-  return;
+  const numbers = [...`${num}`];
+  const transforms = [];
+
+  for (const number of numbers) {
+    let changes = transform(number, numbers);
+    transforms.push(changes);
+  }
+
+  return Math.min(...transforms);
 };
 
 // Tests
