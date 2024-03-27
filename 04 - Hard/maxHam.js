@@ -1,7 +1,17 @@
 // https://edabit.com/challenge/exX3Y9T68wGvLEPHL
 
-const maxHam = (s1, s2) => {
+const isAnagram = (s1, s2) => {
   return;
+};
+
+const getHammingDistance = (s1, s2) => {
+  return;
+};
+
+const maxHam = (s1, s2) => {
+  const anagram = isAnagram(s1, s2);
+  const hamEqualsLength = getHammingDistance(s1, s2) === s1.length;
+  return anagram && hamEqualsLength;
 };
 
 // Tests
