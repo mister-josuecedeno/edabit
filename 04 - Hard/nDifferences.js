@@ -1,7 +1,24 @@
 // https://edabit.com/challenge/zYhCuzcXZn9PKG6ry
 
+const getDiff = (arr) => {
+  const differences = [];
+
+  for (let i = arr.length - 1; i > 0; i--) {
+    let diff = arr[i] - arr[i - 1];
+    differences.unshift(diff);
+  }
+
+  return differences;
+};
+
 const nDifferences = (arr) => {
-  return;
+  let numbers = [...arr];
+
+  while (numbers.length > 1) {
+    numbers = getDiff([...numbers]);
+  }
+
+  return numbers[0];
 };
 
 // Tests
