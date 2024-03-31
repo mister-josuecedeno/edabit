@@ -1224,7 +1224,8 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-03-27 - maxHam.js\
 2024-03-28 - GetMiddle.cs\
 2024-03-29 - nDifferences.js\
-2024=-3-30 - ToScottishScreaming.cs\
+2024-03-30 - ToScottishScreaming.cs\
+2024-03-31 - ToScottishScreaming.cs\
 
 ## Very Hard
 
