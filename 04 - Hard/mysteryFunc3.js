@@ -1,7 +1,20 @@
 // https://edabit.com/challenge/YxtBN5uCTSCqoZofd
 
 const mysteryFunc = (num) => {
-  return;
+  let isGreaterThanNum = false;
+  let pow = 1;
+  let product;
+
+  while (!isGreaterThanNum) {
+    product = Math.pow(2, pow);
+    if (product > num) {
+      product = Math.pow(2, pow - 1);
+      break;
+    }
+    pow++;
+  }
+
+  return +['2'.repeat(pow - 1), `${num - product}`].join('');
 };
 
 // Tests
