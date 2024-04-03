@@ -1228,6 +1228,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-03-31 - ToScottishScreaming.cs\
 2024-04-01 - ToScottishScreaming.cs\
 2024-04-02 - mysteryFunc.js\
+2024-04-03 - Maskify.cs\
 
 ## Very Hard
 
