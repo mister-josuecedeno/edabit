@@ -1,7 +1,19 @@
 // https://edabit.com/challenge/vrHDieytY657gYTcT
 
 const closingInSum = (num) => {
-  return;
+  if (num === null || num === undefined || num === 0 || num === '') return 0;
+  let numbers = [...`${num}`];
+  let first, last, sum;
+  if (numbers.length > 1) {
+    first = numbers.shift();
+    last = numbers.pop();
+    sum = +(first + last);
+  } else {
+    sum = +numbers.shift();
+  }
+
+  num = numbers.join('');
+  return sum + closingInSum(num);
 };
 
 // Tests
