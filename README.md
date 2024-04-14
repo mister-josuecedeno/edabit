@@ -1239,6 +1239,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-04-11 - gcd.cs\
 2024-04-12 - gcd.cs\
 2024-04-13 - gcd.cs\
+2024-04-14 - isRightAngle.js\
 
 ## Very Hard
 
