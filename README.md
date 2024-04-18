@@ -1243,6 +1243,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-04-15 - isRightAngle.js\
 2024-04-16 - isRightAngle.js\
 2024-04-17 - isRightAngle.js\
+2024-04-18 - isRightAngle.js\
 
 ## Very Hard
 
