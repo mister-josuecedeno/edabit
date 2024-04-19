@@ -1,22 +1,21 @@
 // https://edabit.com/challenge/LgD9W3uCRBXow6s5e
 
-// Refactor
-// angle
-// Sum(angles) == 90
-// One angle == 90
-// side
-//
+// refactor
 
 const isRightAngle = (arr, desc) => {
+  // triangle check
   if (arr.length > 3) return false;
 
   // Angle
-  let sum = arr.reduce((acc, cv) => acc + cv, 0);
-  let availableAngle = 180 - sum;
-  let has90 = arr.some((n) => n == 90);
-  let totals180 = sum == 180;
-  if (desc == 'angle' && (availableAngle >= 90 || (has90 && totals180)))
-    return true;
+  if (desc == 'angle') {
+    // angle could be 90
+    let totalAngle = arr.reduce((acc, cv) => acc + cv, 0);
+    let couldBe90 = 180 - totalAngle >= 90;
+    let has90 = arr.some((n) => n == 90);
+    if (couldBe90) return true;
+    if (has90 && totalAngle == 180) return true;
+    if (totalAngle > 180) return false;
+  }
 
   return false;
 };
