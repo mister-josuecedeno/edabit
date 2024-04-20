@@ -1,20 +1,23 @@
 // https://edabit.com/challenge/LgD9W3uCRBXow6s5e
 
-// refactor
-
 const isRightAngle = (arr, desc) => {
-  // triangle check
-  if (arr.length > 3) return false;
+  if (arr.length == 0) return true;
+  if (!(arr.length <= 3)) return false;
 
-  // Angle
   if (desc == 'angle') {
-    // angle could be 90
     let totalAngle = arr.reduce((acc, cv) => acc + cv, 0);
-    let couldBe90 = 180 - totalAngle >= 90;
-    let has90 = arr.some((n) => n == 90);
-    if (couldBe90) return true;
-    if (has90 && totalAngle == 180) return true;
+
     if (totalAngle > 180) return false;
+    if (arr.length < 3 && 180 - totalAngle == 0) return false;
+
+    if (180 - totalAngle >= 90) return true;
+    if (arr.some((n) => n == 90) && totalAngle == 180) return true;
+  }
+
+  if (desc == 'side') {
+    if (arr.length < 3) return true;
+    arr.sort((a, b) => a - b);
+    return arr[0] ** 2 + arr[1] ** 2 === arr[2] ** 2;
   }
 
   return false;
