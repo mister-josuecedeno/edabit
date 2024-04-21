@@ -1246,6 +1246,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-04-18 - isRightAngle.js\
 2024-04-19 - isRightAngle.js\
 2024-04-20 - isRightAngle.js\
+2024-04-21 - HighLow.cs\
 
 ## Very Hard
 
