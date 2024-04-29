@@ -3,6 +3,25 @@
 // Ideas
 // is current number prime
 // num minus current num, if prime num then push to arry
+
+/**
+ * Checks if a given number is a prime number.
+ * A prime number is a natural number greater than 1 that cannot be formed by multiplying two smaller natural numbers.
+ *
+ * @param {number} num The number to check for primality.
+ * @returns {boolean} Returns true if the number is prime, otherwise false.
+ */
+const isPrime = (num) => {
+  if (num <= 1) return false; // 0 and 1 are not prime numbers
+  if (num <= 3) return true; // 2 and 3 are prime numbers
+  if (num % 2 === 0 || num % 3 === 0) return false; // Eliminate multiples of 2 and 3
+
+  for (let i = 5; i * i <= num; i += 6) {
+    if (num % i === 0 || num % (i + 2) === 0) return false;
+  }
+  return true;
+};
+
 const primePairArr = (num) => {
   return;
 };
