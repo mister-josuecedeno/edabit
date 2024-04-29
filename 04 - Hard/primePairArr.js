@@ -1,5 +1,8 @@
 // https://edabit.com/challenge/HbMXHwnw6wTwwthW4
 
+// Ideas
+// is current number prime
+// num minus current num, if prime num then push to arry
 const primePairArr = (num) => {
   return;
 };
