@@ -3,6 +3,7 @@
 // Ideas
 // is current number prime
 // num minus current num, if prime num then push to arry
+// REFACTOR: no dups
 
 /**
  * Checks if a given number is a prime number.
@@ -23,7 +24,18 @@ const isPrime = (num) => {
 };
 
 const primePairArr = (num) => {
-  return;
+  const result = [];
+
+  for (let i = 0; i < num; i++) {
+    if (isPrime(i)) {
+      let diff = num - i;
+      if (isPrime(diff)) {
+        result.push(`${i}+${diff}`);
+      }
+    }
+  }
+
+  return result;
 };
 
 // Tests
