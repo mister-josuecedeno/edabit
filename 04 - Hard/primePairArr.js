@@ -1,10 +1,5 @@
 // https://edabit.com/challenge/HbMXHwnw6wTwwthW4
 
-// Ideas
-// is current number prime
-// num minus current num, if prime num then push to arry
-// REFACTOR: no dups
-
 /**
  * Checks if a given number is a prime number.
  * A prime number is a natural number greater than 1 that cannot be formed by multiplying two smaller natural numbers.
