@@ -13,9 +13,9 @@
  * @returns {boolean} Returns true if the number is prime, otherwise false.
  */
 const isPrime = (num) => {
-  if (num <= 1) return false; // 0 and 1 are not prime numbers
-  if (num <= 3) return true; // 2 and 3 are prime numbers
-  if (num % 2 === 0 || num % 3 === 0) return false; // Eliminate multiples of 2 and 3
+  if (num <= 1) return false;
+  if (num <= 3) return true;
+  if (num % 2 === 0 || num % 3 === 0) return false;
 
   for (let i = 5; i * i <= num; i += 6) {
     if (num % i === 0 || num % (i + 2) === 0) return false;
@@ -29,7 +29,7 @@ const primePairArr = (num) => {
   for (let i = 0; i < num; i++) {
     if (isPrime(i)) {
       let diff = num - i;
-      if (isPrime(diff)) {
+      if (i <= diff && isPrime(diff)) {
         result.push(`${i}+${diff}`);
       }
     }
