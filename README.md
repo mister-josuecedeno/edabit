@@ -1261,6 +1261,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-05-03 - FormatNum.cs\
 2024-05-04 - FormatNum.cs\
 2024-05-05 - FormatNum.cs\
+2024-05-06 - filterFactorials.js\
 
 ## Very Hard
 
