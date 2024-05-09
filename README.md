@@ -1263,6 +1263,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-05-05 - FormatNum.cs\
 2024-05-06 - filterFactorials.js\
 2024-05-07 - filterFactorials.js\
+2024-05-08 - FilterArray.cs\
 
 ## Very Hard
 
