@@ -1,6 +1,7 @@
 // https://edabit.com/challenge/TaH2g7iSJBHgqJemi
 
 const checkerBoard = (n, el1, el2) => {
+  if (el1 == el2) return 'invalid';
   return;
 };
 
