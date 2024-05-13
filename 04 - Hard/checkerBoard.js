@@ -2,6 +2,7 @@
 
 const checkerBoard = (n, el1, el2) => {
   if (el1 == el2) return 'invalid';
+  const repeat = (n * n) / 2;
   return;
 };
 
