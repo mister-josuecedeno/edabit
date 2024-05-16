@@ -1271,6 +1271,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-05-13 - checkerBoard.js\
 2024-05-14 - checkerBoard.js\
 2024-05-15 - Tetra.cs\
+2024-05-16 - sortByLetter.js\
 
 ## Very Hard
 
