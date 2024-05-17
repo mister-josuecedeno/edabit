@@ -1,7 +1,17 @@
 // https://edabit.com/challenge/HwC7ryWNW6qvc5cN7
 
+const parseLetter = (str) => {
+  const regex = /[a-z]/g;
+  let letter = str.match(regex).join('');
+  return letter;
+};
+
 const sortByLetter = (arr) => {
-  return;
+  return arr.sort((a, b) => {
+    a = parseLetter(a);
+    b = parseLetter(b);
+    return a.localeCompare(b);
+  });
 };
 
 // Tests
