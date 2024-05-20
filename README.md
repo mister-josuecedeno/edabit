@@ -1274,7 +1274,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-05-16 - sortByLetter.js\
 2024-05-17 - sortByLetter.js\
 2024-05-18 - IsPalindrome.cs\
-2024-05-19 -
+2024-05-19 - IsPalindrome.cs\
 2024-05-20 - IsPalindrome.cs\
 
 ## Very Hard
