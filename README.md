@@ -1276,7 +1276,8 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-05-18 - IsPalindrome.cs\
 2024-05-19 - IsPalindrome.cs\
 2024-05-20 - IsPalindrome.cs\
-2024-05-20 - IsPalindrome.cs\
+2024-05-21 - IsPalindrome.cs\
+2024-05-22 - totalDistance.js\
 
 ## Very Hard
 
