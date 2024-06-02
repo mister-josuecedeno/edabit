@@ -1,8 +1,23 @@
 // https://edabit.com/challenge/cFhKd3LzSD73vNKb8
 
-const totalDistance = (fuel, fuelUsage, passengers, airCon) => {
-  return;
-};
+function totalDistance(fuel, fuelUsage, passengers, airCon) {
+  // Calculate the additional fuel consumption due to passengers
+  let additionalConsumption = fuelUsage * (passengers * 0.05);
+
+  // Calculate the total fuel consumption without air conditioning
+  let totalFuelConsumption = fuelUsage + additionalConsumption;
+
+  // If the air conditioning is on, increase the total fuel consumption by 10%
+  if (airCon) {
+    totalFuelConsumption *= 1.1;
+  }
+
+  // Calculate the maximum distance
+  let distance = (fuel / totalFuelConsumption) * 100;
+
+  // Round the distance to the nearest tenth
+  return Math.round(distance * 10) / 10;
+}
 
 // Tests
 
