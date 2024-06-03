@@ -1289,6 +1289,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-05-31 - totalDistance.js\
 2024-06-01 - totalDistance.js\
 2024-06-02 - totalDistance.js\
+2024-06-03 - IsIsogram.cs\
 
 ## Very Hard
 
