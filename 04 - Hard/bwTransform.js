@@ -1,7 +1,14 @@
 // https://edabit.com/challenge/Sdj4jE7tHuoiyNKFv
 
+// refactor
+const getBWM = (text) => {
+  return ['a', '$', 'c', 'b'];
+};
+
 const bwTransform = (text) => {
-  return;
+  const bwm = getBWM(text);
+  bwm.sort();
+  return bwm[bwm.length - 1];
 };
 
 // Tests
