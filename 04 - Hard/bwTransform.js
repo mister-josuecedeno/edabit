@@ -1,13 +1,23 @@
 // https://edabit.com/challenge/Sdj4jE7tHuoiyNKFv
 
-// refactor
 const getBWM = (text) => {
-  return ['a', '$', 'c', 'b'];
+  const bwm = [];
+  let chars = [...text];
+
+  for (let i = 0; i < text.length; i++) {
+    let first = chars.shift();
+    chars = [...chars, ...first];
+    let rotation = [...chars].join('');
+    bwm.push(rotation);
+  }
+
+  return bwm;
 };
 
 const bwTransform = (text) => {
   const bwm = getBWM(text);
   bwm.sort();
+  // refactor - get the last column of each rotation
   return bwm[bwm.length - 1];
 };
 
