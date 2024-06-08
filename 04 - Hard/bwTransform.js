@@ -17,8 +17,8 @@ const getBWM = (text) => {
 const bwTransform = (text) => {
   const bwm = getBWM(text);
   bwm.sort();
-  // refactor - get the last column of each rotation
-  return bwm[bwm.length - 1];
+  const last = bwm.map((l) => l[l.length - 1]);
+  return last.join('');
 };
 
 // Tests
