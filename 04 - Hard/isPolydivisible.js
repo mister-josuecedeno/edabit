@@ -2,8 +2,10 @@
 
 // In Progress
 const isPolydivisible = (n) => {
+  if (n < 10) return true;
+
   const length = `${n}`.length;
-  return Math.pow(10, length);
+  return Math.ceil(Math.pow(10, length - 1) / n);
 };
 
 // Tests
