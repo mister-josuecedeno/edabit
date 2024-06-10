@@ -1,7 +1,9 @@
 // https://edabit.com/challenge/krzm6Y2riBDYJJa2R
 
+// In Progress
 const isPolydivisible = (n) => {
-  return;
+  const length = `${n}`.length;
+  return Math.pow(10, length);
 };
 
 // Tests
