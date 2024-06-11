@@ -4,8 +4,13 @@
 const isPolydivisible = (n) => {
   if (n < 10) return true;
 
-  const length = `${n}`.length;
-  return Math.ceil(Math.pow(10, length - 1) / n);
+  const digits = [...`${n}`];
+
+  for (let i = 0; i < digits.length; i++) {
+    let number = digits.slice(0, i);
+  }
+
+  //return Math.ceil(Math.pow(10, length - 1) / n);
 };
 
 // Tests
