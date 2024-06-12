@@ -1298,6 +1298,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-06-09 - SortDescending.cs\
 2024-06-10 - isPolydivisible.js\
 2024-06-11 - isPolydivisible.js\
+2024-06-12 - HasFriday13th.cs\
 
 ## Very Hard
 
