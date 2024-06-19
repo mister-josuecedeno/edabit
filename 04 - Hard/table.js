@@ -2,7 +2,10 @@
 
 const table = function (func, start, end, step) {
   this.data = [];
-  // code here
+
+  for (let i = start; i <= end; i += step) {
+    this.data.push([i, func(i)]);
+  }
 };
 
 // Tests
