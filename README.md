@@ -1280,6 +1280,15 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-05-22 - totalDistance.js\
 2024-05-23 - totalDistance.js\
 2024-05-24 - totalDistance.js\
+2024-05-25 - totalDistance.js\
+2024-05-26 - totalDistance.js\
+2024-05-27 - totalDistance.js\
+2024-05-28 - totalDistance.js\
+2024-05-29 - totalDistance.js\
+2024-05-30 - totalDistance.js\
+2024-05-31 - totalDistance.js\
+2024-06-01 - totalDistance.js\
+2024-06-02 - totalDistance.js\
 
 ## Very Hard
 
