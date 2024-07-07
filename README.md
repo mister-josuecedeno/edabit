@@ -1323,6 +1323,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-07-04 - maxStats.js\
 2024-07-05 - maxStats.js\
 2024-07-06 - maxStats.js\
+2024-07-07 - SumSmallest.cs\
 
 ## Very Hard
 
