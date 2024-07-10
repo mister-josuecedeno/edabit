@@ -1,6 +1,10 @@
 // https://edabit.com/challenge/8L62AipTvCLPQKtFH
 
+// In Progress
 const afterPotion = (str) => {
+  const isNumber = !isNaN(str) && !isNaN(parseFloat(str));
+  if (isNumber) return str;
+
   return;
 };
 
