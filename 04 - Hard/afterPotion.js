@@ -1,11 +1,21 @@
 // https://edabit.com/challenge/8L62AipTvCLPQKtFH
 
-// In Progress
 const afterPotion = (str) => {
   const isNumber = !isNaN(str) && !isNaN(parseFloat(str));
   if (isNumber) return str;
 
-  return;
+  const result = [];
+
+  for (let i = 0; i < str.length; i++) {
+    let current = str[i];
+    let next = str[i + 1];
+    if (current === 'A' || current === 'B') continue;
+    if (next === 'A') current++;
+    if (next === 'B') current--;
+    result.push(current);
+  }
+
+  return result.join('');
 };
 
 // Tests
