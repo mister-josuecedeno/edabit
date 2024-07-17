@@ -1329,6 +1329,12 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-07-10 - afterPotion.js\
 2024-07-11 - afterPotion.js\
 2024-07-12 - afterPotion.js\
+2024-07-13 - c# course\
+2024-07-14 - c# course\
+2024-07-15 - c# course\
+2024-07-16 - c# course\
+2024-07-17 - c# course\
+2024-07-17 - getCoinBalances.js\
 
 ## Very Hard
 
