@@ -2,7 +2,7 @@
 
 const getCoins = (player, opponent) => {
   let coins = 0;
-  if ((player = 'share')) coins -= 1;
+  if ((player = 'share')) coins += -1;
   if ((opponent = 'share')) coins += 3;
   return coins;
 };
@@ -12,11 +12,11 @@ const getCoinBalances = (arr1, arr2) => {
   let p2Coins = 3;
 
   for (let i = 0; i < arr1.length; i++) {
-    let p1Action = arr1[i];
-    let p2Action = arr2[i];
+    let p1 = arr1[i];
+    let p2 = arr2[i];
 
-    p1Coins += getCoins(p1Action, p2Action);
-    p2Coins += getCoins(p2Action, p1Action);
+    p1Coins += getCoins(p1, p2);
+    p2Coins += getCoins(p2, p1);
   }
 
   return [p1Coins, p2Coins];
