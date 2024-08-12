@@ -1329,6 +1329,8 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-07-10 - afterPotion.js\
 2024-07-11 - afterPotion.js\
 2024-07-12 - afterPotion.js\
+2024-07-13 - 2024-08-11 Build web app with c# and Asp.net
+2024-08-12 - TDD development start
 
 ## Very Hard
 
