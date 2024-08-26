@@ -1338,6 +1338,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-07-18 - 2024-08-11 - c# course
 2024-08-12 - TDD course
 2024-08-13 - 2024-08-23 - TDD course
+2024-08-24 - 2024-08-25 - TDD course
 
 ## Very Hard
 
