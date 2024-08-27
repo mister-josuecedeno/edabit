@@ -1,26 +1,35 @@
 // https://edabit.com/challenge/PuGi7j9rm5nHBX8Ec
 
-const getCoins = (player, opponent) => {
-  let coins = 0;
-  if ((player = 'share')) coins += -1;
-  if ((opponent = 'share')) coins += 3;
-  return coins;
-};
+// Not my solution
 
-const getCoinBalances = (arr1, arr2) => {
-  let p1Coins = 3;
-  let p2Coins = 3;
+function getCoinBalances(actions1, actions2) {
+  // Initial coin balances for both people
+  let coins1 = 3;
+  let coins2 = 3;
 
-  for (let i = 0; i < arr1.length; i++) {
-    let p1 = arr1[i];
-    let p2 = arr2[i];
-
-    p1Coins += getCoins(p1, p2);
-    p2Coins += getCoins(p2, p1);
+  // Iterate through both arrays simultaneously
+  for (let i = 0; i < actions1.length; i++) {
+      if (actions1[i] === "share" && actions2[i] === "share") {
+          // Both share: each spends 1 coin and gains 3 coins
+          coins1 += 2; // net gain is 3 - 1 = 2
+          coins2 += 2;
+      } else if (actions1[i] === "share" && actions2[i] === "steal") {
+          // Person 1 shares, Person 2 steals
+          coins1 -= 1; // Person 1 spends 1 coin
+          coins2 += 3; // Person 2 gains 3 coins
+      } else if (actions1[i] === "steal" && actions2[i] === "share") {
+          // Person 1 steals, Person 2 shares
+          coins1 += 3; // Person 1 gains 3 coins
+          coins2 -= 1; // Person 2 spends 1 coin
+      } else if (actions1[i] === "steal" && actions2[i] === "steal") {
+          // Both steal: no one gains or loses coins
+          // coins1 and coins2 remain the same
+      }
   }
 
-  return [p1Coins, p2Coins];
-};
+  // Return the final balances
+  return [coins1, coins2];
+}
 
 // Tests
 
