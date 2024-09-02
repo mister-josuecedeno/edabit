@@ -1,6 +1,18 @@
 // https://edabit.com/challenge/hEdPafen6dTL32Q5c
 
-const getLeastPositiveElements = (second) => { return; }
+const getLeastPositiveElements = (numbers) => { 
+
+  const positiveNumbers = numbers.filter(n => n > 0);
+  const result = [];
+
+  for (let i = Math.min(...positiveNumbers); i < Math.max(...positiveNumbers); i++) {
+    if(!positiveNumbers.includes(i)){
+      result.push(i);
+    }
+  }
+
+  return result; 
+}
 
 // Tests
 
