@@ -1,6 +1,22 @@
 // https://edabit.com/challenge/AdB5SRYzqoiaKKiwm
 
-const edabitInString = (second) => { return; }
+// Not my solution
+
+const edabitInString = (str) => { 
+  const edabit = 'edabit';
+  let index = 0;
+
+  for (let char of str) {
+    if (char === edabit[index]) {
+      index++;
+    }
+    if (index === edabit.length) {
+      return "YES";
+    }
+  }
+  
+  return "NO";
+}
 
 // Tests
 
