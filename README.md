@@ -1347,6 +1347,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-09-03 - edabitInString.js\
 2024-09-04 - AI course started - RemoveSpecialCharacters.cs\ 
 2024-09-05 - RemoveSpecialCharacters.cs\
+2024-09-06 - RemoveSpecialCharacters.cs\
 
 ## Very Hard
 
