@@ -1,6 +1,12 @@
 // https://edabit.com/challenge/74z6ajLYX4oLAF5zb
 
-const addBill = (second) => { return; }
+const addBill = (money) => { 
+  return money
+          .split(", ")
+          .map(c => c.replace("k","000"))
+          .filter(c => c.startsWith("$"))
+          .reduce((acc, cv) => acc + parseInt(cv.replace(/[^0-9.-]+/g,""), 10), 0); 
+}
 
 // Tests
 
