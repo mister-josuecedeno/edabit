@@ -1350,6 +1350,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-09-06 - RemoveSpecialCharacters.cs\
 2024-09-07 - addBill.js\
 2024-09-08 - CheckPerfect.cs\
+2024-09-09 - getLeastPositiveElements.js\
 
 ## Very Hard
 
