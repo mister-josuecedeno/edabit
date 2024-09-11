@@ -1352,6 +1352,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-09-08 - CheckPerfect.cs\
 2024-09-09 - getLeastPositiveElements.js\
 2024-09-10 - IsSymmetrical.cs\
+2024-09-11 - sharedDigits.js\
 
 ## Very Hard
 
