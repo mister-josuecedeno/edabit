@@ -1,7 +1,22 @@
 // https://edabit.com/challenge/B5ReG5ZDAvAdsrztL
 
+const compare = (num1, num2) => { 
+  const numbers1 = [...`${num1}`];
+  const numbers2 = [...`${num2}`];
+  const result = numbers1.some(n => numbers2.includes(n));
+  return result; 
+}
+
 const sharedDigits = (arr) => { 
-  return; 
+  
+  const result = [];
+
+  for (let i = 0; i < arr.length - 1; i++) {
+    let shares = compare(arr[i], arr[i + 1]);
+    result.push(shares);
+  }
+  
+  return result.every(r => r); 
 }
 
 // Tests
