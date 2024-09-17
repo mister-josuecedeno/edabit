@@ -1,6 +1,10 @@
 // https://edabit.com/challenge/pgN9GtB8GacdGAcDy
 
-const wordGame = (p1, p2) => { return; }
+const wordGame = (p1, p2) => { 
+  const lastLetter = p1.map(w => w[w.length - 1]);
+  const firstLetter = p2.map(w => w[0]);
+  return [lastLetter, firstLetter]; 
+}
 
 // Tests
 
