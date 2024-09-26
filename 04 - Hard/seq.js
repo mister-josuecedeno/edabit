@@ -1,6 +1,6 @@
 // https://edabit.com/challenge/SaP7mAdsQCrN4ShCi
 
-const seq = (second) => { return; }
+const seq = (n) => n * n + n + 1;
 
 // Tests
 
