@@ -1,6 +1,6 @@
 // https://edabit.com/challenge/SaP7mAdsQCrN4ShCi
 
-const seq = (n) => n * n + n + 1;
+const seq = (n) => (3 * n * n - n + 2) / 2;
 
 // Tests
 
