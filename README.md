@@ -1381,6 +1381,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-10-01 - RemoveSmallest.cs\
 2024-10-01 - RemoveSmallest.cs\
 2024-10-09 - RemoveSmallest.cs\
+2024-10-10 - RemoveSmallest.cs\
 
 ## Very Hard
 
