@@ -1395,6 +1395,8 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-10-21 - deadlyVirus.js\
 2024-10-22 - TBD.cs\
 2024-10-23 - IsValidPhoneNumber.cs\
+2024-10-24 - TBD.js\
+2024-10-25 - finalDirection.js\
 
 ## Very Hard
 
