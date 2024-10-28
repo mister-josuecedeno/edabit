@@ -1345,7 +1345,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-08-29 - FindNemo.cs\
 2024-08-30 - edabitInString.js\
 2024-09-03 - edabitInString.js\
-2024-09-04 - AI course started - RemoveSpecialCharacters.cs\ 
+2024-09-04 - AI course started - RemoveSpecialCharacters.cs\
 2024-09-05 - RemoveSpecialCharacters.cs\
 2024-09-06 - RemoveSpecialCharacters.cs\
 2024-09-07 - addBill.js\
@@ -1398,6 +1398,8 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-10-24 - TBD.js\
 2024-10-25 - finalDirection.js\
 2024-10-26 - finalDirection.js\
+2024-10-27 - TBD.cs\
+2024-10-28 - pentagonal.cs\
 
 ## Very Hard
 
