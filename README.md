@@ -1400,7 +1400,8 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-10-26 - finalDirection.js\
 2024-10-27 - TBD.cs\
 2024-10-28 - pentagonal.cs\
-2024-10-28 - pentagonal.cs\
+2024-10-29 - pentagonal.cs\
+2024-10-30 - canBuild.js\
 
 ## Very Hard
 
