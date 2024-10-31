@@ -1,9 +1,27 @@
 // https://edabit.com/challenge/aKx7FLtttZqopDo5e
 
 const canBuild = (s1, s2) => {
-  const availableLettersS1 = [...new Set(s1)].filter(l => l != ' ');
-  const availableLettersS2 = [...new Set(s2)].filter(l => l != ' ');
-  return availableLettersS1; //.some(l => availableLettersS2.includes(l));
+  // Create a map to count occurrences of each character in s2
+  const charCount = new Map();
+
+  for (const char of s2) {
+    if (char !== ' ') {
+      charCount.set(char, (charCount.get(char) || 0) + 1);
+    }
+  }
+
+  // Check if we can build s1 using characters from s2
+  for (const char of s1) {
+    if (char === ' ') continue;
+
+    if (!charCount.has(char) || charCount.get(char) === 0) {
+      return false;
+    }
+
+    charCount.set(char, charCount.get(char) - 1);
+  }
+
+  return true;
 }
 
 // Tests
