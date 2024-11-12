@@ -1412,6 +1412,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-11-09 - MysteryFunc.cs\
 2024-11-10 - isAlternating.js\
 2024-11-11 - NoYelling.cs\
+2024-11-12 - NoYelling.cs\
 
 ## Very Hard
 
