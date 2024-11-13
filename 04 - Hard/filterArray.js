@@ -1,6 +1,6 @@
 // https://edabit.com/challenge/QdiAZBBr59u5PXJaM
 
-const filterArray = (second) => { return; }
+const filterArray = (arr1, arr2) => { return; }
 
 // Tests
 
