@@ -1,6 +1,8 @@
 // https://edabit.com/challenge/QdiAZBBr59u5PXJaM
 
-const filterArray = (arr1, arr2) => { return; }
+const filterArray = (arr1, arr2) => {
+  return arr2.filter(e => typeof (e) == "function");
+}
 
 // Tests
 
