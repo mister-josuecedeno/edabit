@@ -1,8 +1,16 @@
 // https://edabit.com/challenge/eoFDKdjN9tFXWcEQi
 
 const breakPoint = (num) => {
-  const numbers = [...`${num}`];
-  return;
+  const numbers = [...`${num}`].map(n => +n);
+
+  for (let i = 1; i < numbers.length; i++) {
+    let left = numbers.slice(0, i).reduce((acc, cv) => acc + cv, 0);
+    let right = numbers.slice(i).reduce((acc, cv) => acc + cv, 0);
+
+    if (left == right) return true;
+  }
+
+  return false;
 }
 
 // Tests
