@@ -1,6 +1,9 @@
 // https://edabit.com/challenge/eoFDKdjN9tFXWcEQi
 
-const breakPoint = (num) => { return; }
+const breakPoint = (num) => {
+  const numbers = [...`${num}`];
+  return;
+}
 
 // Tests
 
