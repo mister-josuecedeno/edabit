@@ -1393,12 +1393,12 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-10-20 - deadlyVirus.js\
 2024-10-21 - deadlyVirus.js\
 2024-10-22 - deadlyVirus.js\
-2024-10-23 - TBD.cs\
+2024-10-23 - IsValidPhoneNumber.cs\
 2024-10-24 - IsValidPhoneNumber.cs\
-2024-10-25 - TBD.js\
+2024-10-25 - finalDirection.js\
 2024-10-26 - finalDirection.js\
 2024-10-27 - finalDirection.js\
-2024-10-28 - TBD.cs\
+2024-10-28 - pentagonal.cs\
 2024-10-29 - pentagonal.cs\
 2024-10-31 - canBuild.js\
 2024-11-01 - KToK.cs\
@@ -1420,6 +1420,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-11-17 - ValidateEmail.cs\
 2024-11-18 - breakPoint.js\
 2024-11-19 - breakPoint.js\
+2024-11-20 - TBD.cs\
 
 ## Very Hard
 
