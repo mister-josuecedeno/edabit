@@ -1420,7 +1420,12 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-11-17 - ValidateEmail.cs\
 2024-11-18 - breakPoint.js\
 2024-11-19 - breakPoint.js\
-2024-11-20 - TBD.cs\
+2024-11-20 - MakeTitle.cs\
+2024-11-21 - MakeTitle.cs\
+2024-11-22 - MakeTitle.cs\
+2024-11-23 - MakeTitle.cs\
+2024-11-24 - MakeTitle.cs\
+2024-11-25 - MakeTitle.cs\
 
 ## Very Hard
 
