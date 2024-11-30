@@ -1,7 +1,22 @@
 // https://edabit.com/challenge/qEAaAxNa9v2WZMrEv
 
-const binaryText = (second) => {
-  return;
+const splitString = (str, chunkSize) => {
+  return Array.from({ length: Math.ceil(str.length / chunkSize) }, (_, i) =>
+    str.slice(i * chunkSize, (i + 1) * chunkSize)
+  );
+}
+
+const binaryText = (n) => {
+  // Get binary byte
+  const binaryBytes = splitString(n, 8);
+
+  // Convert binary byte to decimal
+  const decimals = binaryBytes.map(b => parseInt(b, 2));
+
+  // Get character of ASCII code from ASCII table
+  const letters = decimals.map(d => String.fromCharCode(d))
+
+  return letters.join('');
 }
 
 // Tests
