@@ -1432,6 +1432,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-11-29 - MakeTitle.cs\
 2024-11-30 - binaryText.js\
 2024-12-01 - RemoveSmallest.cs\
+2024-12-02 - RemoveSmallest.cs\
 
 ## Very Hard
 
