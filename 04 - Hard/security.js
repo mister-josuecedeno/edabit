@@ -1,8 +1,15 @@
 // https://edabit.com/challenge/SimxWM2Tz9jvXqLM3
 
 const security = (str) => {
-  const regex = /[GT$]/g;
-  return str.match(regex);
+  // Pattern to match unguarded paths between T and $
+  const unsafePattern = /T[^G]*\$/;
+
+  // Check if the pattern exists in the string or reversed string
+  if (unsafePattern.test(str) || unsafePattern.test([...str].reverse().join(''))) {
+    return "ALARM!";
+  }
+
+  return "Safe";
 }
 
 // Tests
