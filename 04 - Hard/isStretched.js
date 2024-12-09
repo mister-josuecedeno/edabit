@@ -1,8 +1,14 @@
 // https://edabit.com/challenge/gmpe3wEi64PmrwFMK
 
 // Refactor
+
+const separateLetterGroups = (word) => {
+  return word.match(/(.)\1*/g) || [];
+}
+
 const isStretched = (s1, s2) => {
-  return;
+  const letterGroups = separateLetterGroups(s1);
+  return letterGroups.every((l, i) => l[0] == s2[i]);
 }
 
 // Tests
