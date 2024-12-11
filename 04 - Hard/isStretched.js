@@ -8,7 +8,9 @@ const separateLetterGroups = (word) => {
 
 const isStretched = (s1, s2) => {
   const letterGroups = separateLetterGroups(s1);
-  return letterGroups.every((l, i) => l[0] == s2[i]);
+  const size = letterGroups[0].length;
+  const stretched = [...s2].map(l => l.repeat(size)).join('');
+  return s1 === stretched;
 }
 
 // Tests
