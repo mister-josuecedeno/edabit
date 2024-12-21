@@ -1,7 +1,28 @@
 // https://edabit.com/challenge/gGrPrwZ5XZ3GqEzkp
 
+const getSumOfDivisors = (num) => {
+  const positiveDivisors = [];
+
+  for (let i = 1; i < num; i++) {
+    if (num % i === 0) {
+      positiveDivisors.push(i);
+    }
+  }
+
+  return positiveDivisors.reduce((acc, curr) => acc + curr, 0);
+}
+
 const numType = (num) => {
-  return;
+  const sumOfDivisors = getSumOfDivisors(num);
+  const sumOfDivisorsOfSum = getSumOfDivisors(sumOfDivisors);
+
+  if (num === sumOfDivisorsOfSum && num !== sumOfDivisors) {
+    return "Amicable";
+  } else if (num === sumOfDivisors) {
+    return "Perfect";
+  } else {
+    return "Neither";
+  }
 }
 
 // Tests
