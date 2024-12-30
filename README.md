@@ -1461,6 +1461,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-12-24 - IsPalindrome.cs\
 2024-12-25 - summation.js\
 2024-12-26 - Reverse.cs\
+2024-12-27 - equalize.js\
 
 ## Very Hard
 
