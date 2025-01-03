@@ -1467,6 +1467,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-12-30 - equalize.js\
 2024-12-31 - Equation.cs\
 2025-01-01 - pigLatin.js\
+2025-01-02 - pigLatin.js\
 
 ## Very Hard
 
