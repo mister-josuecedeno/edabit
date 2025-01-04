@@ -1468,6 +1468,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2024-12-31 - Equation.cs\
 2025-01-01 - pigLatin.js\
 2025-01-02 - pigLatin.js\
+2025-01-03 - GuessSequence.cs\
 
 ## Very Hard
 
