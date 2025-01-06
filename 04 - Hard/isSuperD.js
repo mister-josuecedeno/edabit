@@ -1,6 +1,19 @@
 // https://edabit.com/challenge/fw8qrxpz2iGWh5QcE
 
-const isSuperD = (n) => { return; }
+// Refactor
+const isSuperD = (n) => {
+
+  for (let i = 2; i <= 9; i++) {
+    let rep = i.toString().repeat(i);
+    let num = i * Math.pow(n, i);
+    if (num.toString().includes(rep)) {
+      let sup = `Super-${i} Number`;
+      return sup;
+    }
+  }
+
+  return 'Normal Number';
+}
 
 // Tests
 
