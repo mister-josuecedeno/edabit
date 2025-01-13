@@ -1475,6 +1475,10 @@ Additional code examples can be found under my profile in Edabit. This migration
 2025-12-07 - isSuperD.js\
 2025-12-08 - OddishOrEvenish.cs\
 2025-12-09 - alphabetIndex.js\
+2025-12-10 - letterDistance.cs\
+2025-12-11 - letterDistance.cs\
+2025-12-12 - letterDistance.cs\
+2025-12-13 - letterDistance.cs\
 
 ## Very Hard
 
