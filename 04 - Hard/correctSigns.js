@@ -1,6 +1,8 @@
 // https://edabit.com/challenge/Y2H2aDQhfeE9bHg6m
 
-const correctSigns = (second) => { return; }
+const correctSigns = (str) => {
+  return eval(str);
+}
 
 // Tests
 
