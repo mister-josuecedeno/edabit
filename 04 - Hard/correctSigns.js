@@ -1,7 +1,15 @@
 // https://edabit.com/challenge/Y2H2aDQhfeE9bHg6m
 
 const correctSigns = (str) => {
-  return eval(str);
+  const values = str.split(' ');
+  const results = [];
+
+  for (let i = 0; i < values.length; i + 2) {
+    let check = eval(`${values[i]} ${values[i + 1]} ${values[i + 2]}`);
+    results.push(check);
+  }
+
+  return results.every((result) => result);
 }
 
 // Tests
