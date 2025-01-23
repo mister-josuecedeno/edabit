@@ -2,14 +2,17 @@
 
 const correctSigns = (str) => {
   const values = str.split(' ');
-  const results = [];
 
-  for (let i = 0; i < values.length; i + 2) {
-    let check = eval(`${values[i]} ${values[i + 1]} ${values[i + 2]}`);
-    results.push(check);
+  for (let i = 0; i < values.length - 2; i += 2) {
+    const left = parseFloat(values[i]);
+    const operator = values[i + 1];
+    const right = parseFloat(values[i + 2]);
+
+    if (operator === '<' && !(left < right)) return false;
+    if (operator === '>' && !(left > right)) return false;
   }
 
-  return results.every((result) => result);
+  return true;
 }
 
 // Tests
