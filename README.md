@@ -1490,6 +1490,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2025-01-22 - correctSigns.js\
 2025-01-23 - WurstIsBetter.cs\
 2025-01-24 - WurstIsBetter.cs\
+2025-01-25 - WurstIsBetter.cs\
 
 ## Very Hard
 
