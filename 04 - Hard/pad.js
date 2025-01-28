@@ -2,20 +2,15 @@
 
 const pad = (message) => {
   if (message.length === 140) return message;
+
+  if (message.length % 2 === 0) message += ' ';
+
   const gap = 140 - message.length;
+  const repeat = gap / 2;
+  const lol = 'lo'.repeat(repeat);
+  const result = message + lol + 'l';
 
-  let result = '';
-  let lol = '';
-
-  if (message.length % 2 === 0) {
-    lol = 'lol'.repeat((gap + 1) / 3);
-    result = message + ' ' + lol;
-  } else {
-    lol = 'lol'.repeat(gap / 3);
-    result = message + lol;
-  }
-
-  return result.length;;
+  return result;
 }
 
 // Tests
