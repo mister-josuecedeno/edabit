@@ -1,6 +1,22 @@
 // https://edabit.com/challenge/gA9dCGTc6bf2fZzE8
 
-const pad = (second) => { return; }
+const pad = (message) => {
+  if (message.length === 140) return message;
+  const gap = 140 - message.length;
+
+  let result = '';
+  let lol = '';
+
+  if (message.length % 2 === 0) {
+    lol = 'lol'.repeat((gap + 1) / 3);
+    result = message + ' ' + lol;
+  } else {
+    lol = 'lol'.repeat(gap / 3);
+    result = message + lol;
+  }
+
+  return result.length;;
+}
 
 // Tests
 
