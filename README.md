@@ -1497,7 +1497,8 @@ Additional code examples can be found under my profile in Edabit. This migration
 2025-01-29 - isFactorial.cs\
 2025-01-30 - isFactorial.cs\
 2025-01-31 - isFactorial.cs\
-2025-02-01 - TBD.js\
+2025-02-01 - billCount.js\
+2025-02-02 - billCount.js\
 
 ## Very Hard
 
