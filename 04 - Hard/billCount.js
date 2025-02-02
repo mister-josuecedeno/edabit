@@ -1,7 +1,23 @@
 // https://edabit.com/challenge/4B2hvNaGFvrEgqZEr
 
 const billCount = (money, bills) => {
-  return
+  bills.sort((a, b) => b - a);
+  const counter = {};
+  let i = 0;
+
+  while (money > 0) {
+    counter[bills[i]] = counter[bills[i]] || 0;
+
+    if (money < bills[i]) {
+      i++;
+      continue;
+    }
+
+    money -= bills[i];
+    counter[bills[i]]++;
+  }
+
+  return Object.values(counter).reduce((a, b) => a + b, 0);
 }
 
 // Tests
