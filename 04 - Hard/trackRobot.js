@@ -1,7 +1,17 @@
 // https://edabit.com/challenge/t3iJRARc9K9x9AAdr
 
 const trackRobot = (instructions) => {
-  return;
+  if (instructions.length === 0) return [0, 0];
+  let x = 0;
+  let y = 0;
+  instructions.forEach(instruction => {
+    const [direction, distance] = instruction.split(' ');
+    if (direction === 'right') x += parseInt(distance);
+    if (direction === 'left') x -= parseInt(distance);
+    if (direction === 'up') y += parseInt(distance);
+    if (direction === 'down') y -= parseInt(distance);
+  });
+  return [x, y];
 }
 
 // Tests
