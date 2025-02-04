@@ -1,6 +1,8 @@
 // https://edabit.com/challenge/t3iJRARc9K9x9AAdr
 
-const trackRobot = (second) => { return; }
+const trackRobot = (instructions) => {
+  return;
+}
 
 // Tests
 
