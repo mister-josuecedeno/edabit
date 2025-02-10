@@ -1,7 +1,9 @@
 // https://edabit.com/challenge/4cvBphZgxvGTdc3F7
 
 const longestAbecedarian = (second) => {
-  return;
+  return second.filter((word) => {
+    return word === word.split('').sort().join('');
+  }).sort((a, b) => b.length - a.length)[0] || '';
 }
 
 // Tests
