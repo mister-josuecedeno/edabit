@@ -1509,6 +1509,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2025-02-10 - longestAbecedarian.js\
 2025-02-11 - CapMe.cs\
 2025-02-12 - CapMe.cs\
+2025-02-13 - bedTime.js\
 
 ## Very Hard
 
