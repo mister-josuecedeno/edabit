@@ -5,8 +5,8 @@ const getTimeToSleep = (arr) => {
   return alarm;
 }
 
-const bedTime = () => {
-  // refactor - write out pseudo-code
+const bedTime = (...args) => {
+  return Array.from(args, getTimeToSleep);
 }
 
 // Tests
