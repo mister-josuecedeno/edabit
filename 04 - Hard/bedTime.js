@@ -1,8 +1,19 @@
 // https://edabit.com/challenge/fKGMjfjibMM7AxtpZ
 
+const getToday = (hhmm) => {
+  const [hours, minutes] = hhmm.split(':');
+  const today = new Date();
+  today.setHours(parseInt(hours, 10), parseInt(minutes, 10), 0, 0);
+  return today;
+}
+
 const getTimeToSleep = (arr) => {
   const [alarm, duration] = arr;
-  return alarm;
+  const today = getToday(alarm);
+
+  const [hours, minutes] = duration.split(':');
+  today.setHours(today.getHours() - parseInt(hours, 10), today.getMinutes() - parseInt(minutes, 10));
+  return today.toTimeString().slice(0, 5);
 }
 
 const bedTime = (...args) => {
