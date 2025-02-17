@@ -1,6 +1,18 @@
 // https://edabit.com/challenge/Wx5EF6o38tAY2stmh
 
-const minSwaps = (str) => { return; }
+const getSwaps = (str, pair) => {
+  const compare = pair.repeat(Math.ceil(str.length / 2)).slice(0, -1);
+  let swaps = 0;
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] !== compare[i]) swaps++;
+  }
+  return swaps;
+}
+
+const minSwaps = (str) => {
+  const pairs = ['01', '10'];
+  return Math.min(...pairs.map(pair => getSwaps(str, pair)));
+}
 
 // Tests
 
