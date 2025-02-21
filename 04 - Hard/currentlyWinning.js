@@ -1,6 +1,23 @@
 // https://edabit.com/challenge/jiTMjanCzDrtC8T9y
 
-const currentlyWinning = (scores) => { return; }
+const currentlyWinning = (scores) => {
+  // Split scores into two arrays (Yours and Opponents)
+  const even = scores.filter((score, index) => index % 2 === 0);
+  const odd = scores.filter((score, index) => index % 2 !== 0);
+
+  // Calculate the cumulative scores for each team
+  const evenCumulative = even.map((score, index) => even.slice(0, index + 1).reduce((acc, curr) => acc + curr, 0));
+  const oddCumulative = odd.map((score, index) => odd.slice(0, index + 1).reduce((acc, curr) => acc + curr, 0));
+
+  // Compare the cumulative scores and return the result
+  const result = evenCumulative.map((score, index) => {
+    if (score > oddCumulative[index]) return 'Y';
+    if (score < oddCumulative[index]) return 'O';
+    return 'T';
+  });
+
+  return result;
+}
 
 // Tests
 
