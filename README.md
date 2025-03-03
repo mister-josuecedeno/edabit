@@ -1519,6 +1519,14 @@ Additional code examples can be found under my profile in Edabit. This migration
 2025-02-20 - AlternatingCaps.cs\
 2025-02-21 - currentlyWinning.js\
 2025-02-22 - Schoty.cs\
+2025-02-23 - Schoty.cs\
+2025-02-24 - Schoty.cs\
+2025-02-25 - Schoty.cs\
+2025-02-26 - Schoty.cs\
+2025-02-27 - Schoty.cs\
+2025-02-28 - Schoty.cs\
+2025-03-01 - Schoty.cs\
+2025-03-02 - Schoty.cs\
 
 ## Very Hard
 
