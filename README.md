@@ -1526,7 +1526,8 @@ Additional code examples can be found under my profile in Edabit. This migration
 2025-02-27 - Schoty.cs\
 2025-02-28 - Schoty.cs\
 2025-03-01 - Schoty.cs\
-2025-03-02 - Schoty.cs\
+2025-03-02 - switchNotation.js\
+2025-03-03 - switchNotation.js\
 
 ## Very Hard
 
