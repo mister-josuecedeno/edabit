@@ -1,5 +1,8 @@
 // https://edabit.com/challenge/ufYYJX5CsmSbXazcr
 
+const getNormal = (num) => { return; }
+const getTally = (num) => { return; }
+
 const switchNotation = (scores, desired_notation) => {
   return;
 }
