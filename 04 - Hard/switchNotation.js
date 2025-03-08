@@ -1,10 +1,37 @@
 // https://edabit.com/challenge/ufYYJX5CsmSbXazcr
 
-const getNormal = (num) => { return; }
-const getTally = (num) => { return; }
+const getNormal = (num) => {
+  let result = `${num}`.split('');
+  let convert = result.reduce((acc, curr) => {
+    return acc + parseInt(curr);
+  }, 0);
+
+  return convert;
+}
+
+const getTally = (num) => {
+  let repeat = Math.floor(num / 5);
+  let prefix = '5'.repeat(repeat);
+  let suffix = num % 5;
+  let result = suffix == 0 ? prefix : prefix + suffix;
+
+  return parseInt(result);
+}
 
 const switchNotation = (scores, desired_notation) => {
-  return;
+
+  const result = [];
+
+  for (let i = 0; i < scores.length; i++) {
+    if (desired_notation === 'normal') {
+      result.push(getNormal(scores[i]));
+    }
+    else {
+      result.push(getTally(scores[i]));
+    };
+  }
+
+  return result;
 }
 
 // Tests
