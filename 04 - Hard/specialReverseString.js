@@ -1,7 +1,35 @@
 // https://edabit.com/challenge/AcL4HiKbC9cYSHmYt
 
-const specialReverseString = (second) => {
-  return;
+const specialReverseString = (str) => {
+
+  // Refactor: Last character is 
+
+  // copy string and reverse with no spaces
+  const regex = /[^\s]/g;
+  const arr = str.match(regex).reverse() || [];
+
+  const result = [];
+
+  // loop through string and replace with reversed string
+  for (let i = 0; i < str.length; i++) {
+    let current = str[i];
+
+    // check if character is space or null or undefined
+    if (current === ' ' || current === null || current === undefined) {
+      result.push(current);
+      continue;
+    }
+
+    // check if character is uppercase or lowercase    
+    if (current === current.toUpperCase()) {
+      result.push(arr.shift().toUpperCase());
+    } else if (current === current.toLowerCase()) {
+      result.push(arr.shift().toLowerCase());
+    } else {
+      result.push(current);
+    }
+  }
+  return result.join('');
 }
 
 // Tests
