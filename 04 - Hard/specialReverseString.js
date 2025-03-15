@@ -1,8 +1,13 @@
 // https://edabit.com/challenge/AcL4HiKbC9cYSHmYt
 
+const isNotAlphanumeric = (char) => {
+  return /[^a-zA-Z0-9]/.test(char);
+}
+
+
 const specialReverseString = (str) => {
 
-  // Refactor: Last character is 
+  // Refactor: some characters are not procesing correctly 
 
   // copy string and reverse with no spaces
   const regex = /[^\s]/g;
@@ -15,7 +20,7 @@ const specialReverseString = (str) => {
     let current = str[i];
 
     // check if character is space or null or undefined
-    if (current === ' ' || current === null || current === undefined) {
+    if (isNotAlphanumeric(current)) {
       result.push(current);
       continue;
     }
