@@ -1565,6 +1565,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2025-04-07 - FlipEndChars.cs\
 2025-04-08 - FlipEndChars.cs\
 2025-04-09 - FlipEndChars.cs\
+2025-04-10 - longestStreak.js\
 
 ## Very Hard
 
