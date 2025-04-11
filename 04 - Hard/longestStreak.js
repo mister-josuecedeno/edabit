@@ -1,6 +1,28 @@
 // https://edabit.com/challenge/xvKFpQ6vzuY8dH9fn
 
-const longestStreak = (arr) => { return; }
+const longestStreak = (arr) => {
+  if (arr.length === 0) return 0;
+
+  let longestStreak = 1;
+  let currentStreak = 1;
+
+  for (let i = 1; i < arr.length; i++) {
+    const prevDate = new Date(arr[i - 1].date);
+    const currentDate = new Date(arr[i].date);
+
+    const diffDays = (currentDate - prevDate) / (1000 * 60 * 60 * 24);
+
+    if (diffDays === 1) {
+      currentStreak++;
+    } else if (diffDays > 1) {
+      currentStreak = 1;
+    }
+
+    longestStreak = Math.max(longestStreak, currentStreak);
+  }
+
+  return longestStreak;
+}
 
 // Tests
 
