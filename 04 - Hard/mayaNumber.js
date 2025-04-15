@@ -1,6 +1,26 @@
 // https://edabit.com/challenge/n6ts9wQi6Dcb6bmP7
 
-const mayaNumber = (n) => { return; }
+const mayaNumber = (num) => {
+  if (num === 0) return ["@"];
+
+  const result = [];
+
+  // Step 1: Convert to base-20
+  while (num > 0) {
+    let digit = num % 20;
+    result.unshift(digit);
+    num = Math.floor(num / 20);
+  }
+
+  // Step 2: Convert each digit to Mayan symbols
+  return result.map(digit => {
+    if (digit === 0) return "@";
+
+    const lines = Math.floor(digit / 5);
+    const dots = digit % 5;
+    return `${"o".repeat(dots).trim()}${dots && lines ? "" : ""}${"—".repeat(lines).trim()}`;
+  });
+}
 
 // Tests
 
