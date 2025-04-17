@@ -1572,6 +1572,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2025-04-14 - mayaNumber.js\
 2025-04-15 - mayaNumber.js\
 2025-04-16 - IsSmooth.cs\
+2025-04-17 - IsSmooth.cs\
 
 ## Very Hard
 
