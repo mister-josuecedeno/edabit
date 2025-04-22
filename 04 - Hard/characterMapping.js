@@ -1,6 +1,15 @@
 // https://edabit.com/challenge/9MEWMJ5eX8EAiWSs5
 
-const characterMapping = (str) => { return; }
+// refactor (think about using a set)
+const characterMapping = (str) => {
+  const charMap = {};
+
+  for (const char of str) {
+    charMap[char] = charMap[char] + 1 || 1;
+  }
+
+  return charMap;
+}
 
 // Tests
 
