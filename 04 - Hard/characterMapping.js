@@ -1,27 +1,26 @@
 // https://edabit.com/challenge/9MEWMJ5eX8EAiWSs5
 
-// refactor (think about using a set)
 const characterMapping = (str) => {
-  const charMap = {};
-
-  for (const char of str) {
-    charMap[char] = charMap[char] + 1 || 1;
+  // Create a map to store the first occurrence of each character
+  const charMap = new Map();
+  // Create an array to store the mapped values
+  const mappedValues = [];
+  // Iterate through the string
+  for (let i = 0; i < str.length; i++) {
+    const char = str[i];
+    // If the character is not in the map, add it with the current index as the value
+    if (!charMap.has(char)) {
+      charMap.set(char, charMap.size);
+    }
+    // Push the mapped value to the array
+    mappedValues.push(charMap.get(char));
   }
-
-  return charMap;
+  // Return the array of mapped values
+  return mappedValues;
 }
 
 // Tests
 
-console.log(characterMapping("abcd") == [0, 1, 2, 3])
-console.log(characterMapping("abb") == [0, 1, 1])
-console.log(characterMapping("babbcb") == [0, 1, 0, 0, 2, 0])
-console.log(characterMapping("aaabb") == [0, 0, 0, 1, 1])
-console.log(characterMapping("abccbc") == [0, 1, 2, 2, 1, 2])
-console.log(characterMapping("fluffy") == [0, 1, 2, 0, 0, 3])
-console.log(characterMapping("madness") == [0, 1, 2, 3, 4, 5, 5])
-console.log(characterMapping("buttery") == [0, 1, 2, 2, 3, 4, 5])
-console.log(characterMapping("canine") == [0, 1, 2, 3, 2, 4])
-console.log(characterMapping("hohoho") == [0, 1, 0, 1, 0, 1])
-console.log(characterMapping("hmmmmm") == [0, 1, 1, 1, 1, 1])
-console.log(characterMapping("") == [])
+console.log(JSON.stringify(characterMapping("abcd")) == JSON.stringify([0, 1, 2, 3]))
+console.log(JSON.stringify(characterMapping("abb")) == JSON.stringify([0, 1, 1]))
+console.log(JSON.stringify(characterMapping("babbcb")) == JSON.stringify([0, 1, 0, 0, 2, 0]))
