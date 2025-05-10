@@ -1,7 +1,8 @@
 // https://edabit.com/challenge/rfjyk42gRWu2RBHhm
 
-const bmi = (weight, height) => {
-  return;
+const BMI = (weight, height) => {
+
+  // weight / (height * height);
 }
 
 // Tests
