@@ -1,8 +1,32 @@
 // https://edabit.com/challenge/rfjyk42gRWu2RBHhm
 
 const BMI = (weight, height) => {
+  let weightValue = +weight.split(" ")[0];
+  let heightValue = +height.split(" ")[0];
 
-  // weight / (height * height);
+  if (weight.includes("pounds")) {
+    weightValue *= 0.453592; // Convert pounds to kilograms
+  }
+  if (height.includes("inches")) {
+    heightValue *= 0.0254; // Convert inches to meters
+  }
+
+  let bmi = weightValue / (heightValue * heightValue);
+  bmi = bmi.toFixed(1);
+
+  // Determine BMI category
+  let category = "";
+  if (bmi < 18.5) {
+    category = "Underweight";
+  } else if (bmi >= 18.5 && bmi <= 24.9) {
+    category = "Normal weight";
+  } else if (bmi >= 25 && bmi <= 29.9) {
+    category = "Overweight";
+  } else {
+    category = "Obesity";
+  }
+
+  return `${bmi} ${category}`;
 }
 
 // Tests
