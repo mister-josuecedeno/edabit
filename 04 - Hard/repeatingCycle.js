@@ -1,7 +1,25 @@
 // https://edabit.com/challenge/bYK2XtQJRE88b2yQH
 
 const repeatingCycle = (n) => {
-  return;
+  let remainder = 1 % n;
+  let position = 0;
+  const seen = {}; // Map: remainder → position in the decimal string
+
+  while (remainder !== 0) {
+    // If we've seen this remainder before, a cycle starts here
+    if (seen.hasOwnProperty(remainder)) {
+      const cycleStart = seen[remainder];
+      // If the cycle didn't start at the first digit, return -1
+      return cycleStart === 0 ? position - cycleStart : -1;
+    }
+
+    seen[remainder] = position;
+    remainder = (remainder * 10) % n;
+    position++;
+  }
+
+  // If remainder becomes 0, it's a terminating decimal
+  return -1;
 }
 
 // Tests
