@@ -1597,6 +1597,7 @@ Additional code examples can be found under my profile in Edabit. This migration
 2025-06-29 - DuplicateCount.cs\
 2025-07-03 - repeatingCycle.js\
 2025-07-13 - repeatingCycle.js\
+2025-07-14 - Collatz.cs\
 
 ## Very Hard
 
